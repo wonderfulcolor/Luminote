@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Luminote</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="weather" id="weather-layer"></div>
+  <main class="shell">
+    <header>
+      <div class="wordmark">Luminote <span>α</span></div>
+      <div class="weather-tools">
+        <div class="weather-label"><i id="weather-dot"></i> Affective weather</div>
+        <button type="button" id="live-weather" class="text-control" disabled>Return to live weather</button>
+      </div>
+    </header>
+    <section id="transcript" class="transcript" aria-live="polite">
+      <article class="message assistant"><p>This is a local interpretability experiment. What would you like to talk about?</p></article>
+    </section>
+    <div class="composer-region">
+      <form id="composer">
+        <textarea id="prompt" rows="1" placeholder="Write a message…" required></textarea>
+        <button type="submit" aria-label="Send">↑</button>
+      </form>
+    </div>
+    <input id="layer" type="hidden" value="24">
+  </main>
+
+  <dialog id="turn-diagnostics-dialog" aria-labelledby="turn-diagnostics-title">
+    <div class="dialog-header">
+      <div>
+        <p class="eyebrow">Turn details</p>
+        <h2 id="turn-diagnostics-title">Affective circumplex</h2>
+      </div>
+      <button type="button" class="close-control" id="close-turn-diagnostics" aria-label="Close enlarged affective circumplex">×</button>
+    </div>
+    <div id="turn-modal-content"></div>
+    <p class="disclaimer">An activation-derived estimate, not the model’s “true emotion,” a clinical measure, or evidence of subjective experience.</p>
+  </dialog>
+  <script type="module" src="/static/app.js"></script>
+</body>
+</html>

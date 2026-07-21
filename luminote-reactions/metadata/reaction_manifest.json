@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "selection": "deterministic Euclidean nearest neighbor; asset ID alphabetical tie-break",
+  "assets": [],
+  "skippedAssets": [],
+  "unmatchedAssets": [],
+  "preflight": {
+    "activeCount": 0,
+    "exactCoordinateDuplicateGroups": [],
+    "transparentActiveAssets": [],
+    "opaquePngWebpActiveAssets": [],
+    "publicReleaseNote": "The private reaction collection is intentionally not distributed. Add only assets you own or are licensed to redistribute."
+  }
+}
