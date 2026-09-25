@@ -45,3 +45,23 @@ def test_transparency_metadata_distinguishes_real_alpha_from_opaque_png(tmp_path
 
     assert transparency_metadata(transparent) == (True, True)
     assert transparency_metadata(opaque) == (False, False)
+
+
+def test_own_descriptions_win_and_variants_share_their_base():
+    from luminote.reactions import resolve_descriptions
+
+    own = {"neutral": ["Nothing much to report."], "worried_kermit": ["What if this all goes wrong?"]}
+    starters = {"neutral": ["starter"], "worried": ["starter worry"]}
+    assert resolve_descriptions({"id": "worried_kermit"}, own, starters) == (["What if this all goes wrong?"], "own")
+    assert resolve_descriptions({"id": "neutral_02", "label": "neutral_02"}, own, starters) == (["Nothing much to report."], "own")
+
+
+def test_starters_fill_in_by_the_feeling_a_label_names():
+    from luminote.reactions import resolve_descriptions
+
+    starters = {"worried": ["w"], "light-hearted": ["lh"], "sad": ["s"], "hopeful": ["h"]}
+    assert resolve_descriptions({"id": "worried_03"}, {}, starters) == (["w"], "starter:worried")
+    assert resolve_descriptions({"id": "worried_kermit"}, {}, starters) == (["w"], "starter:worried")
+    assert resolve_descriptions({"id": "light_hearted_cat"}, {}, starters) == (["lh"], "starter:light-hearted")
+    # Whole words only: "sadistic" is not "sad", and unknown labels get nothing.
+    assert resolve_descriptions({"id": "sadistic_grin"}, {}, starters) == ([], None)

@@ -13,6 +13,11 @@ the manifest from the PSD:
 
 Descriptions written in the reaction's own voice ("I lost, in public, and everyone saw") match
 far better than descriptions of the image, which mostly read as "this is a funny meme".
+scripts/draft_reaction_descriptions.py can draft candidates from the images for you to review.
+
+Assets without their own descriptions borrow a starter from reaction_descriptions.starter.json
+for the feeling their label names (`worried_kermit` uses "worried"). Starters make matching work
+out of the box but know nothing about the particular image, so replace them as you go.
 
 This script writes two things:
 - reaction_embeddings.npz, which the server uses to rank reactions against each reply; and
@@ -34,6 +39,7 @@ from luminote.calibration import pool_texts
 from luminote.config import ROOT, settings
 from luminote.model import LocalModel
 from luminote.reaction_matching import ReactionIndex
+from luminote.reactions import resolve_descriptions
 
 METADATA = ROOT / "luminote-reactions" / "metadata"
 
@@ -42,17 +48,25 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--manifest", type=Path, default=METADATA / "reaction_manifest.json")
     parser.add_argument("--descriptions", type=Path, default=METADATA / "reaction_descriptions.json")
+    parser.add_argument("--starters", type=Path, default=METADATA / "reaction_descriptions.starter.json")
     parser.add_argument("--index", type=Path, default=settings.reaction_index_path)
     parser.add_argument("--apply", action="store_true", help="use probe coordinates on the circumplex")
     args = parser.parse_args()
 
     manifest = json.loads(args.manifest.read_text())
     raw = json.loads(args.descriptions.read_text()) if args.descriptions.exists() else {}
-    descriptions = {key: [value] if isinstance(value, str) else list(value) for key, value in raw.items()}
-    assets = [asset for asset in manifest["assets"] if any(text.strip() for text in descriptions.get(asset["id"], []))]
+    own = {key: [value] if isinstance(value, str) else list(value) for key, value in raw.items()}
+    starters = json.loads(args.starters.read_text()) if args.starters.exists() else {}
+    resolved = {asset["id"]: resolve_descriptions(asset, own, starters) for asset in manifest["assets"]}
+    unmatched = [asset_id for asset_id, (texts, _) in resolved.items() if not texts]
+    if unmatched:
+        print(f"No description or starter for: {', '.join(unmatched)}")
+    assets = [asset for asset in manifest["assets"] if resolved[asset["id"]][0]]
     if not assets:
-        print(f"No assets in {args.manifest.name} have a description in {args.descriptions.name}.")
+        print(f"No assets in {args.manifest.name} could be described.")
         return
+    borrowed = sum(source != "own" for _, source in resolved.values() if source)
+    print(f"{len(assets) - borrowed} assets with their own descriptions, {borrowed} using starters.")
 
     model = LocalModel(settings.model_name)
     estimator = PrototypeEstimator(settings.prototype_path, settings.prototype_meta_path)
@@ -62,11 +76,12 @@ def main() -> None:
 
     embeddings = []
     for asset in assets:
-        texts = [text for text in descriptions[asset["id"]] if text.strip()]
+        texts, source = resolved[asset["id"]]
         pooled = torch.from_numpy(pool_texts(model, texts)[:, layer])
         embeddings.append(estimator.match_embedding(pooled, layer).numpy())
         estimate = estimator.estimate_pooled(pooled, layer)
         asset["descriptions"] = texts
+        asset["descriptionSource"] = source
         asset["probeValence"], asset["probeArousal"] = estimate.valence, estimate.arousal
         asset["probeDominance"] = estimate.dominance
         asset["probeLayer"] = layer
