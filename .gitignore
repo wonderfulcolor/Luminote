@@ -36,3 +36,5 @@ screenshots/*
 *.pth
 *.pt
 *.bin
+
+data/external/
