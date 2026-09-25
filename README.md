@@ -76,7 +76,7 @@ node --test tests/*.test.mjs
 
 ## Optional reaction assets
 
-The interface supports deterministic nearest-neighbor reaction images, but the hackathon creator's meme/GIF/PSD collection is not distributed because its third-party redistribution rights are unclear. The included empty manifest makes the app fall back cleanly to color weather.
+The interface can show a reaction image with each turn, chosen by matching the reply against descriptions of each reaction in the model's activation space, or by nearest coordinate when no descriptions are indexed. The hackathon creator's meme/GIF/PSD collection is not distributed because its third-party redistribution rights are unclear. The included empty manifest makes the app fall back cleanly to color weather.
 
 To add reactions, use only images you created or are licensed to redistribute and follow [ASSETS.md](ASSETS.md). Never commit the private `originals/` or `maps/` directories by accident.
 

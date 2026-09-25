@@ -16,6 +16,7 @@ from .config import ROOT, settings
 from .generation_debug import GenerationIntegrityStore
 from .logging import JsonlLogger
 from .model import LocalModel
+from .reaction_matching import ReactionIndex
 
 
 class ChatRequest(BaseModel):
@@ -36,6 +37,8 @@ app.mount("/reaction-assets", StaticFiles(directory=ROOT / "luminote-reactions" 
 app.mount("/reaction-metadata", StaticFiles(directory=ROOT / "luminote-reactions" / "metadata"), name="reaction-metadata")
 _model: LocalModel | None = None
 _estimator: PrototypeEstimator | None = None
+# Built by scripts/place_reactions.py; restart the server after re-running it.
+_reactions = ReactionIndex.load(settings.reaction_index_path)
 _lock = Lock()
 _colors = ColorMap(settings.color_map_path)
 _logger = JsonlLogger(settings.log_path)
@@ -92,6 +95,20 @@ def read_spans(
     return result, reply_hidden
 
 
+def match_reactions(
+    model: LocalModel, estimator: PrototypeEstimator, reply_hidden: torch.Tensor | None, layer: int
+) -> dict:
+    """Rank reaction images by similarity to the reply in whitened activation space."""
+    if _reactions is None:
+        return {"candidates": [], "reason": "No reaction embeddings; run scripts/place_reactions.py."}
+    if _reactions.model_name != model.model_name or _reactions.layer != layer:
+        return {"candidates": [], "reason": "Reaction embeddings were built for another model or layer."}
+    embedding = estimator.match_embedding(reply_hidden, layer) if reply_hidden is not None else None
+    if embedding is None:
+        return {"candidates": [], "reason": "Calibration has no reaction-matching whitener for this layer."}
+    return {"layer": layer, "candidates": _reactions.rank(embedding), "reason": None}
+
+
 @app.get("/")
 def index() -> FileResponse:
     return FileResponse(ROOT / "frontend" / "index.html")
@@ -120,6 +137,7 @@ def chat(request: ChatRequest) -> dict:
     span_layer = request.span_layer if request.span_layer is not None else settings.span_layer
     span_layer = max(0, min(span_layer, model.layer_count - 1))
     spans, reply_hidden = read_spans(model, estimator, request.messages, generation.text, span_layer)
+    reaction_match = match_reactions(model, estimator, reply_hidden, span_layer)
     weather = estimate
     if settings.weather_source == "reply" and reply_hidden is not None:
         weather = estimator.estimate_pooled(reply_hidden, span_layer)
@@ -139,6 +157,7 @@ def chat(request: ChatRequest) -> dict:
         "affect": weather.to_dict(),
         "boundary_affect": estimate.to_dict(),
         "spans": spans,
+        "reaction_match": reaction_match,
         "weather_source": "reply" if weather is not estimate else "boundary",
         "color": color,
         "layer": layer,

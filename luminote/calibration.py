@@ -67,6 +67,26 @@ def class_prototypes(
     return np.transpose(prototypes, (1, 0, 2)).astype(np.float32), baseline.astype(np.float32)
 
 
+MATCH_SHRINK = 0.6
+
+
+def within_class_whitener(features: np.ndarray, labels: Sequence[str], shrink: float = MATCH_SHRINK) -> np.ndarray:
+    """[hidden, hidden] map that whitens by variation *within* each feeling.
+
+    Examples of one feeling differ mostly in topic and wording. Down-weighting those directions
+    lets reaction matching compare stance rather than subject, while keeping every dimension,
+    unlike a projection onto the concept prototypes, which discards most of what separates memes.
+    `shrink` blends the covariance toward isotropic so rarely seen directions are not blown up.
+    """
+    labels = np.asarray(labels)
+    features = features.astype(np.float64)
+    centered = np.concatenate([features[labels == name] - features[labels == name].mean(axis=0) for name in np.unique(labels)])
+    covariance = centered.T @ centered / len(centered)
+    covariance = (1 - shrink) * covariance + shrink * np.trace(covariance) / len(covariance) * np.eye(len(covariance))
+    values, vectors = np.linalg.eigh(covariance)
+    return (vectors / np.sqrt(values)).astype(np.float32)
+
+
 AXIS_RIDGE = 1000.0
 
 

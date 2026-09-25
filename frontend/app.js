@@ -1,5 +1,5 @@
 import { buildManifestHealth } from './reaction-diagnostics.mjs';
-import { readoutShape, selectNearestReaction } from './reaction-selection.mjs';
+import { readoutShape, selectMatchedReaction, selectNearestReaction } from './reaction-selection.mjs';
 import { isNearBottom } from './transcript-scroll.mjs';
 import { createTurnModalController } from './turn-modal.mjs';
 import { WeatherHistory } from './weather-state.mjs';
@@ -195,6 +195,13 @@ function describeTarget(target) {
     .join(' · ');
 }
 
+function describeSelection(snapshot) {
+  if (snapshot.reaction?.method === 'activation') {
+    return `Activation match · similarity ${snapshot.reaction.candidates[0]?.similarity?.toFixed(3) ?? '—'}`;
+  }
+  return `Coordinates${snapshot.reaction_match?.reason ? ` · ${snapshot.reaction_match.reason}` : ''}`;
+}
+
 function describeShape(shape) {
   if (shape.kind === 'drift') return `Drift: planned ${describeReading(shape.from)} → wrote ${describeReading(shape.to)}`;
   if (shape.kind === 'split') return `Split: ${shape.modes.map(mode => mode.concepts.join('/')).join(' vs ')}`;
@@ -279,6 +286,7 @@ function renderTurnModal(snapshot) {
   addDetail(list, 'Selected asset coordinate', asset ? formatCoordinate(asset.valence, asset.arousal) : '—');
   addDetail(list, 'Distance to selected asset', Number.isFinite(snapshot.reaction?.distance) ? snapshot.reaction.distance.toFixed(4) : '—');
   addDetail(list, 'Coordinate source', String(asset?.coordinateSource || '—').toUpperCase());
+  addDetail(list, 'Selected by', describeSelection(snapshot));
   addDetail(list, 'Generation debug ID', snapshot.generation?.debug_id || '—');
   details.append(list);
   grid.append(details);
@@ -351,6 +359,7 @@ function createResponseDetails(snapshot) {
   addDetail(list, 'Asset coordinate', asset ? formatCoordinate(asset.valence, asset.arousal) : '—');
   addDetail(list, 'Distance', Number.isFinite(snapshot.reaction?.distance) ? snapshot.reaction.distance.toFixed(4) : '—');
   addDetail(list, 'Coordinate source', String(asset?.coordinateSource || '—').toUpperCase());
+  addDetail(list, 'Selected by', describeSelection(snapshot));
   addDetail(list, 'Asset type', asset ? (asset.animated ? 'Animated' : 'Static') : '—');
   addDetail(list, 'Generation debug ID', snapshot.generation?.debug_id || '—');
   addDetail(list, 'Stop reason', snapshot.generation?.stop_reason || '—');
@@ -465,10 +474,11 @@ form.addEventListener('submit', async event => {
     const result = await response.json();
     if (!response.ok) throw new Error(result.detail || 'Local inference failed');
     const manifest = await reactionManifestPromise;
-    const reaction = selectNearestReaction(manifest.assets, result.affect.valence, result.affect.arousal, {
-      dominance: result.affect.dominance,
-      recent: recentReactionIds,
-    });
+    const reaction = selectMatchedReaction(manifest.assets, result.reaction_match?.candidates, { recent: recentReactionIds })
+      || selectNearestReaction(manifest.assets, result.affect.valence, result.affect.arousal, {
+        dominance: result.affect.dominance,
+        recent: recentReactionIds,
+      });
     if (!reaction.asset && manifest.loadError) reaction.fallbackReason = manifest.loadError;
     if (reaction.asset) {
       recentReactionIds.unshift(reaction.asset.id);

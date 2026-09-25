@@ -69,6 +69,34 @@ export function selectNearestReaction(assets, valence, arousal, options = {}) {
   };
 }
 
+// Server-ranked matches compare the reply and each reaction's descriptions in activation space,
+// which retrieves the intended reaction far more often than coordinates do. Coordinates remain
+// the fallback when no reaction embeddings have been built.
+export function selectMatchedReaction(assets, matches, options = {}) {
+  const { recent = [], recencyPenalty: penalty = DEFAULT_RECENCY_PENALTY } = options;
+  if (!Array.isArray(assets) || !Array.isArray(matches) || matches.length === 0) return null;
+  const usable = new Map(assets.filter(asset => asset.publicPath).map(asset => [asset.id, asset]));
+  const candidates = matches
+    .filter(match => usable.has(match.id) && Number.isFinite(match.similarity))
+    .map(match => ({
+      asset: { ...usable.get(match.id) },
+      similarity: match.similarity,
+      // Reported as a distance so diagnostics read the same for both selection methods.
+      distance: Number((1 - match.similarity).toFixed(6)),
+      score: -match.similarity + recencyPenalty(match.id, recent, penalty),
+    }));
+  if (candidates.length === 0) return null;
+  candidates.sort((left, right) => left.score - right.score || (left.asset.id < right.asset.id ? -1 : 1));
+  const ranked = candidates.slice(0, 5).map(({ score, ...candidate }) => candidate);
+  return {
+    asset: { ...ranked[0].asset },
+    distance: ranked[0].distance,
+    candidates: ranked,
+    method: 'activation',
+    fallbackReason: null,
+  };
+}
+
 // How a turn's readings are shaped, for picking a meme format later:
 // one clear feeling, two competing feelings, or a reply that drifted from its plan.
 export const SPLIT_WEIGHT = 0.3;

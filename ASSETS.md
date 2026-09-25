@@ -22,28 +22,38 @@ Place public-safe browser images in `luminote-reactions/app-assets/`. Supported 
 }
 ```
 
-Coordinates must be finite numbers from `-1` to `1`. An optional `"dominance"` coordinate (sense of control, `-1` to `1`) separates reactions that share valence and arousal. Selection is deterministic nearest neighbor with dominance at half weight, a small penalty for reactions shown in the last few turns, and asset-ID alphabetical tie-breaking.
+Coordinates must be finite numbers from `-1` to `1`. An optional `"dominance"` coordinate (sense of control, `-1` to `1`) separates reactions that share valence and arousal.
 
-## Placing reactions by description
+## How a reaction is chosen
 
-Instead of hand-placing coordinates, you can describe each reaction and let the probe place it, so reactions and replies are compared in the same activation space. Add `luminote-reactions/metadata/reaction_descriptions.json`:
+1. **Activation match (preferred).** If reactions have been indexed from descriptions (below), the server compares the reply with each reaction's descriptions in the model's activation space, whitened so that differences in topic and wording count for less than differences in stance. The frontend takes the most similar reaction, nudging back ones shown in the last few turns.
+2. **Coordinates (fallback).** Otherwise, the nearest reaction by valence and arousal, with dominance at half weight when both sides have it, the same recency nudge, and asset-ID alphabetical tie-breaking.
+
+Coordinates alone keep very little of what separates one reaction meme from another. On the evaluation set in `data/reaction_eval/`, coordinate selection picked the intended meme about as often as chance, while activation matching found it first roughly 40% of the time and in its top five roughly two thirds of the time (`scripts/benchmark_reaction_matching.py`).
+
+## Indexing reactions by description
+
+Add `luminote-reactions/metadata/reaction_descriptions.json`, with one or more descriptions per asset ID:
 
 ```json
 {
-  "my_reaction": "Dog sitting calmly in a burning room: forced calm while everything falls apart."
+  "my_reaction": [
+    "Everything around me is going wrong and I am going to keep smiling and act like it is under control.",
+    "Dog sitting calmly in a burning room: forced calm while everything falls apart."
+  ]
 }
 ```
+
+**Write at least one description in the reaction's own voice**, as the inner monologue of someone posting it. Descriptions of the image alone ("a dog in a burning room") mostly read to the model as "this is a funny meme" and match poorly. Say what distinguishes the reaction from its neighbours: surprised Pikachu is feigned shock at a predictable result of your own actions, not genuine surprise.
 
 Then run:
 
 ```bash
-PYTHONPATH=. .venv/bin/python scripts/place_reactions.py          # add probe coordinates alongside
-PYTHONPATH=. .venv/bin/python scripts/place_reactions.py --apply  # use them for selection
+PYTHONPATH=. .venv/bin/python scripts/place_reactions.py          # index, and add probe coordinates alongside
+PYTHONPATH=. .venv/bin/python scripts/place_reactions.py --apply  # also use probe coordinates on the circumplex
 ```
 
-Descriptions describe what a reaction *means*, not only what it shows. They are kept apart from the manifest so they survive rebuilding it from a PSD.
-
-Only add an asset when you can document its creator, source, and license. Do not assume that a meme, reaction GIF, television frame, celebrity image, cartoon character, or search-engine result is safe to redistribute.
+This writes `reaction_embeddings.npz` (model- and calibration-specific, ignored by Git) next to the manifest. Restart the server afterwards, and re-run it after recalibrating. Descriptions are kept apart from the manifest so they survive rebuilding it from a PSD.
 
 ## Optional PSD builder
 

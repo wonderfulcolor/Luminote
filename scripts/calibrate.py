@@ -6,7 +6,7 @@ from pathlib import Path
 
 import numpy as np
 
-from luminote.calibration import class_prototypes, fit_axes, pool_examples
+from luminote.calibration import class_prototypes, fit_axes, pool_examples, within_class_whitener
 from luminote.config import settings
 from luminote.examples import TARGETS, load_examples
 from luminote.model import LocalModel
@@ -71,7 +71,12 @@ def main() -> None:
         axis_weights, axis_means, axis_intercepts = fit_axes(
             pooled, np.array([coordinates[example.concept] for example in examples])
         )
+        # Reaction matching runs at one layer; a full whitener per layer would be too large to store.
+        match_layer = min(settings.span_layer, model.layer_count - 1)
         arrays |= {
+            "match_whitener": within_class_whitener(pooled[:, match_layer], [example.concept for example in examples]),
+            "match_origin": pooled[:, match_layer].mean(axis=0),
+            "match_layer": np.array(match_layer),
             "span_prototypes": span_prototypes,
             "span_baselines": span_baseline,
             "target_prototypes": target_prototypes,

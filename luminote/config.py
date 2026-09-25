@@ -21,6 +21,7 @@ class Settings:
     coordinates_path: Path = ROOT / "data" / "emotion_coordinates.json"
     examples_path: Path = ROOT / "data" / "calibration_examples.jsonl"
     color_map_path: Path = ROOT / "data" / "public_affective_map.png"
+    reaction_index_path: Path = ROOT / "luminote-reactions" / "metadata" / "reaction_embeddings.npz"
     log_path: Path = ROOT / "logs" / "turns.jsonl"
     generation_log_path: Path = ROOT / "logs" / "generation_integrity.jsonl"
 

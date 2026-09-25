@@ -177,6 +177,9 @@ class PrototypeEstimator:
             if "axis_weights" in archive
             else None
         )
+        self.match_layer = int(archive["match_layer"]) if "match_whitener" in archive else None
+        self.match_whitener = torch.from_numpy(archive["match_whitener"]).float() if self.match_layer is not None else None
+        self.match_origin = torch.from_numpy(archive["match_origin"]).float() if self.match_layer is not None else None
         self.concepts: list[str] = metadata["concepts"]
         self.coordinates = torch.tensor(metadata["coordinates"], dtype=torch.float32)
         self.model_name: str = metadata["model_name"]
@@ -217,6 +220,16 @@ class PrototypeEstimator:
             arousal=point[1],
             dominance=point[2] if len(point) > 2 else estimate.dominance,
         )
+
+    def match_embedding(self, activations: torch.Tensor, layer: int) -> torch.Tensor | None:
+        """Unit vector for reaction matching from a [token, hidden] span, or None if unavailable.
+
+        Only the calibrated match layer has a whitener, so other layers return None.
+        """
+        if self.match_whitener is None or layer != self.match_layer:
+            return None
+        whitened = (activations.float().cpu().mean(dim=0) - self.match_origin) @ self.match_whitener
+        return whitened / whitened.norm().clamp_min(1e-8)
 
     def estimate_span(self, activations: torch.Tensor, layer: int, peak_count: int = 3) -> SpanReading:
         """Per-token readings over a span: the pooled estimate, strongest peaks, and a trace."""

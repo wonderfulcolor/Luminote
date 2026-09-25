@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 
-import { rankReactionCandidates, readoutShape, selectNearestReaction } from '../frontend/reaction-selection.mjs';
+import { rankReactionCandidates, readoutShape, selectMatchedReaction, selectNearestReaction } from '../frontend/reaction-selection.mjs';
 
 const asset = (id, valence, arousal) => ({
   id, valence, arousal, publicPath: `/reaction-assets/${id}.png`, filename: `${id}.png`,
@@ -85,4 +85,22 @@ test('readout shape distinguishes single, split, and drifted turns', () => {
   });
   assert.equal(drifted.kind, 'drift');
   assert.ok(drifted.distance > 0.9);
+});
+
+test('activation matches pick the most similar usable reaction and respect recency', () => {
+  const assets = [asset('fine', 0, 0), asset('panic', 0, 0), { ...asset('unpublished', 0, 0), publicPath: null }];
+  const matches = [
+    { id: 'unpublished', similarity: 0.9 }, { id: 'fine', similarity: 0.6 }, { id: 'panic', similarity: 0.55 },
+  ];
+  const selection = selectMatchedReaction(assets, matches);
+  assert.equal(selection.asset.id, 'fine');
+  assert.equal(selection.method, 'activation');
+  assert.equal(selection.candidates[0].distance, 0.4);
+  assert.equal(selectMatchedReaction(assets, matches, { recent: ['fine'] }).asset.id, 'panic');
+});
+
+test('without usable matches, activation selection defers to coordinates', () => {
+  assert.equal(selectMatchedReaction([asset('a', 0, 0)], []), null);
+  assert.equal(selectMatchedReaction([asset('a', 0, 0)], undefined), null);
+  assert.equal(selectMatchedReaction([asset('a', 0, 0)], [{ id: 'missing', similarity: 1 }]), null);
 });
