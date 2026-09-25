@@ -4,6 +4,7 @@ from datetime import datetime, timezone
 from threading import Lock
 from uuid import uuid4
 
+import torch
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
@@ -20,6 +21,8 @@ from .model import LocalModel
 class ChatRequest(BaseModel):
     messages: list[dict[str, str]] = Field(min_length=1)
     layer: int | None = None
+    # Kept separate from `layer`: the best layer for span readings differs from the boundary's.
+    span_layer: int | None = None
 
 
 class FrontendRenderRequest(BaseModel):
@@ -54,6 +57,41 @@ def services() -> tuple[LocalModel, PrototypeEstimator]:
     return _model, _estimator
 
 
+def read_spans(
+    model: LocalModel,
+    estimator: PrototypeEstimator,
+    messages: list[dict[str, str]],
+    reply: str,
+    layer: int,
+) -> tuple[dict, torch.Tensor | None]:
+    """Per-token readings of the last user message and the reply as it was actually written.
+
+    Returns the JSON payload and the reply's [token, hidden] activations for weather colouring.
+    """
+    if not reply.strip():
+        return {"layer": layer, "error": "Empty reply."}, None
+    try:
+        activations = model.inspect_spans([*messages, {"role": "assistant", "content": reply}], [layer])
+    except ValueError as error:
+        return {"layer": layer, "error": str(error)}, None
+    hidden = activations.layer(layer)
+    reply_hidden = hidden[slice(*activations.reply_span)]
+    result = {
+        "layer": layer,
+        "example_prototypes": estimator.span is not None,
+        "reply": estimator.estimate_span(reply_hidden, layer).to_dict(),
+        "reply_tokens": activations.tokens[slice(*activations.reply_span)],
+        # The boundary token read with the same prototypes as the reply, so the two compare directly.
+        "boundary": estimator.estimate_pooled(
+            hidden[activations.boundary_index : activations.boundary_index + 1], layer
+        ).to_dict(),
+        "user": None,
+    }
+    if activations.user_span is not None:
+        result["user"] = estimator.estimate_span(hidden[slice(*activations.user_span)], layer).to_dict()
+    return result, reply_hidden
+
+
 @app.get("/")
 def index() -> FileResponse:
     return FileResponse(ROOT / "frontend" / "index.html")
@@ -65,6 +103,8 @@ def status() -> dict:
         "model": settings.model_name,
         "calibrated": settings.prototype_path.exists(),
         "default_layer": settings.default_layer,
+        "span_layer": settings.span_layer,
+        "weather_source": settings.weather_source,
         "local_only": True,
     }
 
@@ -76,8 +116,14 @@ def chat(request: ChatRequest) -> dict:
     layer = max(0, min(layer, model.layer_count - 1))
     boundary = model.inspect_boundary(request.messages)
     estimate = estimator.estimate(boundary.by_layer[layer], layer)
-    color = _colors.display_color(estimate.valence, estimate.arousal, estimate.confidence)
     generation = model.generate(request.messages, settings.max_new_tokens)
+    span_layer = request.span_layer if request.span_layer is not None else settings.span_layer
+    span_layer = max(0, min(span_layer, model.layer_count - 1))
+    spans, reply_hidden = read_spans(model, estimator, request.messages, generation.text, span_layer)
+    weather = estimate
+    if settings.weather_source == "reply" and reply_hidden is not None:
+        weather = estimator.estimate_pooled(reply_hidden, span_layer)
+    color = _colors.display_color(weather.valence, weather.arousal, weather.confidence)
     debug_id = uuid4().hex
     _generation_debug.record_generation(debug_id, {
         "input_messages": request.messages,
@@ -90,7 +136,10 @@ def chat(request: ChatRequest) -> dict:
     })
     payload = {
         "assistant_text": generation.text,
-        "affect": estimate.to_dict(),
+        "affect": weather.to_dict(),
+        "boundary_affect": estimate.to_dict(),
+        "spans": spans,
+        "weather_source": "reply" if weather is not estimate else "boundary",
         "color": color,
         "layer": layer,
         "layer_count": model.layer_count,

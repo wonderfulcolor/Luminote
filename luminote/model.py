@@ -14,6 +14,32 @@ class BoundaryActivations:
 
 
 @dataclass
+class SpanActivations:
+    """Hidden states for one rendered conversation that ends with an assistant turn.
+
+    `hidden` is [layer, token, hidden]. Spans are half-open token ranges into it.
+    """
+
+    hidden: torch.Tensor
+    layers: list[int]
+    tokens: list[str]
+    user_span: tuple[int, int] | None
+    boundary_index: int
+    reply_span: tuple[int, int]
+
+    def layer(self, layer: int) -> torch.Tensor:
+        return self.hidden[self.layers.index(layer)]
+
+
+def char_span_to_tokens(offsets: list[tuple[int, int]], start: int, end: int) -> tuple[int, int]:
+    """Map a character range onto the tokens that overlap it."""
+    indices = [index for index, (left, right) in enumerate(offsets) if right > start and left < end]
+    if not indices:
+        raise ValueError("Character span does not cover any tokens.")
+    return indices[0], indices[-1] + 1
+
+
+@dataclass
 class GenerationResult:
     text: str
     token_ids: list[int]
@@ -75,6 +101,44 @@ class LocalModel:
             token_id=token_id,
             token_text=self.tokenizer.decode([token_id]),
             prompt_length=int(inputs["input_ids"].shape[-1]),
+        )
+
+    @torch.inference_mode()
+    def inspect_spans(self, messages: list[dict[str, str]], layers: list[int] | None = None) -> SpanActivations:
+        """Read every token of a conversation whose last message is the assistant's reply.
+
+        One forward pass covers the last user message, the response boundary, and the reply,
+        so the reply is read as the model actually produced it rather than as it was planned.
+        """
+        if messages[-1]["role"] != "assistant":
+            raise ValueError("inspect_spans expects the conversation to end with an assistant message.")
+        text = self.tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=False)
+        reply = messages[-1]["content"].strip()
+        reply_start = text.rfind(reply)
+        if not reply or reply_start < 0:
+            raise ValueError("Assistant reply not found in the rendered chat template.")
+        user_messages = [message for message in messages[:-1] if message["role"] == "user"]
+        user_start = -1
+        if user_messages and user_messages[-1]["content"].strip():
+            user_text = user_messages[-1]["content"].strip()
+            user_start = text.rfind(user_text, 0, reply_start)
+
+        encoded = self.tokenizer(text, add_special_tokens=False, return_offsets_mapping=True)
+        offsets = [tuple(pair) for pair in encoded["offset_mapping"]]
+        reply_span = char_span_to_tokens(offsets, reply_start, reply_start + len(reply))
+        user_span = char_span_to_tokens(offsets, user_start, user_start + len(user_text)) if user_start >= 0 else None
+
+        input_ids = torch.tensor([encoded["input_ids"]], device=self.device)
+        outputs = self.model(input_ids=input_ids, output_hidden_states=True, use_cache=False)
+        selected = layers if layers is not None else list(range(self.layer_count))
+        hidden = torch.stack([outputs.hidden_states[layer + 1][0] for layer in selected]).detach().float().cpu()
+        return SpanActivations(
+            hidden=hidden,
+            layers=selected,
+            tokens=[self.tokenizer.decode([token]) for token in encoded["input_ids"]],
+            user_span=user_span,
+            boundary_index=reply_span[0] - 1,
+            reply_span=reply_span,
         )
 
     @torch.inference_mode()
