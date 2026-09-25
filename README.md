@@ -51,7 +51,13 @@ If port 8765 is already in use:
 LUMINOTE_PORT=8877 ./scripts/run.sh
 ```
 
-If the model or concept configuration changes, rerun `./scripts/calibrate.sh`.
+`LUMINOTE_SPAN_LAYER` sets the layer for per-token readings of the user message and reply. `LUMINOTE_WEATHER_SOURCE=reply` colours the weather from the reply as written rather than from the response boundary:
+
+```bash
+LUMINOTE_SPAN_LAYER=18 LUMINOTE_WEATHER_SOURCE=reply ./scripts/run.sh
+```
+
+If the model, concept configuration, or calibration examples change, rerun `./scripts/calibrate.sh`.
 
 ## Hardware expectations
 
@@ -92,17 +98,41 @@ The app has no accounts, cloud chat service, telemetry, or remote analytics. Hug
 ## How the estimate works
 
 1. Render the conversation with the model tokenizer's native chat template.
-2. Run a hidden-state forward pass at the assistant-response boundary.
-3. Compare that activation with locally calibrated, mean-centered concept prototypes using cosine similarity.
-4. Combine the strongest positive matches into an exploratory valence/arousal coordinate.
-5. Map that coordinate to a color and preserve the complete snapshot with its assistant turn.
+2. Run a hidden-state forward pass at the assistant-response boundary, then generate the reply.
+3. Run one more forward pass over the conversation including the reply, keeping every token of the last user message and of the reply.
+4. Compare activations with locally calibrated, mean-centered concept prototypes using cosine similarity.
+5. Group the strongest positive matches into modes. Matches near each other on the circumplex are combined; distant ones stay separate rather than being averaged into a feeling neither of them is.
+6. Map the strongest mode's coordinate to a color and preserve the complete snapshot with its assistant turn.
+
+Each turn records three readings: **reading the user** (the user's message tokens), **planned** (the response-boundary token), and **while replying** (the reply's tokens, with a mean, the strongest per-token peaks, and a trace). Models settle the gist of a reply early, but producing the words shifts the probabilities, so the reply as written can differ from the plan.
+
+### Two kinds of prototype
+
+- **Boundary prototypes** are the original method: prompts such as "respond as someone feeling {concept}", read at the response-start token.
+- **Example prototypes** come from `data/calibration_examples.jsonl`: about fifty short displays of each feeling, across six voices (assistant reply, user message, first person, third person, dialogue, and a bare situation), none of which name the feeling. Each is read as an assistant turn and averaged over its tokens, which is where replies are read at runtime. Prompts that name the concept partly teach the probe the *word*; examples teach it what the feeling *looks like*. The same examples are labelled with what the feeling is about (self, other, situation), which gives a coarse target readout.
+
+`luminote/examples.py` rejects any example that names its feeling. The example set was written with Claude and can be edited or extended by hand.
+
+### Dominance
+
+Concepts carry a third, researcher-assigned coordinate: dominance, the sense of being in control from the pleasure-arousal-dominance model. It separates feelings that share valence and arousal, for example anger (in control) from fear (not). Reaction assets may add a `dominance` field; those without one are matched on valence and arousal alone.
+
+### Choosing a layer
+
+`scripts/benchmark_layers.py` profiles every layer on displays across held-out voices, on whether prototypes built from the feeling's *name* recognise its *displays*, and on human-written text from other sources: [EmoBank](https://github.com/JULIELab/EmoBank) (CC-BY-SA-4.0, valence/arousal/dominance ratings) and [GoEmotions](https://github.com/google-research/google-research/tree/master/goemotions) (Apache-2.0, emotion labels). Both are downloaded into `data/external/` on first use and never committed. The original benchmark scored layers on held-out prompts that still contained the concept word, which favours layers that recognise words; it is reported alongside for comparison.
+
+```bash
+PYTHONPATH=. .venv/bin/python scripts/benchmark_layers.py
+```
 
 The editable prototype concepts and researcher-assigned coordinates live in `data/emotion_coordinates.json`. Calibration outputs are model-specific and are generated locally rather than distributed.
 
 ## Scientific limitations
 
 - This is an exploratory interpretability interface, not a validated affect detector.
-- Prompted concepts may capture wording, topic, prompt format, or other correlated features rather than affect.
+- Prompted concepts may capture wording, topic, prompt format, or other correlated features rather than affect. Example prototypes reduce reliance on the concept word but inherit the style of whoever wrote the examples; the out-of-source benchmark exists to measure that.
+- Per-token readings on words that name a feeling can reflect the word rather than a state, especially at early layers.
+- Dominance and target readouts are coarser and less validated than valence and arousal.
 - Valence/arousal coordinates and confidence calculations are engineering choices, not ground truth or calibrated probabilities.
 - Results may change with prompts, model versions, templates, sampling settings, layer choice, or hardware numerics.
 - A single boundary activation compresses a high-dimensional computation into two numbers and discards nearly all information.

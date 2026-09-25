@@ -22,7 +22,26 @@ Place public-safe browser images in `luminote-reactions/app-assets/`. Supported 
 }
 ```
 
-Coordinates must be finite numbers from `-1` to `1`. Selection is deterministic Euclidean nearest neighbor with asset-ID alphabetical tie-breaking.
+Coordinates must be finite numbers from `-1` to `1`. An optional `"dominance"` coordinate (sense of control, `-1` to `1`) separates reactions that share valence and arousal. Selection is deterministic nearest neighbor with dominance at half weight, a small penalty for reactions shown in the last few turns, and asset-ID alphabetical tie-breaking.
+
+## Placing reactions by description
+
+Instead of hand-placing coordinates, you can describe each reaction and let the probe place it, so reactions and replies are compared in the same activation space. Add `luminote-reactions/metadata/reaction_descriptions.json`:
+
+```json
+{
+  "my_reaction": "Dog sitting calmly in a burning room: forced calm while everything falls apart."
+}
+```
+
+Then run:
+
+```bash
+PYTHONPATH=. .venv/bin/python scripts/place_reactions.py          # add probe coordinates alongside
+PYTHONPATH=. .venv/bin/python scripts/place_reactions.py --apply  # use them for selection
+```
+
+Descriptions describe what a reaction *means*, not only what it shows. They are kept apart from the manifest so they survive rebuilding it from a PSD.
 
 Only add an asset when you can document its creator, source, and license. Do not assume that a meme, reaction GIF, television frame, celebrity image, cartoon character, or search-engine result is safe to redistribute.
 
