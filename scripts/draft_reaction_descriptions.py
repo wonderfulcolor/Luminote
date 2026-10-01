@@ -29,8 +29,8 @@ from luminote.reactions import base_variant_label
 
 METADATA = ROOT / "luminote-reactions" / "metadata"
 ASSETS = ROOT / "luminote-reactions" / "app-assets"
-MODEL = "claude-opus-5"
-# Opus 5's safety classifiers can occasionally decline; "default" re-runs a declined request on
+MODEL = "claude-opus-5-5"
+# Opus 5.5's safety classifiers can occasionally decline; "default" re-runs a declined request on
 # Anthropic's recommended fallback model instead of returning the refusal.
 FALLBACK_BETA = "server-side-fallback-2026-07-01"
 MAX_SIDE = 1024
