@@ -1,5 +1,5 @@
 import { buildManifestHealth } from './reaction-diagnostics.mjs';
-import { selectNearestReaction } from './reaction-selection.mjs';
+import { readoutShape, selectMatchedReaction, selectNearestReaction } from './reaction-selection.mjs';
 import { isNearBottom } from './transcript-scroll.mjs';
 import { createTurnModalController } from './turn-modal.mjs';
 import { WeatherHistory } from './weather-state.mjs';
@@ -13,6 +13,9 @@ const diagnosticsDialog = document.querySelector('#turn-diagnostics-dialog');
 const modalContent = document.querySelector('#turn-modal-content');
 const layerInput = document.querySelector('#layer');
 const messages = [];
+// Most recent winner first; lets selection avoid showing the same reaction every turn.
+const recentReactionIds = [];
+const RECENT_REACTION_LIMIT = 4;
 let weatherSequence = 0;
 
 const reactionManifestPromise = fetch('/reaction-metadata/reaction_manifest.json')
@@ -177,6 +180,62 @@ function createPrototypeMatches(snapshot) {
   return section;
 }
 
+function describeReading(estimate) {
+  if (!estimate) return '—';
+  const modes = (estimate.modes || []).map(mode => mode.concepts.join('/')).join(' vs ');
+  const label = modes || estimate.matches?.[0]?.concept || '—';
+  return `${label} ${formatCoordinate(estimate.valence, estimate.arousal)}`;
+}
+
+function describeTarget(target) {
+  if (!target) return '—';
+  return Object.entries(target)
+    .sort((left, right) => right[1] - left[1])
+    .map(([name, score]) => `${name} ${Math.round(score * 100)}%`)
+    .join(' · ');
+}
+
+function describeSelection(snapshot) {
+  if (snapshot.reaction?.method === 'activation') {
+    return `Activation match · similarity ${snapshot.reaction.candidates[0]?.similarity?.toFixed(3) ?? '—'}`;
+  }
+  return `Coordinates${snapshot.reaction_match?.reason ? ` · ${snapshot.reaction_match.reason}` : ''}`;
+}
+
+function describeShape(shape) {
+  if (shape.kind === 'drift') return `Drift: planned ${describeReading(shape.from)} → wrote ${describeReading(shape.to)}`;
+  if (shape.kind === 'split') return `Split: ${shape.modes.map(mode => mode.concepts.join('/')).join(' vs ')}`;
+  return 'Single feeling';
+}
+
+function createSpanReadings(snapshot) {
+  const section = document.createElement('section');
+  section.className = 'turn-prototype-matches turn-span-readings';
+  const heading = document.createElement('h3');
+  heading.textContent = `Per-token readings · layer ${snapshot.spans?.layer ?? '—'}`;
+  const list = document.createElement('dl');
+  list.className = 'response-detail-values';
+  const spans = snapshot.spans;
+  if (!spans || spans.error) {
+    addDetail(list, 'Unavailable', spans?.error || 'This turn has no span readings.');
+    section.append(heading, list);
+    return section;
+  }
+  const reply = spans.reply;
+  const peaks = (reply?.peaks || [])
+    .map(peak => `${peak.concept} at ${JSON.stringify(spans.reply_tokens?.[peak.token_index] ?? '?')}`)
+    .join(' · ');
+  addDetail(list, 'Reading the user', describeReading(spans.user?.mean));
+  addDetail(list, 'Planned (boundary)', describeReading(spans.boundary));
+  addDetail(list, 'While replying', describeReading(reply?.mean));
+  addDetail(list, 'Reply peaks', peaks || '—');
+  addDetail(list, 'Reply is about', describeTarget(reply?.mean?.target));
+  addDetail(list, 'Shape', describeShape(snapshot.shape || readoutShape(snapshot)));
+  if (!spans.example_prototypes) addDetail(list, 'Note', 'Calibrated without examples; re-run calibration.', true);
+  section.append(heading, list);
+  return section;
+}
+
 function positionMarker(marker, valence, arousal) {
   marker.style.left = `${(valence + 1) * 50}%`;
   marker.style.top = `${(1 - arousal) * 50}%`;
@@ -227,6 +286,7 @@ function renderTurnModal(snapshot) {
   addDetail(list, 'Selected asset coordinate', asset ? formatCoordinate(asset.valence, asset.arousal) : '—');
   addDetail(list, 'Distance to selected asset', Number.isFinite(snapshot.reaction?.distance) ? snapshot.reaction.distance.toFixed(4) : '—');
   addDetail(list, 'Coordinate source', String(asset?.coordinateSource || '—').toUpperCase());
+  addDetail(list, 'Selected by', describeSelection(snapshot));
   addDetail(list, 'Generation debug ID', snapshot.generation?.debug_id || '—');
   details.append(list);
   grid.append(details);
@@ -285,7 +345,9 @@ function createResponseDetails(snapshot) {
   const asset = snapshot.reaction?.asset;
   addDetail(list, 'Valence', snapshot.affect.valence.toFixed(3));
   addDetail(list, 'Arousal', snapshot.affect.arousal.toFixed(3));
+  addDetail(list, 'Dominance', Number.isFinite(snapshot.affect.dominance) ? snapshot.affect.dominance.toFixed(3) : '—');
   addDetail(list, 'Confidence', `${Math.round(snapshot.affect.confidence * 100)}%`);
+  addDetail(list, 'Weather from', snapshot.weather_source === 'reply' ? 'Reply as written' : 'Response boundary');
   addDetail(list, 'Color', `${snapshot.color.hex} · rgb(${snapshot.color.raw_rgb.join(', ')})`);
   addDetail(list, 'Layer', String(snapshot.layer));
   addDetail(list, 'Boundary token', `${JSON.stringify(snapshot.response_start_token)} (${snapshot.response_start_token_id})`);
@@ -297,13 +359,14 @@ function createResponseDetails(snapshot) {
   addDetail(list, 'Asset coordinate', asset ? formatCoordinate(asset.valence, asset.arousal) : '—');
   addDetail(list, 'Distance', Number.isFinite(snapshot.reaction?.distance) ? snapshot.reaction.distance.toFixed(4) : '—');
   addDetail(list, 'Coordinate source', String(asset?.coordinateSource || '—').toUpperCase());
+  addDetail(list, 'Selected by', describeSelection(snapshot));
   addDetail(list, 'Asset type', asset ? (asset.animated ? 'Animated' : 'Static') : '—');
   addDetail(list, 'Generation debug ID', snapshot.generation?.debug_id || '—');
   addDetail(list, 'Stop reason', snapshot.generation?.stop_reason || '—');
   addDetail(list, 'Generated tokens', Number.isInteger(snapshot.generation?.generated_token_count) ? String(snapshot.generation.generated_token_count) : '—');
   addDetail(list, 'Server/frontend match', formatTextMatch(snapshot.generation?.server_frontend_text_match), snapshot.generation?.server_frontend_text_match === false);
   overview.append(list);
-  body.append(overview, createPrototypeMatches(snapshot), createCandidateTable(snapshot), createManifestHealth(snapshot));
+  body.append(overview, createSpanReadings(snapshot), createPrototypeMatches(snapshot), createCandidateTable(snapshot), createManifestHealth(snapshot));
   details.append(summary, body);
   return details;
 }
@@ -411,15 +474,23 @@ form.addEventListener('submit', async event => {
     const result = await response.json();
     if (!response.ok) throw new Error(result.detail || 'Local inference failed');
     const manifest = await reactionManifestPromise;
-    const reaction = selectNearestReaction(manifest.assets, result.affect.valence, result.affect.arousal);
+    const reaction = selectMatchedReaction(manifest.assets, result.reaction_match?.candidates, { recent: recentReactionIds })
+      || selectNearestReaction(manifest.assets, result.affect.valence, result.affect.arousal, {
+        dominance: result.affect.dominance,
+        recent: recentReactionIds,
+      });
     if (!reaction.asset && manifest.loadError) reaction.fallbackReason = manifest.loadError;
+    if (reaction.asset) {
+      recentReactionIds.unshift(reaction.asset.id);
+      recentReactionIds.splice(RECENT_REACTION_LIMIT);
+    }
     thinking.remove();
     const article = addMessage('assistant', result.assistant_text, '', keepAtBottom);
     result.generation.server_frontend_text_match = await reportFrontendRender(
       result.generation.debug_id,
       article.querySelector('p').textContent,
     );
-    const weatherSnapshot = { ...result, reaction, manifestHealth: buildManifestHealth(manifest) };
+    const weatherSnapshot = { ...result, reaction, shape: readoutShape(result), manifestHealth: buildManifestHealth(manifest) };
     attachWeatherSnapshot(article, weatherSnapshot, keepAtBottom);
     messages.push({ role: 'assistant', content: result.assistant_text });
   } catch (error) {

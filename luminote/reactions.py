@@ -278,3 +278,30 @@ def write_manifest(reaction_root: Path, manifest: dict[str, Any]) -> Path:
     output = metadata / "reaction_manifest.json"
     output.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n")
     return output
+
+
+def resolve_descriptions(
+    asset: dict[str, Any], own: dict[str, list[str]], starters: dict[str, list[str]]
+) -> tuple[list[str], str | None]:
+    """Descriptions for reaction matching, and where they came from.
+
+    An asset's own descriptions win, looked up by asset ID and then by its label without a
+    variant number, so `neutral_02` can share `neutral`'s. Otherwise it borrows the starter for
+    the feeling its label names: exactly (`worried`), or as a word within it (`worried kermit`),
+    preferring the longest match so `light-hearted` beats `hearted`.
+    """
+    label = normalize_label(asset.get("label") or asset["id"])
+    keys = [asset["id"], label, base_variant_label(label)]
+    for key in keys:
+        texts = [text for text in own.get(key, []) if text.strip()]
+        if texts:
+            return texts, "own"
+    normalized = {normalize_label(key): key for key in starters}
+    for key in (label, base_variant_label(label)):
+        if key in normalized:
+            return list(starters[normalized[key]]), f"starter:{normalized[key]}"
+    base = base_variant_label(label)
+    for name in sorted(normalized, key=len, reverse=True):
+        if re.search(rf"(?<![\w-]){re.escape(name)}(?![\w-])", base):
+            return list(starters[normalized[name]]), f"starter:{normalized[name]}"
+    return [], None

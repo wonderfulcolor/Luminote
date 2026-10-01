@@ -36,3 +36,6 @@ screenshots/*
 *.pth
 *.pt
 *.bin
+
+data/external/
+luminote-reactions/metadata/reaction_descriptions.candidates.json

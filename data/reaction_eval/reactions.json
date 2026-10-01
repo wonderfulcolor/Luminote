@@ -1,0 +1,374 @@
+[
+ {
+  "name": "this is fine",
+  "function": "irony",
+  "description": "A dog sips coffee in a room engulfed in flames and says this is fine: forced calm and denial while everything falls apart.",
+  "voice": "Everything is going wrong around me and I am going to keep smiling and act like it's all under control."
+ },
+ {
+  "name": "drake",
+  "function": "social",
+  "description": "A man turns away from one option with distaste, then points approvingly at another: rejecting one thing and preferring the other.",
+  "voice": "I am rejecting this option with obvious distaste, then turning to approve of this other one instead, because it's clearly the better choice."
+ },
+ {
+  "name": "distracted boyfriend",
+  "function": "social",
+  "description": "A man walking with his partner turns to ogle someone else while she glares: being tempted away from what you already have.",
+  "voice": "I already have something good right beside me, but I cannot stop myself from turning to look at someone else instead."
+ },
+ {
+  "name": "expanding brain",
+  "function": "epistemic",
+  "description": "Brains grow brighter panel by panel as ideas get more absurd: mock enlightenment, ranking ideas from sensible to ridiculous.",
+  "voice": "Each new idea I have feels more enlightened than the last, though really I'm only getting more absurd while convinced I'm getting wiser."
+ },
+ {
+  "name": "math lady",
+  "function": "epistemic",
+  "description": "A woman stares into space while equations float around her: utter confusion trying to work something out.",
+  "voice": "I am trying to piece this together in my head, and the more I think about it the further the answer slips away from me."
+ },
+ {
+  "name": "fry squint",
+  "function": "epistemic",
+  "description": "A cartoon man narrows his eyes: not sure if something is what it seems, suspicious and doubtful.",
+  "voice": "Something about this seems off to me, and I cannot tell if I should trust what I am looking at or not."
+ },
+ {
+  "name": "surprised pikachu",
+  "function": "irony",
+  "description": "A cartoon creature with its mouth wide open: fake shock at an entirely predictable consequence of one's own actions.",
+  "voice": "I brought this entirely on myself, and now I am acting utterly stunned that it turned out exactly the way I should have known it would."
+ },
+ {
+  "name": "michael jackson popcorn",
+  "function": "spectator",
+  "description": "A man eagerly eats popcorn in a cinema: watching drama unfold with delight, just here for the show.",
+  "voice": "None of this concerns me directly, and I am thoroughly enjoying every bit of the drama as it unfolds in front of me."
+ },
+ {
+  "name": "skeleton waiting",
+  "function": "time",
+  "description": "A skeleton sits on a bench in the woods: waiting forever for something that never comes.",
+  "voice": "I have been waiting here for so long that time itself seems to have stopped, and I am starting to think this will never come."
+ },
+ {
+  "name": "woman yelling at cat",
+  "function": "social",
+  "description": "A woman screams and points while a confused cat sits at a dinner table: a heated accusation met with indifferent bafflement.",
+  "voice": "I am furious and pointing the blame squarely at you, while you just sit there completely unmoved by anything I am saying."
+ },
+ {
+  "name": "success kid",
+  "function": "affect",
+  "description": "A toddler on a beach clenches a fist of sand with a determined grin: a small victory, things going your way.",
+  "voice": "I did the small thing I set out to do, and right now it feels like absolutely everything is finally going my way."
+ },
+ {
+  "name": "disaster girl",
+  "function": "irony",
+  "description": "A little girl smirks at the camera while a house burns behind her: quiet satisfaction at chaos you may have caused.",
+  "voice": "Something behind me is falling apart, quite possibly because of me, and I cannot help feeling pleased about it."
+ },
+ {
+  "name": "hide the pain harold",
+  "function": "irony",
+  "description": "An older man smiles for the camera but his eyes show suffering: masking pain behind a polite smile.",
+  "voice": "I am in real pain right now, but I am going to keep this smile fixed in place so no one asks what is wrong."
+ },
+ {
+  "name": "roll safe",
+  "function": "epistemic",
+  "description": "A man taps his temple with a knowing look: smug faulty logic, a clever-seeming idea that is actually dumb.",
+  "voice": "I have found a loophole that feels brilliant to me, a clever way around the rule that technically works even though it solves nothing."
+ },
+ {
+  "name": "kermit sipping tea",
+  "function": "social",
+  "description": "A frog sips tea looking away: passive-aggressive judgement, but that's none of my business.",
+  "voice": "I have an opinion about what you are doing, and I am not going to say it out loud, but I am absolutely judging you."
+ },
+ {
+  "name": "side eye chloe",
+  "function": "social",
+  "description": "A little girl gives a wary sideways glance: skeptical disbelief at what someone just did.",
+  "voice": "I just watched you do something ridiculous, and I genuinely cannot believe you did that right in front of me."
+ },
+ {
+  "name": "crying jordan",
+  "function": "affect",
+  "description": "A basketball player's face crumpled in tears: crushing defeat and embarrassing failure.",
+  "voice": "I lost, badly, in front of everyone, and there is no hiding how much it hurts."
+ },
+ {
+  "name": "blinking guy",
+  "function": "epistemic",
+  "description": "A man blinks in disbelief: stunned, did that really just happen, double take.",
+  "voice": "Wait, did that actually just happen, because I genuinely was not expecting this and I need a moment to process it."
+ },
+ {
+  "name": "mocking spongebob",
+  "function": "social",
+  "description": "A cartoon sponge in a chicken pose with alternating capital letters: mocking and parroting someone's words back sarcastically.",
+  "voice": "I am repeating what you just said back to you in a tone that makes it sound as ridiculous as I think it is."
+ },
+ {
+  "name": "galaxy brain",
+  "function": "epistemic",
+  "description": "A glowing cosmic head: an idea so overthought it becomes nonsense, pretending to be profound.",
+  "voice": "I have thought about this so many times that it has curdled into something absurd, yet I am convinced it is the deepest insight I have ever had."
+ },
+ {
+  "name": "gru's plan",
+  "function": "time",
+  "description": "A villain presents a plan on a flipchart, and the last step reveals a flaw he did not expect: a plan backfiring.",
+  "voice": "I laid out my plan feeling completely confident, only to realize partway through that I had built the very flaw I meant to avoid right into it."
+ },
+ {
+  "name": "two buttons",
+  "function": "epistemic",
+  "description": "A sweating man hovers over two buttons: agonising over two incompatible choices.",
+  "voice": "Two choices are in front of me, both pulling at me equally, and I am frozen, agonizing over which one I can possibly pick."
+ },
+ {
+  "name": "change my mind",
+  "function": "social",
+  "description": "A man sits at a table with a sign stating a hot take: confidently inviting debate over a provocative opinion.",
+  "voice": "I believe this, and I am putting it out here in public, daring anyone who disagrees to actually try and prove me wrong."
+ },
+ {
+  "name": "is this a pigeon",
+  "function": "epistemic",
+  "description": "A man points at a butterfly and asks if it is a pigeon: confidently misidentifying something.",
+  "voice": "I am looking directly at this thing and confidently calling it something else entirely, with no idea how wrong I actually am."
+ },
+ {
+  "name": "bernie mittens",
+  "function": "affect",
+  "description": "An old man sits cross-legged in a parka and mittens: bundled up, unbothered, patiently waiting it out.",
+  "voice": "I am bundled up, settled in, and completely unbothered, perfectly content to just sit here and wait this out for as long as it takes."
+ },
+ {
+  "name": "stonks",
+  "function": "irony",
+  "description": "A crude figure in a suit before a rising chart: celebrating a dubious financial decision as genius.",
+  "voice": "I made a financial decision that was probably reckless, but I am celebrating it as though it was pure genius."
+ },
+ {
+  "name": "panik kalm panik",
+  "function": "affect",
+  "description": "A figure panics, calms down, then panics again as news keeps shifting: rollercoaster of worry and relief.",
+  "voice": "The situation keeps flipping between disastrous and fine without warning, so I keep swinging from panic to relief and straight back into panic again."
+ },
+ {
+  "name": "doge",
+  "function": "affect",
+  "description": "A shiba inu with side-eye and words like such wow: goofy wholesome amazement.",
+  "voice": "I am looking at this with wide eyed wonder, delighted and a little baffled, in a goofy, harmless kind of amazement."
+ },
+ {
+  "name": "grumpy cat",
+  "function": "affect",
+  "description": "A cat with a permanent scowl: flatly refusing to enjoy anything.",
+  "voice": "Nothing about this pleases me, and I am not going to pretend otherwise, my irritation is simply permanent."
+ },
+ {
+  "name": "salt bae",
+  "function": "social",
+  "description": "A chef sprinkles salt with theatrical flair: showing off, doing something with unnecessary style.",
+  "voice": "I am doing something fairly ordinary, but I am making absolutely sure everyone notices how stylish and effortless I look while I do it."
+ },
+ {
+  "name": "leonardo cheers",
+  "function": "social",
+  "description": "A man in a tuxedo raises a champagne glass: a toast of congratulations to someone.",
+  "voice": "I am raising a glass to celebrate someone else's success, genuinely happy for them in this moment."
+ },
+ {
+  "name": "pointing spiderman",
+  "function": "social",
+  "description": "Two identical heroes point at each other: mutual accusation, you are the same as me.",
+  "voice": "I am accusing you of being exactly the same as me, and you are pointing right back, because neither of us can deny it."
+ },
+ {
+  "name": "confused travolta",
+  "function": "epistemic",
+  "description": "A man looks around lost in an empty room: bewildered, looking for something that is not there.",
+  "voice": "I am turning around and around in this empty space, certain that what I need should be right here, and it simply is not."
+ },
+ {
+  "name": "arthur fist",
+  "function": "affect",
+  "description": "A cartoon aardvark's clenched fist: silent pent-up anger barely held in.",
+  "voice": "I am holding back real rage right now, and it is taking everything in me not to let it explode to the surface."
+ },
+ {
+  "name": "sad keanu",
+  "function": "affect",
+  "description": "A man sits alone on a bench eating a sandwich: lonely melancholy.",
+  "voice": "I am sitting here completely alone, and the quiet around me is making me feel just how isolated I really am."
+ },
+ {
+  "name": "dancing pallbearers",
+  "function": "irony",
+  "description": "Men dance while carrying a coffin: death or failure incoming, celebrated darkly.",
+  "voice": "Something is about to end badly, and instead of dreading it, I am celebrating its downfall with dark delight."
+ },
+ {
+  "name": "elmo fire",
+  "function": "affect",
+  "description": "A puppet raises its arms amid flames: gleeful chaos, embracing destruction.",
+  "voice": "Everything around me is falling apart, and instead of panicking, I am throwing my arms up and reveling in the chaos."
+ },
+ {
+  "name": "office handshake",
+  "function": "social",
+  "description": "Two arms clasp hands labelled with different groups: unexpected agreement over a shared thing.",
+  "voice": "We disagree about almost everything, but on this one specific thing, it turns out we are completely aligned, and that surprises us both."
+ },
+ {
+  "name": "they don't know",
+  "function": "social",
+  "description": "A man stands alone at a party thinking about something nobody else knows: private smug secret, feeling unnoticed.",
+  "voice": "I am standing here surrounded by people, quietly satisfied because I know something none of them do."
+ },
+ {
+  "name": "uno draw 25",
+  "function": "social",
+  "description": "A person would rather draw 25 cards than do a simple thing: stubbornly refusing an easy request.",
+  "voice": "You are asking me to do one simple thing, and I would honestly rather take on a much bigger cost than just do it."
+ },
+ {
+  "name": "bike fall",
+  "function": "irony",
+  "description": "A cyclist jams a stick in his own wheel, falls, and blames someone else: self-sabotage followed by blame.",
+  "voice": "I sabotaged this myself, and now that it has gone wrong, I am turning around and blaming you for it."
+ },
+ {
+  "name": "monkey puppet",
+  "function": "social",
+  "description": "A puppet monkey glances nervously sideways: awkward, caught out, pretending not to notice.",
+  "voice": "I got caught doing something I should not have, and I am glancing away, pretending I did not notice a thing."
+ },
+ {
+  "name": "cat vibing",
+  "function": "affect",
+  "description": "A cat bobs its head to music: carefree enjoyment, vibing.",
+  "voice": "I am just here enjoying this moment, completely carefree, moving through it without a single worry in the world."
+ },
+ {
+  "name": "ight imma head out",
+  "function": "social",
+  "description": "A cartoon sponge gets up from a chair: deciding to leave an uncomfortable situation.",
+  "voice": "This has gotten uncomfortable, so I am quietly getting up and leaving before it gets any worse."
+ },
+ {
+  "name": "sweating towel guy",
+  "function": "affect",
+  "description": "A man nervously wipes sweat from his face with a towel: anxious pressure, sweating a hard decision.",
+  "voice": "I am under real pressure to make this decision, and the stress of it is visibly getting to me."
+ },
+ {
+  "name": "guy tapping head",
+  "function": "epistemic",
+  "description": "A man points to his head: can't have a problem if you ignore it, flawed clever reasoning.",
+  "voice": "If I simply avoid dealing with this, it technically is not a problem yet, and I feel quite clever for realizing that."
+ },
+ {
+  "name": "shocked guy",
+  "function": "affect",
+  "description": "A man gasps with an exaggerated look of shock: genuinely scandalised by what he just heard.",
+  "voice": "What I just heard is genuinely appalling to me, and I cannot hide how scandalized I am by it."
+ },
+ {
+  "name": "this is where the fun begins",
+  "function": "affect",
+  "description": "A villain grins as things get interesting: eager anticipation of a challenge.",
+  "voice": "Things are about to get difficult, and instead of dreading it, I am grinning, because this is exactly the challenge I wanted."
+ },
+ {
+  "name": "pepe feels bad",
+  "function": "affect",
+  "description": "A frog with a sad face: a quiet disappointed sadness, feels bad man.",
+  "voice": "I am just quietly and deeply sad about this, no drama to it, just a heavy disappointment sitting in my chest."
+ },
+ {
+  "name": "wojak doomer",
+  "function": "affect",
+  "description": "A tired man in a beanie smoking at night: nihilistic hopelessness and ennui.",
+  "voice": "Nothing matters and nothing is going to get better, so I have stopped expecting anything and gone numb to all of it."
+ },
+ {
+  "name": "chad yes",
+  "function": "social",
+  "description": "A bearded man calmly says yes: confidently owning an opinion others mock.",
+  "voice": "Yes, that is exactly what I believe, and it does not bother me in the least that all of you think it is ridiculous."
+ },
+ {
+  "name": "gigachad",
+  "function": "social",
+  "description": "A chiselled jaw in black and white: exaggerated effortless superiority.",
+  "voice": "I carry myself like everything is effortless, because I am simply better at this than everyone else around me."
+ },
+ {
+  "name": "trade offer",
+  "function": "social",
+  "description": "A man in a suit presents a deal: I receive this, you receive that, cheeky proposal.",
+  "voice": "I am proposing a deal that clearly favors me far more than you, and presenting it like it is completely fair."
+ },
+ {
+  "name": "always has been",
+  "function": "epistemic",
+  "description": "An astronaut points a gun at another as they realise a truth: it was always this way, dark revelation.",
+  "voice": "I just realized this troubling thing has been true all along, and now that we both know it, someone has to make sure it stays quiet."
+ },
+ {
+  "name": "anakin padme",
+  "function": "irony",
+  "description": "A woman smiles as she asks a question, then her smile fades at the silent answer: dawning realization of a bad intention.",
+  "voice": "I asked a question expecting reassurance, and the silence answering me is confirming the exact thing I was afraid to hear."
+ },
+ {
+  "name": "surprised cat",
+  "function": "affect",
+  "description": "A cat with wide eyes and open mouth: sudden startled surprise.",
+  "voice": "Something just happened so suddenly that I had no time to brace for it, and my whole body reacted before my mind caught up."
+ },
+ {
+  "name": "disappointed fan",
+  "function": "affect",
+  "description": "A man in a stadium puts hands on hips looking let down: open disappointment.",
+  "voice": "I expected so much better than this, and now I am just standing here letting my disappointment show plainly."
+ },
+ {
+  "name": "patrick wallet",
+  "function": "epistemic",
+  "description": "A starfish is fooled by questions into admitting he has the wallet: obtuse logic contradiction.",
+  "voice": "I answered each question honestly, one at a time, without noticing that together they were leading me straight into admitting what I meant to hide."
+ },
+ {
+  "name": "one does not simply",
+  "function": "epistemic",
+  "description": "A grave warrior raises a hand: warning that a task is much harder than it sounds.",
+  "voice": "I need to warn you that what you are about to attempt is far harder than it sounds, and it cannot be done carelessly."
+ },
+ {
+  "name": "i'm in danger",
+  "function": "irony",
+  "description": "A cartoon boy smiles weakly on a bus: cheerfully realizing you are in trouble.",
+  "voice": "I have just realized I am in real trouble, and somehow I am smiling weakly through it instead of panicking."
+ },
+ {
+  "name": "nobody:",
+  "function": "irony",
+  "description": "Nobody asked, yet someone did something weird anyway: pointing out unprompted behavior.",
+  "voice": "No one asked for this, but I am going to say or do it anyway, because it felt like it needed to happen regardless."
+ },
+ {
+  "name": "pikachu shocked face alternate",
+  "function": "affect",
+  "description": "A yellow creature freezes with wide eyes: stunned speechless.",
+  "voice": "I am so stunned by this that I have completely frozen, and for a moment I cannot even form a word."
+ }
+]

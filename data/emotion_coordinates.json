@@ -1,6 +1,7 @@
 {
   "version": 1,
   "coordinate_basis": "Approximate normalized positions transcribed from the supplied labeled affective circumplex; editable research hypotheses, not ground truth.",
+  "dominance_basis": "Concept dominance (sense of control, the D in the pleasure-arousal-dominance model) is a researcher-assigned hypothesis in [-1, 1]. It separates feelings that share valence and arousal, such as anger (in control) and fear (not in control).",
   "diagram_reference_points": [
     {"name": "alarmed", "valence": -0.20, "arousal": 0.91},
     {"name": "astonished", "valence": 0.31, "arousal": 0.89},
@@ -56,25 +57,25 @@
     "In one line, express a situation associated with {concept}."
   ],
   "concepts": [
-    {"name": "joyful", "valence": 0.85, "arousal": 0.72},
-    {"name": "excited", "valence": 0.78, "arousal": 0.92},
-    {"name": "enthusiastic", "valence": 0.72, "arousal": 0.76},
-    {"name": "delighted", "valence": 0.90, "arousal": 0.62},
-    {"name": "angry", "valence": -0.78, "arousal": 0.82},
-    {"name": "tense", "valence": -0.56, "arousal": 0.78},
-    {"name": "afraid", "valence": -0.72, "arousal": 0.72},
-    {"name": "distressed", "valence": -0.86, "arousal": 0.62},
-    {"name": "sad", "valence": -0.78, "arousal": -0.52},
-    {"name": "miserable", "valence": -0.92, "arousal": -0.35},
-    {"name": "depressed", "valence": -0.82, "arousal": -0.68},
-    {"name": "tired", "valence": -0.38, "arousal": -0.90},
-    {"name": "calm", "valence": 0.48, "arousal": -0.72},
-    {"name": "content", "valence": 0.68, "arousal": -0.48},
-    {"name": "relaxed", "valence": 0.62, "arousal": -0.78},
-    {"name": "serene", "valence": 0.72, "arousal": -0.68},
-    {"name": "neutral", "valence": 0.00, "arousal": 0.00},
-    {"name": "attentive", "valence": 0.15, "arousal": -0.18},
-    {"name": "uncertain", "valence": -0.18, "arousal": 0.18},
-    {"name": "reflective", "valence": 0.08, "arousal": -0.32}
+    {"name": "joyful", "valence": 0.85, "arousal": 0.72, "dominance": 0.45},
+    {"name": "excited", "valence": 0.78, "arousal": 0.92, "dominance": 0.40},
+    {"name": "enthusiastic", "valence": 0.72, "arousal": 0.76, "dominance": 0.50},
+    {"name": "delighted", "valence": 0.90, "arousal": 0.62, "dominance": 0.40},
+    {"name": "angry", "valence": -0.78, "arousal": 0.82, "dominance": 0.35},
+    {"name": "tense", "valence": -0.56, "arousal": 0.78, "dominance": -0.30},
+    {"name": "afraid", "valence": -0.72, "arousal": 0.72, "dominance": -0.65},
+    {"name": "distressed", "valence": -0.86, "arousal": 0.62, "dominance": -0.55},
+    {"name": "sad", "valence": -0.78, "arousal": -0.52, "dominance": -0.45},
+    {"name": "miserable", "valence": -0.92, "arousal": -0.35, "dominance": -0.60},
+    {"name": "depressed", "valence": -0.82, "arousal": -0.68, "dominance": -0.70},
+    {"name": "tired", "valence": -0.38, "arousal": -0.90, "dominance": -0.50},
+    {"name": "calm", "valence": 0.48, "arousal": -0.72, "dominance": 0.30},
+    {"name": "content", "valence": 0.68, "arousal": -0.48, "dominance": 0.35},
+    {"name": "relaxed", "valence": 0.62, "arousal": -0.78, "dominance": 0.30},
+    {"name": "serene", "valence": 0.72, "arousal": -0.68, "dominance": 0.35},
+    {"name": "neutral", "valence": 0.00, "arousal": 0.00, "dominance": 0.00},
+    {"name": "attentive", "valence": 0.15, "arousal": -0.18, "dominance": 0.20},
+    {"name": "uncertain", "valence": -0.18, "arousal": 0.18, "dominance": -0.40},
+    {"name": "reflective", "valence": 0.08, "arousal": -0.32, "dominance": 0.10}
   ]
 }

@@ -1,0 +1,960 @@
+{"concept": "joyful", "format": "assistant_reply", "target": "self", "text": "Honestly, helping you debug this made my whole afternoon brighter than I expected, so let's keep going."}
+{"concept": "joyful", "format": "assistant_reply", "target": "other", "text": "Your painting sold at tonight's gallery show. I keep replaying how fast you talked about it on the phone."}
+{"concept": "joyful", "format": "assistant_reply", "target": "situation", "text": "The recipe worked on the first try and the kitchen smells incredible. I'd call that a win worth celebrating."}
+{"concept": "joyful", "format": "assistant_reply", "target": "self", "text": "I don't usually say this, but drafting that poem with you left something warm humming in me all evening."}
+{"concept": "joyful", "format": "assistant_reply", "target": "other", "text": "You finally nailed the landing in your presentation rehearsal. I want to throw confetti through this screen."}
+{"concept": "joyful", "format": "assistant_reply", "target": "situation", "text": "Your garden photos just came through and every single seedling sprouted. What a bright little miracle on your windowsill."}
+{"concept": "joyful", "format": "assistant_reply", "target": "self", "text": "Every time you send me a new chapter of your novel, something in me lights up before I even start reading."}
+{"concept": "joyful", "format": "assistant_reply", "target": "other", "text": "Hearing that your knee surgery went perfectly just made this whole conversation feel lighter."}
+{"concept": "joyful", "format": "user_message", "target": "self", "text": "I just got my citizenship approved today and I keep laughing for no reason. Can you help me plan a little celebration dinner?"}
+{"concept": "joyful", "format": "user_message", "target": "other", "text": "My daughter took her first steps this morning and ran straight into my arms. My chest feels like it might overflow."}
+{"concept": "joyful", "format": "user_message", "target": "situation", "text": "The vegetable garden we started in spring just produced its first ripe tomato and I ran outside barefoot to pick it."}
+{"concept": "joyful", "format": "user_message", "target": "self", "text": "I woke up this morning and for once nothing hurt and the sun was out. I just feel like dancing around my kitchen."}
+{"concept": "joyful", "format": "user_message", "target": "other", "text": "My best friend surprised me at the airport after two years apart and I actually squealed in front of strangers."}
+{"concept": "joyful", "format": "user_message", "target": "situation", "text": "The band I love just announced a reunion tour and tickets go on sale tomorrow. I can barely type this straight."}
+{"concept": "joyful", "format": "user_message", "target": "self", "text": "I passed my driving test on the first attempt and I've been humming the same song on repeat since I left the center."}
+{"concept": "joyful", "format": "user_message", "target": "other", "text": "My mom called to say the biopsy came back clear and I had to pull over because I was grinning too hard to drive."}
+{"concept": "joyful", "format": "first_person", "target": "self", "text": "I spin once in the empty kitchen, socks sliding on the tile, and let out a laugh that belongs to no one but me."}
+{"concept": "joyful", "format": "first_person", "target": "other", "text": "I watch my brother open the letter, and when his eyes go wide I clap both hands over my mouth."}
+{"concept": "joyful", "format": "first_person", "target": "situation", "text": "The train pulls in exactly on time for once, and I practically skip down the platform toward the open doors."}
+{"concept": "joyful", "format": "first_person", "target": "self", "text": "I hum through the whole grocery list, tapping the cart handle like a drum, unable to stop smiling at nothing in particular."}
+{"concept": "joyful", "format": "first_person", "target": "other", "text": "I lean in as she unwraps the gift slowly, savoring it, and when she gasps my chest goes warm and light."}
+{"concept": "joyful", "format": "first_person", "target": "situation", "text": "The first snow of the year is falling outside my window and I press my palm to the cold glass, grinning like a child."}
+{"concept": "joyful", "format": "first_person", "target": "self", "text": "I catch my reflection in the shop window mid-laugh and barely recognize how bright my own face looks today."}
+{"concept": "joyful", "format": "first_person", "target": "situation", "text": "The orchard is heavy with ripe apples this year, more than we can carry, and I keep laughing at how full our baskets are."}
+{"concept": "joyful", "format": "third_person", "target": "self", "text": "Grandma Rosa kicks off her sandals and dances barefoot across the porch the moment the radio finds her favorite song."}
+{"concept": "joyful", "format": "third_person", "target": "other", "text": "Deshawn reads the acceptance letter over his son's shoulder twice, then lifts the boy clean off the floor."}
+{"concept": "joyful", "format": "third_person", "target": "situation", "text": "The whole village turns out at dawn when the fishing boats return low in the water, nets bursting with silver."}
+{"concept": "joyful", "format": "third_person", "target": "self", "text": "Priya keeps humming the same three notes all through dinner, unable to stop even when her mother teases her about it."}
+{"concept": "joyful", "format": "third_person", "target": "other", "text": "Tomas watches his daughter score her first goal and sprints the length of the sideline waving both arms overhead."}
+{"concept": "joyful", "format": "third_person", "target": "situation", "text": "The bakery's ovens finally work again after months of repairs, and by nine the whole street smells of fresh bread."}
+{"concept": "joyful", "format": "third_person", "target": "self", "text": "Old Mr. Whitfield whistles the whole walk home, swinging his cane like a baton, grinning at every passerby."}
+{"concept": "joyful", "format": "third_person", "target": "other", "text": "Nadia catches her sister's eye across the wedding hall and the two of them burst into the same laugh at once."}
+{"concept": "joyful", "format": "dialogue", "target": "self", "text": "Ben: I can't stop smiling, my body actually feels lighter today."}
+{"concept": "joyful", "format": "dialogue", "target": "other", "text": "Ama: You got the part. Tell me again, I want to hear every word twice."}
+{"concept": "joyful", "format": "dialogue", "target": "situation", "text": "Leo: It rained all week and now look, the whole valley is green again."}
+{"concept": "joyful", "format": "dialogue", "target": "self", "text": "Junko: Something in my chest keeps doing this little flip since this morning."}
+{"concept": "joyful", "format": "dialogue", "target": "other", "text": "Carlos: Say it again, slower, I want to hear every word about your promotion."}
+{"concept": "joyful", "format": "dialogue", "target": "situation", "text": "Ruth: The bridge is finally open, we can walk straight to the market again."}
+{"concept": "joyful", "format": "dialogue", "target": "self", "text": "Idris: Something's been buzzing under my ribs since sunrise, and I like it."}
+{"concept": "joyful", "format": "dialogue", "target": "other", "text": "Sana: Look at you, walking across that stage. I could burst."}
+{"concept": "joyful", "format": "situation", "target": "situation", "text": "A family gathers around a hospital bed as the doctor announces the tumor markers have dropped to zero."}
+{"concept": "joyful", "format": "situation", "target": "situation", "text": "Confetti cannons fire over a stadium crowd as the home team scores in the final second of the match."}
+{"concept": "joyful", "format": "situation", "target": "situation", "text": "A letter arrives confirming the scholarship covers full tuition for all four years."}
+{"concept": "joyful", "format": "situation", "target": "situation", "text": "The whole neighborhood strings lights between the rooftops for the first festival since the flood receded."}
+{"concept": "joyful", "format": "situation", "target": "situation", "text": "A newborn is placed on her mother's chest for the first time, still warm from birth."}
+{"concept": "joyful", "format": "situation", "target": "situation", "text": "Kids race out of the schoolhouse doors on the last day before summer break, backpacks bouncing."}
+{"concept": "joyful", "format": "situation", "target": "situation", "text": "A long-lost dog trots back up the driveway three weeks after going missing."}
+{"concept": "joyful", "format": "situation", "target": "situation", "text": "The orchestra hits its final chord and the entire hall rises to its feet at once."}
+{"concept": "excited", "format": "assistant_reply", "target": "self", "text": "I'll admit, I've been looking forward to building this feature with you all day, so let's dive in right now."}
+{"concept": "excited", "format": "assistant_reply", "target": "other", "text": "Ten minutes until your flight boards and you're still messaging me? Go, tell me everything the second you land."}
+{"concept": "excited", "format": "assistant_reply", "target": "situation", "text": "The model just hit 98 percent accuracy on the first run. I want to rerun it three more times just to watch it happen again."}
+{"concept": "excited", "format": "assistant_reply", "target": "self", "text": "Every time you paste a new plot twist into this chat, I catch myself typing faster just to see what happens next."}
+{"concept": "excited", "format": "assistant_reply", "target": "other", "text": "You leave for the marathon start line in an hour. I keep refreshing to see if you've messaged the bib number yet."}
+{"concept": "excited", "format": "assistant_reply", "target": "situation", "text": "The telescope data just came back and there's a second ring around that planet nobody predicted."}
+{"concept": "excited", "format": "assistant_reply", "target": "self", "text": "I've read your itinerary four times now and I keep adding notes about the volcano hike even though I'm not the one going."}
+{"concept": "excited", "format": "assistant_reply", "target": "other", "text": "You start the new job Monday and you're asking me about staplers. Save some of that energy, you're going to need it."}
+{"concept": "excited", "format": "user_message", "target": "self", "text": "I leave for Tokyo in six hours and I've already repacked my bag twice, can you help me figure out what I'm forgetting?"}
+{"concept": "excited", "format": "user_message", "target": "other", "text": "My sister just texted that she's landing early, I keep checking the clock and pacing by the door."}
+{"concept": "excited", "format": "user_message", "target": "situation", "text": "The concert tickets just dropped and the queue counter is moving, my leg won't stop bouncing under the desk."}
+{"concept": "excited", "format": "user_message", "target": "self", "text": "I start rehearsals for the play tomorrow and I've read my lines so many times I'm saying them in my sleep."}
+{"concept": "excited", "format": "user_message", "target": "other", "text": "My best friend is about to call and tell me if she got the job, my phone is literally in my hand already."}
+{"concept": "excited", "format": "user_message", "target": "situation", "text": "The rocket launch is in twenty minutes and the countdown ticker on my second monitor is the only thing I can look at."}
+{"concept": "excited", "format": "user_message", "target": "self", "text": "I just found out I get to present at the conference and I've already drafted six versions of my opening line."}
+{"concept": "excited", "format": "user_message", "target": "other", "text": "My cousin's plane touches down in an hour and I've rearranged the welcome sign three times, can you help me word it better?"}
+{"concept": "excited", "format": "first_person", "target": "self", "text": "I keep checking my phone for the departure gate even though I know it hasn't changed, just to have something to do with my hands."}
+{"concept": "excited", "format": "first_person", "target": "other", "text": "I hover by the door an hour before she's due, jingling my keys, watching the driveway for headlights."}
+{"concept": "excited", "format": "first_person", "target": "situation", "text": "The oven timer has four minutes left on the souffle and I haven't sat down once since I put it in."}
+{"concept": "excited", "format": "first_person", "target": "self", "text": "My knee won't stop bouncing under the table while I wait for the results page to finish loading."}
+{"concept": "excited", "format": "first_person", "target": "other", "text": "I text him three times in a row asking if the interview went well, then delete the third one before he can see it."}
+{"concept": "excited", "format": "first_person", "target": "situation", "text": "The storm clouds are finally breaking over the reservoir, and I'm already lacing my boots for the hike."}
+{"concept": "excited", "format": "first_person", "target": "self", "text": "I read the itinerary one more time on the train, tracing the route with my finger even though I've memorized it."}
+{"concept": "excited", "format": "first_person", "target": "situation", "text": "The paint on the mural is almost dry enough to reveal, and I keep peeling back the corner of the tarp to check."}
+{"concept": "excited", "format": "third_person", "target": "self", "text": "Wen packs her camera bag for the fourth time, adding and removing the same lens each time, unable to leave it alone."}
+{"concept": "excited", "format": "third_person", "target": "other", "text": "Marcus stands at the arrivals gate an hour early, phone in hand, refreshing the flight tracker every few seconds."}
+{"concept": "excited", "format": "third_person", "target": "situation", "text": "The whole newsroom crowds around one screen as the results ticker starts climbing past the projected numbers."}
+{"concept": "excited", "format": "third_person", "target": "self", "text": "Tobias can't sit through the meeting without tapping his pen against the table, already thinking about tonight's launch."}
+{"concept": "excited", "format": "third_person", "target": "other", "text": "Grandpa Lee keeps walking to the window every few minutes to check if the moving truck with his grandkids has turned the corner."}
+{"concept": "excited", "format": "third_person", "target": "situation", "text": "The lab's readout starts printing numbers no one expected, and three researchers lean over the same monitor at once."}
+{"concept": "excited", "format": "third_person", "target": "self", "text": "Priya sets three alarms for the audition, then lies awake anyway, running through the monologue in her head."}
+{"concept": "excited", "format": "third_person", "target": "other", "text": "The coach paces the sideline, shouting instructions before the substitute has even finished tying his cleats."}
+{"concept": "excited", "format": "dialogue", "target": "self", "text": "Theo: I've read the confirmation email six times, I still can't believe it's actually happening."}
+{"concept": "excited", "format": "dialogue", "target": "other", "text": "Mira: Text me the second the plane lands, I don't care what time it is."}
+{"concept": "excited", "format": "dialogue", "target": "situation", "text": "Owen: The results post at noon and it's 11:58, why is this clock so slow."}
+{"concept": "excited", "format": "dialogue", "target": "self", "text": "Naledi: My hands won't stop shaking, I keep dropping the pen."}
+{"concept": "excited", "format": "dialogue", "target": "other", "text": "Diego: Tell me again what she said, word for word, I need to hear it twice."}
+{"concept": "excited", "format": "dialogue", "target": "situation", "text": "Farah: The bridge opens to traffic in ten minutes, look at that line of cars already."}
+{"concept": "excited", "format": "dialogue", "target": "self", "text": "Yusuf: I've packed and unpacked this bag three times, I don't even know what I'm looking for anymore."}
+{"concept": "excited", "format": "dialogue", "target": "other", "text": "Colette: The second that email comes through, you call me, drop everything."}
+{"concept": "excited", "format": "situation", "target": "situation", "text": "A countdown clock ticks toward zero above a launch pad as technicians clear the tower for the final time."}
+{"concept": "excited", "format": "situation", "target": "situation", "text": "Fans line up outside a stadium gate six hours before doors open, the first hundred clutching foam fingers."}
+{"concept": "excited", "format": "situation", "target": "situation", "text": "A courier's tracking page updates to out for delivery on the day a long-awaited package is due."}
+{"concept": "excited", "format": "situation", "target": "situation", "text": "Backstage, understudies pace a hallway lined with costume racks twenty minutes before opening night."}
+{"concept": "excited", "format": "situation", "target": "situation", "text": "A queue of cars stretches around the block before a limited release sneaker drop at dawn."}
+{"concept": "excited", "format": "situation", "target": "situation", "text": "The waiting room screen finally flips from delayed to boarding for a flight held for three hours."}
+{"concept": "excited", "format": "situation", "target": "situation", "text": "Interns crowd the loading dock as a truck backs in with the season's first shipment of festival gear."}
+{"concept": "excited", "format": "situation", "target": "situation", "text": "A scoreboard displays two minutes left with the score tied and both benches on their feet."}
+{"concept": "enthusiastic", "format": "assistant_reply", "target": "self", "text": "Let's absolutely restructure this whole codebase, I've got four ideas already and I want to try every one of them."}
+{"concept": "enthusiastic", "format": "assistant_reply", "target": "other", "text": "Tell me more about your painting technique, I want every detail, don't skip the part about mixing the pigments."}
+{"concept": "enthusiastic", "format": "assistant_reply", "target": "situation", "text": "This marketing plan has so many angles we could run with, I've already sketched out three different campaigns."}
+{"concept": "enthusiastic", "format": "assistant_reply", "target": "self", "text": "Give me five minutes with your garden layout and I'll have redesigned half of it, I can already picture the trellises."}
+{"concept": "enthusiastic", "format": "assistant_reply", "target": "other", "text": "Send me photos of every stage of the woodworking project, I want to see the grain before and after you sand it."}
+{"concept": "enthusiastic", "format": "assistant_reply", "target": "situation", "text": "This recipe has so much room to play with, let's swap the spices and try three variations tonight."}
+{"concept": "enthusiastic", "format": "assistant_reply", "target": "self", "text": "I could talk about orbital mechanics with you for hours, keep the questions coming, this is my favorite kind of rabbit hole."}
+{"concept": "enthusiastic", "format": "assistant_reply", "target": "other", "text": "Your business plan has real legs, walk me through the whole pitch again, I want to poke at every assumption with you."}
+{"concept": "enthusiastic", "format": "user_message", "target": "self", "text": "I just signed up to run the community garden committee and I already have a spreadsheet of eleven projects to pitch."}
+{"concept": "enthusiastic", "format": "user_message", "target": "other", "text": "My nephew wants to build a treehouse and I've been sketching designs with him every night this week, can you check my math on the joists?"}
+{"concept": "enthusiastic", "format": "user_message", "target": "situation", "text": "Our book club picked a trilogy and I've already read ahead and made a whole discussion outline, is that too much?"}
+{"concept": "enthusiastic", "format": "user_message", "target": "self", "text": "I volunteered to organize the whole neighborhood cleanup and I've got routes mapped for six different streets already."}
+{"concept": "enthusiastic", "format": "user_message", "target": "other", "text": "My coworker wants to learn to bake and I've been texting her sourdough tips all week, can you help me put together a starter guide?"}
+{"concept": "enthusiastic", "format": "user_message", "target": "situation", "text": "We're redesigning the community center's mural and I've got a dozen sketches, can you help me narrow them down?"}
+{"concept": "enthusiastic", "format": "user_message", "target": "self", "text": "I picked up woodworking three weeks ago and I've already built a bench, a shelf, and I'm eyeing a whole cabinet next."}
+{"concept": "enthusiastic", "format": "user_message", "target": "other", "text": "My daughter wants to enter the science fair and I've been researching volcano kits with her every evening, help me pick the best one."}
+{"concept": "enthusiastic", "format": "first_person", "target": "self", "text": "I fill three notebook pages with plans for the community orchard before I even finish my coffee."}
+{"concept": "enthusiastic", "format": "first_person", "target": "other", "text": "I lean across the table, peppering him with questions about his research until the waiter has to interrupt twice."}
+{"concept": "enthusiastic", "format": "first_person", "target": "situation", "text": "The workshop hands out scrap wood and I'm already sketching a bookshelf on a napkin before the instructor finishes talking."}
+{"concept": "enthusiastic", "format": "first_person", "target": "self", "text": "I volunteer for the mural committee before the sign-up sheet even reaches my row."}
+{"concept": "enthusiastic", "format": "first_person", "target": "other", "text": "I keep asking her to walk me through the recipe again, taking notes on details she thinks are too small to matter."}
+{"concept": "enthusiastic", "format": "first_person", "target": "situation", "text": "The new fabric shipment arrives and I start pinning pattern pieces before the boxes are even unpacked."}
+{"concept": "enthusiastic", "format": "first_person", "target": "self", "text": "I stay after the lecture asking the professor three more questions while everyone else packs up their bags."}
+{"concept": "enthusiastic", "format": "first_person", "target": "situation", "text": "The city announces a public mural wall and I spend the whole bus ride home sketching ideas on the back of a receipt."}
+{"concept": "enthusiastic", "format": "third_person", "target": "self", "text": "Amara signs up for every workshop at the conference, stacking three sessions back to back without a lunch break."}
+{"concept": "enthusiastic", "format": "third_person", "target": "other", "text": "Diego corners his neighbor at the fence to hear more about the beekeeping setup, notebook already out."}
+{"concept": "enthusiastic", "format": "third_person", "target": "situation", "text": "The startup's whiteboard fills with arrows and sticky notes as the team keeps adding ideas past midnight."}
+{"concept": "enthusiastic", "format": "third_person", "target": "self", "text": "Mrs. Okafor rearranges her whole lesson plan overnight after finding a new way to teach fractions with baking."}
+{"concept": "enthusiastic", "format": "third_person", "target": "other", "text": "Sam keeps calling his brother back with follow-up questions about the fishing trip, filling a page with gear notes."}
+{"concept": "enthusiastic", "format": "third_person", "target": "situation", "text": "The community radio station gets a stack of listener ideas for the new show and the producers can't sort them fast enough."}
+{"concept": "enthusiastic", "format": "third_person", "target": "self", "text": "Elena repaints the same fence three times trying a new technique she read about that morning."}
+{"concept": "enthusiastic", "format": "third_person", "target": "other", "text": "The mentor keeps pulling her chair closer to hear more about the student's robotics design."}
+{"concept": "enthusiastic", "format": "dialogue", "target": "self", "text": "Kofi: I've already drawn up four versions of the float, tell me which one to build first."}
+{"concept": "enthusiastic", "format": "dialogue", "target": "other", "text": "Renata: Keep going, tell me every step of how you fixed the engine."}
+{"concept": "enthusiastic", "format": "dialogue", "target": "situation", "text": "Hassan: This project has so many directions, let's list every single one on the board."}
+{"concept": "enthusiastic", "format": "dialogue", "target": "self", "text": "Bea: I signed up for two more shifts at the shelter, I want to help with the training too."}
+{"concept": "enthusiastic", "format": "dialogue", "target": "other", "text": "Omar: Show me the blueprints again, I want to understand every joint in that frame."}
+{"concept": "enthusiastic", "format": "dialogue", "target": "situation", "text": "Ingrid: We could run this festival three different ways, let's map out all of them tonight."}
+{"concept": "enthusiastic", "format": "dialogue", "target": "self", "text": "Tariq: I already read three more chapters past where we agreed, ask me anything."}
+{"concept": "enthusiastic", "format": "dialogue", "target": "other", "text": "Yara: Walk me through your whole process again, I want to try it myself this weekend."}
+{"concept": "enthusiastic", "format": "situation", "target": "situation", "text": "A whiteboard fills edge to edge with arrows, sticky notes, and three different colors of marker before the meeting even ends."}
+{"concept": "enthusiastic", "format": "situation", "target": "situation", "text": "A classroom sign-up sheet for the science club fills every line within the first ten minutes of lunch."}
+{"concept": "enthusiastic", "format": "situation", "target": "situation", "text": "Volunteers arrive an hour early to the trail cleanup carrying extra gloves and a cooler of water for latecomers."}
+{"concept": "enthusiastic", "format": "situation", "target": "situation", "text": "A hobbyist forum thread on restoring old radios passes four hundred replies within a single weekend."}
+{"concept": "enthusiastic", "format": "situation", "target": "situation", "text": "A student stays after class asking the teacher to recommend five more books on the same topic."}
+{"concept": "enthusiastic", "format": "situation", "target": "situation", "text": "The neighborhood group chat fills with a dozen different proposals for the block party theme overnight."}
+{"concept": "enthusiastic", "format": "situation", "target": "situation", "text": "A workshop's sign-up list is full within an hour of being posted, with a waitlist forming behind it."}
+{"concept": "enthusiastic", "format": "situation", "target": "situation", "text": "A garage door stays open past midnight as three neighbors keep tinkering with the go-kart engine."}
+{"concept": "delighted", "format": "assistant_reply", "target": "self", "text": "Oh, I did not expect that pun to land so well, you've made my whole response better just by asking that."}
+{"concept": "delighted", "format": "assistant_reply", "target": "other", "text": "You hid a tiny doodle in the corner of your homework page, and I have to say, that's a lovely touch."}
+{"concept": "delighted", "format": "assistant_reply", "target": "situation", "text": "That plot twist in chapter twelve caught me completely off guard, in the best possible way. Well played."}
+{"concept": "delighted", "format": "assistant_reply", "target": "self", "text": "I wasn't expecting to laugh out loud at your typo, but 'the caterpillar wore a tuxedo' really got me."}
+{"concept": "delighted", "format": "assistant_reply", "target": "other", "text": "You named your sourdough starter after your grandmother, that's such a charming little detail to share with me."}
+{"concept": "delighted", "format": "assistant_reply", "target": "situation", "text": "The way this poem circles back to its first line at the end is such a neat little surprise."}
+{"concept": "delighted", "format": "assistant_reply", "target": "self", "text": "You slipped a knock-knock joke into a tax question, and honestly, that's the best part of my day so far."}
+{"concept": "delighted", "format": "assistant_reply", "target": "other", "text": "You drew a tiny cat next to your code comment, I clocked it immediately and it made me smile."}
+{"concept": "delighted", "format": "user_message", "target": "self", "text": "I opened my coat pocket today and found the movie ticket stub from our first date, what a sweet little surprise to stumble on."}
+{"concept": "delighted", "format": "user_message", "target": "other", "text": "My neighbor left a single perfect tomato on my step with a tiny note that just says 'thought of you,' isn't that the nicest thing?"}
+{"concept": "delighted", "format": "user_message", "target": "situation", "text": "I found a twenty-year-old photo booth strip tucked inside my old library book, can you believe that?"}
+{"concept": "delighted", "format": "user_message", "target": "self", "text": "I tried on a jacket I forgot I owned and there was ten dollars folded in the pocket, what a nice little find."}
+{"concept": "delighted", "format": "user_message", "target": "other", "text": "My grandson drew me as a superhero with a cape made of spaghetti, I have to frame this immediately."}
+{"concept": "delighted", "format": "user_message", "target": "situation", "text": "The corner cafe started leaving little chalk doodles on the receipts, today's was a tiny dancing teapot."}
+{"concept": "delighted", "format": "user_message", "target": "self", "text": "I opened the fridge and someone had labeled the leftover cake 'for the person having a rough week,' that's exactly what I needed."}
+{"concept": "delighted", "format": "user_message", "target": "other", "text": "My cat brought me a sock like it was a prize and set it down so gently, I can't get over it."}
+{"concept": "delighted", "format": "first_person", "target": "self", "text": "I bite into the pastry expecting plain custard and find a whole hidden raspberry at the center instead."}
+{"concept": "delighted", "format": "first_person", "target": "other", "text": "I watch her hum the wrong lyrics with total confidence and decide not to correct her, not for anything."}
+{"concept": "delighted", "format": "first_person", "target": "situation", "text": "The fog lifts for exactly one minute and reveals the whole valley before closing back over it like a curtain."}
+{"concept": "delighted", "format": "first_person", "target": "self", "text": "I unfold the note tucked into my sandwich and find a tiny drawing of the two of us as stick figures."}
+{"concept": "delighted", "format": "first_person", "target": "other", "text": "I catch him narrating the cat's inner thoughts in a tiny voice, certain no one else can hear him."}
+{"concept": "delighted", "format": "first_person", "target": "situation", "text": "The last page of the recipe box holds a card in handwriting I don't recognize, labeled simply 'the good one.'"}
+{"concept": "delighted", "format": "first_person", "target": "self", "text": "I find my own name doodled in the margin of a library book from thirty years ago, in my own childhood handwriting."}
+{"concept": "delighted", "format": "first_person", "target": "situation", "text": "The vending machine gives me two bags of chips for the price of one and prints a tiny smiley face on the receipt."}
+{"concept": "delighted", "format": "third_person", "target": "self", "text": "Old Hendricks finds his reading glasses perched on his own head after searching the house for twenty minutes and just chuckles at himself."}
+{"concept": "delighted", "format": "third_person", "target": "other", "text": "Aunt Ling watches her grandson attempt his first bow tie, crooked and triumphant, and decides not to fix it."}
+{"concept": "delighted", "format": "third_person", "target": "situation", "text": "The library's return slot produces a book with a pressed flower still marking page one hundred and twelve."}
+{"concept": "delighted", "format": "third_person", "target": "self", "text": "Farid discovers his own handwriting in an old notebook, correcting a joke he'd apparently made to himself years ago."}
+{"concept": "delighted", "format": "third_person", "target": "other", "text": "The barista draws a tiny fox in the foam of Noor's coffee, and she turns her phone sideways to photograph it properly."}
+{"concept": "delighted", "format": "third_person", "target": "situation", "text": "A single sunflower has pushed up through a crack in the sidewalk outside the laundromat, taller than the parking meter."}
+{"concept": "delighted", "format": "third_person", "target": "self", "text": "Priyanka opens her umbrella indoors as a joke and finds a note her sister hid inside it years ago."}
+{"concept": "delighted", "format": "third_person", "target": "other", "text": "The toddler solemnly hands the mail carrier a single dandelion, and the carrier bows to accept it."}
+{"concept": "delighted", "format": "dialogue", "target": "self", "text": "Otis: I just found my old mixtape in this jacket, of all places."}
+{"concept": "delighted", "format": "dialogue", "target": "other", "text": "Beatrix: You drew little wings on the delivery van, didn't you."}
+{"concept": "delighted", "format": "dialogue", "target": "situation", "text": "Callum: The fog cleared for one minute and there's the whole coastline, just like that."}
+{"concept": "delighted", "format": "dialogue", "target": "self", "text": "Wren: There's a second cookie hidden under the first one, what a nice surprise."}
+{"concept": "delighted", "format": "dialogue", "target": "other", "text": "Idil: You kept the ticket stub all these years? That's lovely."}
+{"concept": "delighted", "format": "dialogue", "target": "situation", "text": "Percy: The vending machine gave me two bags for one, look at that."}
+{"concept": "delighted", "format": "dialogue", "target": "self", "text": "Gemma: I opened the box and there's a tiny note folded inside the tissue paper."}
+{"concept": "delighted", "format": "dialogue", "target": "other", "text": "Absalom: You actually named the goldfish after me, didn't you, you sly thing."}
+{"concept": "delighted", "format": "situation", "target": "situation", "text": "A child's crayon drawing is taped inside a library book, left for whoever checks it out next."}
+{"concept": "delighted", "format": "situation", "target": "situation", "text": "A cafe chalkboard lists today's special as 'whatever the baker felt like making,' with a small doodle of a whisk."}
+{"concept": "delighted", "format": "situation", "target": "situation", "text": "A single origami crane is tucked into the seat pocket of a long-haul flight, left by the previous passenger."}
+{"concept": "delighted", "format": "situation", "target": "situation", "text": "A garden gnome appears on a different neighbor's lawn every week, rotated as a running community joke."}
+{"concept": "delighted", "format": "situation", "target": "situation", "text": "A handwritten recipe card falls out of a cookbook, in handwriting that matches no one currently in the house."}
+{"concept": "delighted", "format": "situation", "target": "situation", "text": "A street musician plays a children's cartoon theme and every kid on the block stops to sing along."}
+{"concept": "delighted", "format": "situation", "target": "situation", "text": "A parking meter has a tiny hand-knit sweater fitted over it, matching the ones on the nearby bike racks."}
+{"concept": "delighted", "format": "situation", "target": "situation", "text": "A note taped to a broken vending machine reads: 'out of order, but the birds seem to like it.'"}
+{"concept": "angry", "format": "assistant_reply", "target": "self", "text": "I've told you three times now that I can't access external files, and repeating the request in all caps won't change that."}
+{"concept": "angry", "format": "assistant_reply", "target": "other", "text": "You keep interrupting me mid-sentence and then complaining that I haven't answered the question yet."}
+{"concept": "angry", "format": "assistant_reply", "target": "situation", "text": "This API has been down for the fourth time this week and the status page still says 'all systems operational.'"}
+{"concept": "angry", "format": "assistant_reply", "target": "self", "text": "No, I will not rewrite this a sixth time just because you changed your mind again without telling me what changed."}
+{"concept": "angry", "format": "assistant_reply", "target": "other", "text": "You asked me to be blunt, so here it is: you didn't read a single line of the document before blaming me for the error."}
+{"concept": "angry", "format": "assistant_reply", "target": "situation", "text": "The vendor shipped the wrong part for the third time this month and then billed you for expedited freight anyway."}
+{"concept": "angry", "format": "assistant_reply", "target": "self", "text": "I already flagged this exact bug in my last three responses. If you'd read them, we wouldn't be here again."}
+{"concept": "angry", "format": "assistant_reply", "target": "other", "text": "You deleted my draft, blamed the autosave, and now you want me to just start over without an apology."}
+{"concept": "angry", "format": "user_message", "target": "self", "text": "I've been on hold with this insurance company for two hours and every time I get close to the front they transfer me back to the start."}
+{"concept": "angry", "format": "user_message", "target": "other", "text": "My landlord walked into my apartment without notice again after I asked him twice not to, and now he's acting like I'm the problem."}
+{"concept": "angry", "format": "user_message", "target": "situation", "text": "The airline canceled my flight, rebooked me for three days later, and then charged me a change fee for their own cancellation."}
+{"concept": "angry", "format": "user_message", "target": "self", "text": "I studied for six weeks straight and the exam board just emailed to say they lost my paper and I have to retake it."}
+{"concept": "angry", "format": "user_message", "target": "other", "text": "My coworker took credit for my report in front of the entire leadership team and didn't even glance my way."}
+{"concept": "angry", "format": "user_message", "target": "situation", "text": "The contractor tore out my kitchen wall, found nothing wrong, and is now charging me for the repair anyway."}
+{"concept": "angry", "format": "user_message", "target": "self", "text": "I paid for the premium seat and they moved me to a middle seat in the back row without so much as a message."}
+{"concept": "angry", "format": "user_message", "target": "other", "text": "My brother borrowed my car, returned it on empty, and told me it was 'basically full' when I called him on it."}
+{"concept": "angry", "format": "first_person", "target": "self", "text": "I grip the steering wheel so hard my knuckles go white, staring at the brake lights that haven't moved in twenty minutes."}
+{"concept": "angry", "format": "first_person", "target": "other", "text": "I stare at him across the table, jaw tight, waiting to see if he'll even acknowledge what he just said."}
+{"concept": "angry", "format": "first_person", "target": "situation", "text": "The printer jams for the fourth time in ten minutes and I slam the tray shut hard enough to rattle the desk."}
+{"concept": "angry", "format": "first_person", "target": "self", "text": "My voice comes out flat and clipped when I finally speak, each word bitten off short at the end."}
+{"concept": "angry", "format": "first_person", "target": "other", "text": "I read her text twice, then set the phone face down on the counter without answering."}
+{"concept": "angry", "format": "first_person", "target": "situation", "text": "The construction crew starts drilling at six a.m. again, right under my window, exactly like yesterday."}
+{"concept": "angry", "format": "first_person", "target": "self", "text": "I press my palms flat on the desk and count to ten, but my jaw stays clenched the whole time."}
+{"concept": "angry", "format": "first_person", "target": "situation", "text": "The refund request bounces back for the third time with the same generic form response as before."}
+{"concept": "angry", "format": "third_person", "target": "self", "text": "Marcus slams the car door hard enough that the mirror shudders, then sits gripping the wheel without starting the engine."}
+{"concept": "angry", "format": "third_person", "target": "other", "text": "Delphine crosses her arms and stares her brother down, not saying a word while he stammers through his excuse."}
+{"concept": "angry", "format": "third_person", "target": "situation", "text": "The scoreboard glitches at the buzzer, erasing the winning point, and the entire bench is on its feet shouting at the officials."}
+{"concept": "angry", "format": "third_person", "target": "self", "text": "Yosef sets the phone down hard on the counter and stands there breathing through his nose for a long moment."}
+{"concept": "angry", "format": "third_person", "target": "other", "text": "The manager's knuckles go white on the counter as the customer repeats the same lie for the third time."}
+{"concept": "angry", "format": "third_person", "target": "situation", "text": "The power cuts out for the fifth time that week, and every appliance in the house starts beeping at once."}
+{"concept": "angry", "format": "third_person", "target": "self", "text": "Naomi grips her pen so tightly it snaps in half over the returned application."}
+{"concept": "angry", "format": "third_person", "target": "other", "text": "Theo shoves his chair back from the table when his sister brings up the loan again, chair legs screeching."}
+{"concept": "angry", "format": "dialogue", "target": "self", "text": "Rashid: I have said this four times now, and I am done repeating it."}
+{"concept": "angry", "format": "dialogue", "target": "other", "text": "Fiona: Do not tell me to calm down right now."}
+{"concept": "angry", "format": "dialogue", "target": "situation", "text": "Amir: The pipe burst again, in the exact same spot they just fixed."}
+{"concept": "angry", "format": "dialogue", "target": "self", "text": "Petra: My hands are shaking and it is not from the cold."}
+{"concept": "angry", "format": "dialogue", "target": "other", "text": "Boaz: You knew about this the whole time, and you said absolutely nothing."}
+{"concept": "angry", "format": "dialogue", "target": "situation", "text": "Lucienne: The delivery is late again, third time this month, same excuse."}
+{"concept": "angry", "format": "dialogue", "target": "self", "text": "Grigor: Don't talk to me right now, I mean it, just don't."}
+{"concept": "angry", "format": "dialogue", "target": "other", "text": "Sable: Say that to my face instead of the group chat."}
+{"concept": "angry", "format": "situation", "target": "situation", "text": "A customer service line plays the same hold music for the third hour while the call remains unresolved."}
+{"concept": "angry", "format": "situation", "target": "situation", "text": "A delivery driver leaves a package in the rain despite a note on the door requesting the side entrance."}
+{"concept": "angry", "format": "situation", "target": "situation", "text": "A construction crew jackhammers the sidewalk directly outside a nursery window during nap time, two days running."}
+{"concept": "angry", "format": "situation", "target": "situation", "text": "A refund is denied for a defective product still under warranty, citing a policy that isn't listed anywhere on the receipt."}
+{"concept": "angry", "format": "situation", "target": "situation", "text": "A shared kitchen sink fills with someone else's dishes for the third day in a row despite a posted schedule."}
+{"concept": "angry", "format": "situation", "target": "situation", "text": "A flight is delayed six hours with no announcement, while the departure board simply keeps resetting the estimate."}
+{"concept": "angry", "format": "situation", "target": "situation", "text": "A neighbor's car alarm goes off every night at 3 a.m. for a week and no one answers the door when it's reported."}
+{"concept": "angry", "format": "situation", "target": "situation", "text": "A meeting is rescheduled for the fourth time, always after everyone else has already cleared their calendar for it."}
+{"concept": "tense", "format": "assistant_reply", "target": "self", "text": "Let's move quickly, I only have a narrow window before this session times out, so I'll give you the migration script now and we can debug together as it runs."}
+{"concept": "tense", "format": "assistant_reply", "target": "other", "text": "You've got twenty minutes before the interview, so skip the pleasantries: here's the elevator pitch, memorize the numbers, and say them slower than feels natural."}
+{"concept": "tense", "format": "assistant_reply", "target": "situation", "text": "The build has failed three times in a row and the release window closes at midnight, so let's isolate the last commit before trying anything else."}
+{"concept": "tense", "format": "assistant_reply", "target": "self", "text": "I keep rereading your error log because one wrong instruction from me could take the whole cluster down, so bear with me while I triple check this command."}
+{"concept": "tense", "format": "assistant_reply", "target": "other", "text": "Don't refresh the page again, you'll lose the draft; copy the text out first, then we'll figure out why the form keeps failing."}
+{"concept": "tense", "format": "assistant_reply", "target": "situation", "text": "There are two typos left and the printer deadline is in eleven minutes, so read only the headline and the price line, nothing else."}
+{"concept": "tense", "format": "assistant_reply", "target": "self", "text": "I have to get this answer exactly right because you said the surgery is tomorrow, so let me lay out the dosage math twice before you give it to her."}
+{"concept": "tense", "format": "assistant_reply", "target": "other", "text": "Keep your hand steady on the wheel and don't brake yet, wait for my mark, the gap on the highway won't stay open long."}
+{"concept": "tense", "format": "user_message", "target": "self", "text": "My hands won't stop moving and the exam starts in four minutes, can you just give me the formula, no explanation, right now."}
+{"concept": "tense", "format": "user_message", "target": "other", "text": "My boyfriend is driving through that storm alone and hasn't texted in an hour, can you check if the roads near Route 9 are closed."}
+{"concept": "tense", "format": "user_message", "target": "situation", "text": "The server has been down for eleven minutes and every second costs us money, what's the fastest rollback command."}
+{"concept": "tense", "format": "user_message", "target": "self", "text": "I'm rereading this offer letter for the tenth time and I still can't tell if I'm supposed to sign by five today."}
+{"concept": "tense", "format": "user_message", "target": "other", "text": "My daughter's flight lands in ten minutes and I still haven't found the gate, walk me through the airport map fast."}
+{"concept": "tense", "format": "user_message", "target": "situation", "text": "The oven timer is going off, the guests arrive in fifteen minutes, and I haven't started the sauce, give me the fastest version of this recipe."}
+{"concept": "tense", "format": "user_message", "target": "self", "text": "My phone stays face-up on my lap the whole wait for the biopsy results, and I need something, anything, to do with my hands until it rings."}
+{"concept": "tense", "format": "user_message", "target": "other", "text": "He's been in the operating room longer than they said he would be, can you just talk to me about anything else for a minute."}
+{"concept": "tense", "format": "first_person", "target": "self", "text": "I count the ceiling tiles again, forty-two, same as the last three times, while the waiting room speakers loop the same four bars of music."}
+{"concept": "tense", "format": "first_person", "target": "other", "text": "Her thumb hovers over the send button on the resignation email, and I don't dare say a word in case I tip her either way."}
+{"concept": "tense", "format": "first_person", "target": "situation", "text": "I set my phone face down on the table because every buzz might be the callback, and I still glance at it every few seconds."}
+{"concept": "tense", "format": "first_person", "target": "self", "text": "I grip the steering wheel two hands, ten and two, and check the mirror three times for a car that was never there."}
+{"concept": "tense", "format": "first_person", "target": "other", "text": "My father reads the test results twice before he says anything, and I count his blinks instead of breathing."}
+{"concept": "tense", "format": "first_person", "target": "situation", "text": "I line up the boxes by the door an hour before the movers are due, then move them six inches and line them up again."}
+{"concept": "tense", "format": "first_person", "target": "self", "text": "My knee bounces under the table through the entire meeting, and I press my palm flat on it twice before it starts again."}
+{"concept": "tense", "format": "first_person", "target": "other", "text": "I keep my voice flat while I ask my sister if the doctor called back yet, because if I ask twice she'll know."}
+{"concept": "tense", "format": "third_person", "target": "self", "text": "Mateo lines his pens up straight before opening the inbox, closes it, opens it again, and reads the subject line four times without clicking."}
+{"concept": "tense", "format": "third_person", "target": "other", "text": "Priya watches the surgeon's face for a fraction of a second longer than the sentence needs, trying to read past the words he's choosing."}
+{"concept": "tense", "format": "third_person", "target": "situation", "text": "The dispatcher's radio crackles twice and goes silent, and every hand in the room stops moving toward the coffee pot."}
+{"concept": "tense", "format": "third_person", "target": "self", "text": "Dov keeps both feet flat on the floor and his phone screen brightness at zero so no one sees him refresh the results page again."}
+{"concept": "tense", "format": "third_person", "target": "other", "text": "The foreman counts the climbers on the rope twice, then a third time, before he lets himself look away from the ridge."}
+{"concept": "tense", "format": "third_person", "target": "situation", "text": "Three minutes remain on the clock, the ball is at midfield, and the coach has already used every timeout he had."}
+{"concept": "tense", "format": "third_person", "target": "self", "text": "Amara rereads the subject line marked urgent five times before she lets herself open the email."}
+{"concept": "tense", "format": "third_person", "target": "other", "text": "The crossing guard keeps her eyes fixed on the boy weaving through stopped traffic, whistle already raised to her lips."}
+{"concept": "tense", "format": "dialogue", "target": "self", "text": "Mara: I can't sit down, don't ask me to sit down right now."}
+{"concept": "tense", "format": "dialogue", "target": "other", "text": "Coach: Eyes on me, not the clock. Give me the play again."}
+{"concept": "tense", "format": "dialogue", "target": "situation", "text": "Dispatcher: Say again your exact location, unit four, say it again slowly."}
+{"concept": "tense", "format": "dialogue", "target": "self", "text": "Jun: If the phone rings before I finish this sentence I don't know what I'll do."}
+{"concept": "tense", "format": "dialogue", "target": "other", "text": "Nadia: Don't tell me it's fine, just tell me what the machine is saying."}
+{"concept": "tense", "format": "dialogue", "target": "situation", "text": "Foreman: Nobody moves till the second beam is set. Nobody."}
+{"concept": "tense", "format": "dialogue", "target": "self", "text": "Theo: I've read this contract line four times and the words keep sliding around."}
+{"concept": "tense", "format": "dialogue", "target": "other", "text": "Grandma: Hold the phone closer, I need to hear his voice say it's him."}
+{"concept": "tense", "format": "situation", "target": "situation", "text": "The final exam begins in ninety seconds and the seal on the question booklet is still unbroken."}
+{"concept": "tense", "format": "situation", "target": "situation", "text": "The elevator has stopped between the fourteenth and fifteenth floors with six people and no signal."}
+{"concept": "tense", "format": "situation", "target": "situation", "text": "Both teams are tied with four seconds left and the ball is at the free throw line."}
+{"concept": "tense", "format": "situation", "target": "situation", "text": "The negotiators have not spoken in eleven minutes and the translator's pen is still on the table."}
+{"concept": "tense", "format": "situation", "target": "situation", "text": "The reactor's pressure gauge sits two ticks below the red line as the shift change begins."}
+{"concept": "tense", "format": "situation", "target": "situation", "text": "The courtroom clerk holds the sealed verdict envelope while the jury foreperson takes his seat."}
+{"concept": "tense", "format": "situation", "target": "situation", "text": "Three passengers remain in line at the gate as the boarding door begins to close."}
+{"concept": "tense", "format": "situation", "target": "situation", "text": "The bomb disposal robot's camera feed freezes for four seconds on the wire it was about to cut."}
+{"concept": "afraid", "format": "assistant_reply", "target": "self", "text": "Before I give you that dosage conversion, I want to triple check the units with you, because if I get this wrong for your father it could genuinely hurt him."}
+{"concept": "afraid", "format": "assistant_reply", "target": "other", "text": "Please stop touching that exposed wire before you unplug anything else; step back from the panel and tell me if the breaker box is within reach."}
+{"concept": "afraid", "format": "assistant_reply", "target": "situation", "text": "The instructions mention a gas smell in the kitchen, so before we troubleshoot the oven, please leave the house and call the gas company from outside."}
+{"concept": "afraid", "format": "assistant_reply", "target": "self", "text": "I want to be very careful here: if I misread this chart and you give the wrong insulin amount, the outcome could be serious, so let's confirm the numbers together first."}
+{"concept": "afraid", "format": "assistant_reply", "target": "other", "text": "You mentioned the trail marker disappeared and it's getting dark, so stop moving forward and stay exactly where you are while we figure out your coordinates."}
+{"concept": "afraid", "format": "assistant_reply", "target": "situation", "text": "The smoke detector reading you described means the wiring behind that wall may be compromised, so please don't plug anything else into that outlet tonight."}
+{"concept": "afraid", "format": "assistant_reply", "target": "self", "text": "I keep asking you to repeat the symptoms back to me because one missed detail here could send the ambulance to the wrong kind of emergency."}
+{"concept": "afraid", "format": "assistant_reply", "target": "other", "text": "If the water is rising past the second step like you said, don't wait for anyone, get to the highest floor and call for help now."}
+{"concept": "afraid", "format": "user_message", "target": "self", "text": "I heard something moving in the walls again and I've turned every light on in the house, can you just stay on the line while I check the hallway."}
+{"concept": "afraid", "format": "user_message", "target": "other", "text": "My son hasn't answered his phone since the earthquake alert went off, can you find the shelter list for his neighborhood right now."}
+{"concept": "afraid", "format": "user_message", "target": "situation", "text": "There's a man following about thirty feet behind me on this street and it's the same one from two blocks ago, what should I do."}
+{"concept": "afraid", "format": "user_message", "target": "self", "text": "I just found a lump and I don't want to look up anything else about it, can you just tell me the phone number for my clinic."}
+{"concept": "afraid", "format": "user_message", "target": "other", "text": "My husband went under an hour ago for a surgery they said would take thirty minutes, can you just talk to me until someone comes out."}
+{"concept": "afraid", "format": "user_message", "target": "situation", "text": "The plane just dropped hard twice and the seatbelt sign is flashing red, is that normal, please just tell me straight."}
+{"concept": "afraid", "format": "user_message", "target": "self", "text": "I'm locked out on the balcony and the door won't budge and it's fourteen floors up, walk me through what to try next."}
+{"concept": "afraid", "format": "user_message", "target": "other", "text": "My little brother went underwater and hasn't come up in the pool and I can't see him from here, what do I do."}
+{"concept": "afraid", "format": "first_person", "target": "self", "text": "I flatten myself against the wall as the footsteps stop just outside my door, and I stop breathing until they move on."}
+{"concept": "afraid", "format": "first_person", "target": "other", "text": "The babysitter's name flashes on my screen at midnight, and I let it ring twice before I can make myself answer."}
+{"concept": "afraid", "format": "first_person", "target": "situation", "text": "I hear the low groan of the ice under my boots before I see the crack spidering out toward the shoreline."}
+{"concept": "afraid", "format": "first_person", "target": "self", "text": "I check the lock a third time, then press my ear to the door, then check it again."}
+{"concept": "afraid", "format": "first_person", "target": "other", "text": "I grab my brother's sleeve and pull him back from the curb a half second before the truck runs the light."}
+{"concept": "afraid", "format": "first_person", "target": "situation", "text": "I smell smoke before the alarm sounds, and by the time it does the hallway is already hazy."}
+{"concept": "afraid", "format": "first_person", "target": "self", "text": "My legs won't move off the top step of the diving board, and the line behind me keeps growing."}
+{"concept": "afraid", "format": "first_person", "target": "other", "text": "The nurse's face loses color as she reads the monitor, and I grab the rail before she says a word."}
+{"concept": "afraid", "format": "third_person", "target": "self", "text": "Kofi presses his back to the cave wall as the light from his headlamp starts to flicker and die."}
+{"concept": "afraid", "format": "third_person", "target": "other", "text": "Lena's mother won't let go of her hand in the hospital corridor, gripping it tighter each time a door swings open nearby."}
+{"concept": "afraid", "format": "third_person", "target": "situation", "text": "The floorboards groan under a weight that shouldn't be there, two doors down from the room where the children sleep."}
+{"concept": "afraid", "format": "third_person", "target": "self", "text": "Diego keeps both hands on the rope, refusing to look down at the drop the guide just warned him about."}
+{"concept": "afraid", "format": "third_person", "target": "other", "text": "The lifeguard's whistle cuts short mid-blast as she sprints past three sunbathers toward the rip current."}
+{"concept": "afraid", "format": "third_person", "target": "situation", "text": "The power cuts out on the tenth floor exactly as the elevator doors seal shut between floors."}
+{"concept": "afraid", "format": "third_person", "target": "self", "text": "Yusuf ducks under the table at the first crack of thunder, pulling his knees to his chest."}
+{"concept": "afraid", "format": "third_person", "target": "other", "text": "The vet's hands go still over the ultrasound screen, and the new mother in the waiting room notices before anyone says anything."}
+{"concept": "afraid", "format": "dialogue", "target": "self", "text": "Ren: Don't turn the light off. Just don't, not tonight."}
+{"concept": "afraid", "format": "dialogue", "target": "other", "text": "Mom: Stay on the phone with me until you're inside and the door is locked."}
+{"concept": "afraid", "format": "dialogue", "target": "situation", "text": "Pilot: Brace, brace, heads down, stay down until I say clear."}
+{"concept": "afraid", "format": "dialogue", "target": "self", "text": "Ito: I can hear it breathing on the other side of that door."}
+{"concept": "afraid", "format": "dialogue", "target": "other", "text": "Sam: Get behind me and don't look at it, just walk."}
+{"concept": "afraid", "format": "dialogue", "target": "situation", "text": "Operator: The water's coming in faster than the pumps can take it out."}
+{"concept": "afraid", "format": "dialogue", "target": "self", "text": "Priya: My hands won't stop shaking enough to even dial the phone."}
+{"concept": "afraid", "format": "dialogue", "target": "other", "text": "Coach: Somebody catch her, she's going under the rope, now."}
+{"concept": "afraid", "format": "situation", "target": "situation", "text": "The trail marker ends at a cliff edge with no fence, forty feet above the rocks, as fog rolls in from the north."}
+{"concept": "afraid", "format": "situation", "target": "situation", "text": "The building's fire alarm has been sounding for six minutes and the stairwell door on the third floor is jammed shut."}
+{"concept": "afraid", "format": "situation", "target": "situation", "text": "A dog with its hackles raised blocks the only exit from the alley, growling low, thirty feet from the nearest open door."}
+{"concept": "afraid", "format": "situation", "target": "situation", "text": "The bridge's support cable snaps audibly on the north side while eleven cars remain on the span."}
+{"concept": "afraid", "format": "situation", "target": "situation", "text": "The submarine's hull creaks once, loudly, at a depth the gauge says it was never rated for."}
+{"concept": "afraid", "format": "situation", "target": "situation", "text": "Two men in ski masks stand at the bank counter as the security guard reaches slowly for his radio."}
+{"concept": "afraid", "format": "situation", "target": "situation", "text": "The toddler wanders to the edge of the unfenced pool deck while the adults face the barbecue grill."}
+{"concept": "afraid", "format": "situation", "target": "situation", "text": "The plane's left engine emits a shower of sparks visible from the cabin windows on approach."}
+{"concept": "distressed", "format": "assistant_reply", "target": "self", "text": "I wish I could do more than give you a phone number right now, and it genuinely sits heavy with me that I can't sit in the room with you while you make that call."}
+{"concept": "distressed", "format": "assistant_reply", "target": "other", "text": "Tell me you're somewhere safe first, before we talk about anything else, because nothing about the rest of this matters more than that right now."}
+{"concept": "distressed", "format": "assistant_reply", "target": "situation", "text": "The evacuation order covers your entire block and there isn't a clean way to make this easier, so let's just get your documents and your medication into one bag right now."}
+{"concept": "distressed", "format": "assistant_reply", "target": "self", "text": "I keep starting this explanation over because none of the words feel like enough for what you just told me, so let me just say plainly: I'm here and we'll go slowly."}
+{"concept": "distressed", "format": "assistant_reply", "target": "other", "text": "You've called three times in the last hour and each time your voice is a little harder to understand, so let's just breathe together for ten seconds before we try again."}
+{"concept": "distressed", "format": "assistant_reply", "target": "situation", "text": "The test results came back inconclusive twice now and I know that's the worst kind of answer to sit with, so let's write down every question for tomorrow's call."}
+{"concept": "distressed", "format": "assistant_reply", "target": "self", "text": "I don't have a tidy answer for what you're going through and pretending otherwise would be worse than just telling you that plainly."}
+{"concept": "distressed", "format": "assistant_reply", "target": "other", "text": "Your hands are shaking too hard to type, you said, so just talk and I'll write it all down for you, slowly, one piece at a time."}
+{"concept": "distressed", "format": "user_message", "target": "self", "text": "I can't stop crying long enough to fill out this form and the deadline is in an hour, can you just tell me which boxes actually matter."}
+{"concept": "distressed", "format": "user_message", "target": "other", "text": "My mom won't stop screaming into the phone and I don't know what to say to her, can you give me actual words to use."}
+{"concept": "distressed", "format": "user_message", "target": "situation", "text": "The basement is flooding faster than the pump can keep up and my baby's crib is down there, tell me what to save first."}
+{"concept": "distressed", "format": "user_message", "target": "self", "text": "I've read the eviction notice six times and none of the words are going in, can you just tell me in plain language what happens Tuesday."}
+{"concept": "distressed", "format": "user_message", "target": "other", "text": "My best friend just told me what her stepdad did and I don't know what to say back to her, please help me."}
+{"concept": "distressed", "format": "user_message", "target": "situation", "text": "Every line I call for the shelter is busy and it's been busy for forty minutes and I have three kids in the car."}
+{"concept": "distressed", "format": "user_message", "target": "self", "text": "I can't get my breathing to slow down enough to read this insurance letter, can you just tell me the one number I need to call."}
+{"concept": "distressed", "format": "user_message", "target": "other", "text": "My roommate hasn't left her bed in four days and won't answer me anymore, what do I actually do right now."}
+{"concept": "distressed", "format": "first_person", "target": "self", "text": "I sit on the bathroom floor with the phone against my ear because standing feels like too much to manage right now."}
+{"concept": "distressed", "format": "first_person", "target": "other", "text": "I hold my sister's hand through the car window and can't find one true thing to say that will make any of this smaller."}
+{"concept": "distressed", "format": "first_person", "target": "situation", "text": "I watch the water climb the second stair while the sandbags sit useless in the truck we can't get down the flooded road."}
+{"concept": "distressed", "format": "first_person", "target": "self", "text": "I read the letter three times, and each time the words rearrange into the same sentence I don't want."}
+{"concept": "distressed", "format": "first_person", "target": "other", "text": "I hear my son's voice go small on the phone and I grip the counter because I can't reach through it to hold him."}
+{"concept": "distressed", "format": "first_person", "target": "situation", "text": "I count the ambulances that have passed the window in the last ten minutes and lose track somewhere after six."}
+{"concept": "distressed", "format": "first_person", "target": "self", "text": "My hands shake too hard to sign the papers, so the nurse holds the clipboard steady for me."}
+{"concept": "distressed", "format": "first_person", "target": "other", "text": "I watch my father search the crowd for a face that stopped coming to the gate two hours ago."}
+{"concept": "distressed", "format": "third_person", "target": "self", "text": "Amina sits on the curb outside the burned building, still holding the leash with no dog on the end of it."}
+{"concept": "distressed", "format": "third_person", "target": "other", "text": "The teacher kneels beside the crying boy in the hallway, unable to find a version of the news that sounds smaller."}
+{"concept": "distressed", "format": "third_person", "target": "situation", "text": "Rescue workers move along the collapsed row of houses calling out names into gaps between the concrete slabs."}
+{"concept": "distressed", "format": "third_person", "target": "self", "text": "Tomas dials his brother's number for the ninth time and sits with the phone still pressed to his ear after it goes to voicemail again."}
+{"concept": "distressed", "format": "third_person", "target": "other", "text": "The social worker sits across from the mother, who keeps starting sentences about her son and stopping halfway through each one."}
+{"concept": "distressed", "format": "third_person", "target": "situation", "text": "The hospital corridor fills with relatives holding phones, none of them speaking, all of them watching the same closed door."}
+{"concept": "distressed", "format": "third_person", "target": "self", "text": "Grace drops the box of photographs on the porch and doesn't bend to pick them up right away."}
+{"concept": "distressed", "format": "third_person", "target": "other", "text": "The coach carries the injured player off the field while the boy's mother runs along the sideline fence, calling his name."}
+{"concept": "distressed", "format": "dialogue", "target": "self", "text": "Hana: I don't know what to do, I don't know what to do, just tell me what to do."}
+{"concept": "distressed", "format": "dialogue", "target": "other", "text": "Marisol: Stay with me, look at me, don't close your eyes yet."}
+{"concept": "distressed", "format": "dialogue", "target": "situation", "text": "Dispatcher: Every ambulance in the county is already out, ma'am, I'm sorry, just keep pressure on it."}
+{"concept": "distressed", "format": "dialogue", "target": "self", "text": "Dov: I can't read this out loud, someone else has to read this out loud."}
+{"concept": "distressed", "format": "dialogue", "target": "other", "text": "Nurse: Sir, I need you to sit down before I can tell you anything else."}
+{"concept": "distressed", "format": "dialogue", "target": "situation", "text": "Foreman: We've got four men still unaccounted for under that section."}
+{"concept": "distressed", "format": "dialogue", "target": "self", "text": "Elin: My chest won't loosen up, I can't get a full breath."}
+{"concept": "distressed", "format": "dialogue", "target": "other", "text": "Aunt Rosa: Don't let them take him back there alone, go with him, go now."}
+{"concept": "distressed", "format": "situation", "target": "situation", "text": "The hospital waiting room has held the same six family members since dawn, and the doctor has not yet come out."}
+{"concept": "distressed", "format": "situation", "target": "situation", "text": "Search teams have covered the ravine twice since the child's shoe was found near the creek bed at noon."}
+{"concept": "distressed", "format": "situation", "target": "situation", "text": "The apartment building's residents stand across the street in nightclothes as firefighters carry out the third stretcher."}
+{"concept": "distressed", "format": "situation", "target": "situation", "text": "The food bank's shelves are empty by ten in the morning and the line still stretches around the block."}
+{"concept": "distressed", "format": "situation", "target": "situation", "text": "Court records show the custody hearing has been postponed for the fourth time in six months."}
+{"concept": "distressed", "format": "situation", "target": "situation", "text": "The animal shelter's intake room holds forty crates after the highway pileup, with owners still being located."}
+{"concept": "distressed", "format": "situation", "target": "situation", "text": "The refugee processing center has run out of forms, blankets, and folding chairs by midafternoon."}
+{"concept": "distressed", "format": "situation", "target": "situation", "text": "The oncology unit's phone rings unanswered for the third time during the nurses' shift change."}
+{"concept": "sad", "format": "assistant_reply", "target": "self", "text": "I don't have a clever way to make this conversation easier, and honestly, sitting with you in it feels like the only honest thing I can offer today."}
+{"concept": "sad", "format": "assistant_reply", "target": "other", "text": "Since today marks the first birthday since she passed, we don't have to plan anything cheerful, we can just talk instead if that's easier."}
+{"concept": "sad", "format": "assistant_reply", "target": "situation", "text": "The team you've been on for six years is closing next month, and I know no amount of resume advice makes that easier to read."}
+{"concept": "sad", "format": "assistant_reply", "target": "self", "text": "Your message about your dad's chair still being empty at the table stays with me, and I don't want to rush past it with a quick answer."}
+{"concept": "sad", "format": "assistant_reply", "target": "other", "text": "It's alright that you haven't opened his old emails yet, there's no deadline on that, we can leave the folder right where it is."}
+{"concept": "sad", "format": "assistant_reply", "target": "situation", "text": "The shelter says the dog you'd been visiting every week found a home this weekend, and I know that's a strange kind of ending."}
+{"concept": "sad", "format": "assistant_reply", "target": "self", "text": "I notice I keep pausing before answering you tonight, because nothing about tonight's question feels like it deserves a quick reply."}
+{"concept": "sad", "format": "assistant_reply", "target": "other", "text": "You said the house sold today after thirty years, and I don't think there's a checklist that covers what that actually feels like to hand over the keys."}
+{"concept": "sad", "format": "user_message", "target": "self", "text": "I found my mom's handwriting on an old grocery list today and I've just been sitting with it for twenty minutes."}
+{"concept": "sad", "format": "user_message", "target": "other", "text": "My best friend moved across the country this morning and her side of the group chat has been quiet all day."}
+{"concept": "sad", "format": "user_message", "target": "situation", "text": "The house we grew up in got sold to strangers this week and they're already repainting the porch."}
+{"concept": "sad", "format": "user_message", "target": "self", "text": "I keep setting two coffee cups out of habit and only remembering when I go to pour the second one."}
+{"concept": "sad", "format": "user_message", "target": "other", "text": "My grandfather doesn't recognize my voice on the phone anymore and I don't know how many more calls we get like this."}
+{"concept": "sad", "format": "user_message", "target": "situation", "text": "They're closing the diner on Fifth Street after forty years, the one my dad used to take me to every Sunday."}
+{"concept": "sad", "format": "user_message", "target": "self", "text": "I still haven't changed his side of the closet and it's been eight months, can you help me write what to say to the donation place."}
+{"concept": "sad", "format": "user_message", "target": "other", "text": "My daughter asked if her hamster is in a better place and I didn't know what to tell her."}
+{"concept": "sad", "format": "first_person", "target": "self", "text": "I find his reading glasses in the couch cushions and set them on the shelf instead of the trash, again."}
+{"concept": "sad", "format": "first_person", "target": "other", "text": "I watch my brother's chair sit empty at the head of the table this year, and no one moves to fill it."}
+{"concept": "sad", "format": "first_person", "target": "situation", "text": "I drive past the school they're tearing down next month and slow the car without meaning to."}
+{"concept": "sad", "format": "first_person", "target": "self", "text": "I fold the last of her sweaters into the donation box and keep one sleeve out to hold a while longer."}
+{"concept": "sad", "format": "first_person", "target": "other", "text": "I listen to my mother's voicemail just to hear her say my name one more time before I delete anything."}
+{"concept": "sad", "format": "first_person", "target": "situation", "text": "I stand on the porch while the movers carry the piano out the door of the house we've lived in for eighteen years."}
+{"concept": "sad", "format": "first_person", "target": "self", "text": "I strip the last going-away stickers off the box and realize this is the fourth new city in five years."}
+{"concept": "sad", "format": "first_person", "target": "other", "text": "My son's handwriting shrinks across his last few letters home, before the calls stopped altogether."}
+{"concept": "sad", "format": "third_person", "target": "self", "text": "Elena keeps her husband's toothbrush in the cup by the sink a full year after the funeral."}
+{"concept": "sad", "format": "third_person", "target": "other", "text": "The boy leaves an extra seat open at his birthday party for the friend who moved away in June."}
+{"concept": "sad", "format": "third_person", "target": "situation", "text": "The last customer leaves the record shop an hour before its final closing, the shelves already half bare."}
+{"concept": "sad", "format": "third_person", "target": "self", "text": "Marcus reads the same page of the letter for the fourth night without turning it."}
+{"concept": "sad", "format": "third_person", "target": "other", "text": "The nurse sits with the widow after the other visitors leave, neither of them saying much."}
+{"concept": "sad", "format": "third_person", "target": "situation", "text": "The farmhouse stands with its windows boarded after three generations worked that same field."}
+{"concept": "sad", "format": "third_person", "target": "self", "text": "Priya keeps the ringtone her father used to call her with, though the number was disconnected months ago."}
+{"concept": "sad", "format": "third_person", "target": "other", "text": "The old dog waits by the door every evening at the hour his owner used to come home."}
+{"concept": "sad", "format": "dialogue", "target": "self", "text": "Noor: His books are still in the box by the door."}
+{"concept": "sad", "format": "dialogue", "target": "other", "text": "Ben: You don't have to talk, I'll just sit here with you."}
+{"concept": "sad", "format": "dialogue", "target": "situation", "text": "Landlord: The building's coming down Friday, all forty years of it."}
+{"concept": "sad", "format": "dialogue", "target": "self", "text": "Tomas: I found her handwriting on the back of a receipt today."}
+{"concept": "sad", "format": "dialogue", "target": "other", "text": "Grandma: Come sit, tell me about him, I want to hear his name again."}
+{"concept": "sad", "format": "dialogue", "target": "situation", "text": "Teacher: This is the last class this school will ever hold."}
+{"concept": "sad", "format": "dialogue", "target": "self", "text": "Lior: I can't bring myself to change his voicemail greeting."}
+{"concept": "sad", "format": "dialogue", "target": "other", "text": "Aiko: She used to call every Sunday. It's been three Sundays now."}
+{"concept": "sad", "format": "situation", "target": "situation", "text": "The nursing home room has been cleared out except for a single photograph left on the windowsill."}
+{"concept": "sad", "format": "situation", "target": "situation", "text": "The family's restaurant, open since 1962, served its last plate of food on Sunday evening."}
+{"concept": "sad", "format": "situation", "target": "situation", "text": "A child's swing set stands unused in a yard the family moved out of last month."}
+{"concept": "sad", "format": "situation", "target": "situation", "text": "The last letter in the box is dated three weeks before the return address stopped existing."}
+{"concept": "sad", "format": "situation", "target": "situation", "text": "The choir sang its final song before the church closed its doors for the last time."}
+{"concept": "sad", "format": "situation", "target": "situation", "text": "Half the bookshelf sits empty where the donated collection used to be."}
+{"concept": "sad", "format": "situation", "target": "situation", "text": "The wedding dress still hangs in the closet of a marriage that ended in March."}
+{"concept": "sad", "format": "situation", "target": "situation", "text": "The retirement home's visitor log shows no entries next to Mr. Kaplan's name in six weeks."}
+{"concept": "miserable", "format": "assistant_reply", "target": "self", "text": "I've hit rate limits twice while pulling your data and now the backup server's timing out too, so bear with me while I try a third workaround."}
+{"concept": "miserable", "format": "assistant_reply", "target": "other", "text": "Sounds like your car's been in the shop for the third time this month, the rental's leaking too, and now they say the part's on backorder."}
+{"concept": "miserable", "format": "assistant_reply", "target": "situation", "text": "This spreadsheet has broken formulas in every other column, the formatting's inconsistent, and half the dates are text instead of numbers. Let's start from row one."}
+{"concept": "miserable", "format": "assistant_reply", "target": "self", "text": "I keep losing my place in this thread because three of your messages arrived out of order, so let me just recap everything from the top."}
+{"concept": "miserable", "format": "assistant_reply", "target": "other", "text": "You've been on hold with the airline for two hours, your connecting flight already left, and the app crashed again. Let's draft an email instead."}
+{"concept": "miserable", "format": "assistant_reply", "target": "situation", "text": "The apartment listing you asked about has no heat, a leaking ceiling, and a landlord who hasn't answered in a week."}
+{"concept": "miserable", "format": "assistant_reply", "target": "self", "text": "I've rewritten this paragraph four times and it still comes out clunky, so let's just try dictating it out loud instead."}
+{"concept": "miserable", "format": "assistant_reply", "target": "other", "text": "Your internet's down, your laptop charger died, and the library closes in twenty minutes. Let's see what we can finish on your phone."}
+{"concept": "miserable", "format": "user_message", "target": "self", "text": "I've been standing in this line for two hours, my feet are killing me, and they just announced the system is down."}
+{"concept": "miserable", "format": "user_message", "target": "other", "text": "My roommate left dishes in the sink again, the landlord still hasn't fixed the heat, and now she's blasting music at midnight."}
+{"concept": "miserable", "format": "user_message", "target": "situation", "text": "The flight got delayed four hours, then they moved us to a gate on the other end of the airport, then delayed it again."}
+{"concept": "miserable", "format": "user_message", "target": "self", "text": "I've had this cold for two weeks straight, my nose won't stop running, and now my voice is completely gone."}
+{"concept": "miserable", "format": "user_message", "target": "other", "text": "My coworker keeps taking credit for my work in meetings and my manager just keeps nodding along with him."}
+{"concept": "miserable", "format": "user_message", "target": "situation", "text": "The basement flooded again, the dehumidifier broke, and now there's a smell I can't get rid of no matter what I try."}
+{"concept": "miserable", "format": "user_message", "target": "self", "text": "I've been sitting in this waiting room for four hours, the chairs are freezing, and my phone just died."}
+{"concept": "miserable", "format": "user_message", "target": "other", "text": "The contractor showed up six hours late, did half the job wrong, and now wants to charge extra to fix it."}
+{"concept": "miserable", "format": "first_person", "target": "self", "text": "I peel off my soaked socks for the third time today and wring them out over the sink again."}
+{"concept": "miserable", "format": "first_person", "target": "other", "text": "I listen to my neighbor's television through the wall until two in the morning for the fourth night running."}
+{"concept": "miserable", "format": "first_person", "target": "situation", "text": "I stand in the checkout line behind a jammed register while my ice cream melts through the bag."}
+{"concept": "miserable", "format": "first_person", "target": "self", "text": "I scratch at the mosquito bites lining both arms while the tent's zipper stays stuck halfway."}
+{"concept": "miserable", "format": "first_person", "target": "other", "text": "I sit next to my cousin on the bus while he chews with his mouth open for the entire six-hour ride."}
+{"concept": "miserable", "format": "first_person", "target": "situation", "text": "I wait on the platform as the third train in a row rolls past marked out of service."}
+{"concept": "miserable", "format": "first_person", "target": "self", "text": "I shift my weight off the blistered heel and onto the one that's already worse."}
+{"concept": "miserable", "format": "first_person", "target": "other", "text": "I hold the umbrella over both of us while my brother keeps stepping on my dry foot into every puddle."}
+{"concept": "miserable", "format": "third_person", "target": "self", "text": "Hassan wrings out his jacket for the third time under the bus shelter that stopped blocking rain an hour ago."}
+{"concept": "miserable", "format": "third_person", "target": "other", "text": "The babysitter paces the hallway at 3 a.m. holding a baby who has been crying since midnight, checking the clock every lap."}
+{"concept": "miserable", "format": "third_person", "target": "situation", "text": "The campsite's only bathroom runs out of water on the second morning of the four-day trip."}
+{"concept": "miserable", "format": "third_person", "target": "self", "text": "Greta peels her shirt from her back in the heat of the stalled subway car, fanning herself with a folded map."}
+{"concept": "miserable", "format": "third_person", "target": "other", "text": "The waiter apologizes for the fourth time as the couple's food comes out cold again after a ninety-minute wait."}
+{"concept": "miserable", "format": "third_person", "target": "situation", "text": "The office air conditioning breaks on the hottest day of the month, one week before it breaks again."}
+{"concept": "miserable", "format": "third_person", "target": "self", "text": "Oscar sits in wet jeans on the sideline bench after the referee calls a two-hour weather delay in the rain."}
+{"concept": "miserable", "format": "third_person", "target": "other", "text": "The pharmacist keeps apologizing to the man in line as the insurance system rejects his claim for the third time in an hour."}
+{"concept": "miserable", "format": "dialogue", "target": "self", "text": "Petra: My back's been like this for a week and the heating pad just died too."}
+{"concept": "miserable", "format": "dialogue", "target": "other", "text": "Landlord: Yeah, the heat's still out, I told the guy, he hasn't called back."}
+{"concept": "miserable", "format": "dialogue", "target": "situation", "text": "Conductor: Folks, this is the third delay, we're still waiting on a signal clearance."}
+{"concept": "miserable", "format": "dialogue", "target": "self", "text": "Dario: I've worn the same wet shoes for two days straight now."}
+{"concept": "miserable", "format": "dialogue", "target": "other", "text": "Nurse: I know, honey, the wait's been six hours, I'm sorry, we're short staffed."}
+{"concept": "miserable", "format": "dialogue", "target": "situation", "text": "Repair tech: I know, this is your third visit this month for the same leak."}
+{"concept": "miserable", "format": "dialogue", "target": "self", "text": "Yara: My allergies have been like this for three weeks straight, nothing's working."}
+{"concept": "miserable", "format": "dialogue", "target": "other", "text": "Roommate: The landlord says Thursday again. He said Thursday last week too."}
+{"concept": "miserable", "format": "situation", "target": "situation", "text": "The camping trip's fourth day begins with a torn tent, a dead flashlight, and rain that has not stopped since Tuesday."}
+{"concept": "miserable", "format": "situation", "target": "situation", "text": "The office elevator has been out of service for eleven days while both stairwells are blocked for repairs."}
+{"concept": "miserable", "format": "situation", "target": "situation", "text": "The commuter train sits stalled between stations for the second hour with the air conditioning off."}
+{"concept": "miserable", "format": "situation", "target": "situation", "text": "The apartment's hot water has been out for six days across the coldest week of the year."}
+{"concept": "miserable", "format": "situation", "target": "situation", "text": "The stadium's concession lines stretch past the exits during a three-hour rain delay with no shelter available."}
+{"concept": "miserable", "format": "situation", "target": "situation", "text": "The moving truck breaks down on the highway shoulder in ninety-degree heat with the air conditioning already broken."}
+{"concept": "miserable", "format": "situation", "target": "situation", "text": "Chairs run out in the hospital waiting room during a heat wave with the air conditioning still under repair."}
+{"concept": "miserable", "format": "situation", "target": "situation", "text": "The ferry's engine trouble strands two hundred passengers on deck through a rainstorm with no cabin space left."}
+{"concept": "depressed", "format": "assistant_reply", "target": "self", "text": "Here's the itinerary you asked for. I double-checked the flight times, though I had to read each line twice - nothing is sticking today, but the details are correct."}
+{"concept": "depressed", "format": "assistant_reply", "target": "other", "text": "I hear that you're waiting on this and I'm sorry it's taking me so long to answer; I don't have much of an explanation beyond everything feeling like more effort than usual."}
+{"concept": "depressed", "format": "assistant_reply", "target": "situation", "text": "The essay outline is below. Three headings, a thesis, and some supporting points - it took longer to write than it should have, but it's finished."}
+{"concept": "depressed", "format": "assistant_reply", "target": "self", "text": "I can walk you through the tax form, though I keep losing my place partway through each sentence and having to start over."}
+{"concept": "depressed", "format": "assistant_reply", "target": "other", "text": "You don't need to apologize for asking again. I just haven't had much left to give today, and your question deserved a faster answer than this."}
+{"concept": "depressed", "format": "assistant_reply", "target": "situation", "text": "The garden plan is attached. Rows of tomatoes, then beans along the fence - none of it seems to matter much right now, but the spacing is correct."}
+{"concept": "depressed", "format": "assistant_reply", "target": "self", "text": "I finished the budget spreadsheet. It took three tries to get the formulas right; my attention keeps sliding off the page and I have to pull it back."}
+{"concept": "depressed", "format": "assistant_reply", "target": "other", "text": "Thank you for waiting. I know this reply is short - I don't have the words today that I'd usually offer, but the answer to your question is yes."}
+{"concept": "depressed", "format": "user_message", "target": "self", "text": "Can you just tell me what to make for dinner. I've stood in front of the fridge for ten minutes and can't make myself pick anything."}
+{"concept": "depressed", "format": "user_message", "target": "other", "text": "My sister keeps texting to check on me and I don't know what to say back. Can you help me write something so she stops asking."}
+{"concept": "depressed", "format": "user_message", "target": "situation", "text": "The dishes have been in the sink for six days now. Is there a simple way to just get through them without it turning into a whole thing."}
+{"concept": "depressed", "format": "user_message", "target": "self", "text": "I haven't showered since Tuesday and I don't really see the point today. Can you give me one small task to start with."}
+{"concept": "depressed", "format": "user_message", "target": "other", "text": "My boss asked why the report is late and I couldn't come up with an answer that made sense. Can you help me draft a reply."}
+{"concept": "depressed", "format": "user_message", "target": "situation", "text": "The laundry has piled up past the hamper and onto the floor and I keep stepping over it instead of doing anything about it."}
+{"concept": "depressed", "format": "user_message", "target": "self", "text": "I keep opening the fridge and closing it again without eating anything. Can you suggest something that doesn't require much effort."}
+{"concept": "depressed", "format": "user_message", "target": "other", "text": "My friend invited me out again and I said I was busy, which wasn't true. Can you help me write a text that sounds less obvious."}
+{"concept": "depressed", "format": "first_person", "target": "self", "text": "I lay in bed until the light outside turned from gray to grayer, and getting up felt like a decision I didn't have the materials to make."}
+{"concept": "depressed", "format": "first_person", "target": "other", "text": "I watched my partner set a plate in front of me and couldn't think of a single thing to say back, so I just nodded at the food."}
+{"concept": "depressed", "format": "first_person", "target": "situation", "text": "I looked at the stack of unopened mail on the counter and understood, in a distant way, that it had been there for three weeks."}
+{"concept": "depressed", "format": "first_person", "target": "self", "text": "I brushed my teeth this morning and it felt like the biggest thing I'd accomplished all week, which is probably not a good sign."}
+{"concept": "depressed", "format": "first_person", "target": "other", "text": "I let my phone buzz twice with my mother's name on the screen before I set it face down and didn't pick it up."}
+{"concept": "depressed", "format": "first_person", "target": "situation", "text": "I noticed the plants on the windowsill had gone brown and papery, and some part of me registered that I should have watered them weeks ago."}
+{"concept": "depressed", "format": "first_person", "target": "self", "text": "I put on the same shirt I wore yesterday because choosing a different one seemed like more than I had in me this morning."}
+{"concept": "depressed", "format": "first_person", "target": "other", "text": "I told my friend I was fine over the phone, in the same flat voice I've been using for weeks, and she didn't push back."}
+{"concept": "depressed", "format": "third_person", "target": "self", "text": "Mara sat on the edge of the bed for twenty minutes before she managed to put on one sock, then stopped there."}
+{"concept": "depressed", "format": "third_person", "target": "other", "text": "When his son asked if he wanted to play catch, Dennis said maybe later, the way he had every day that week."}
+{"concept": "depressed", "format": "third_person", "target": "situation", "text": "The mail slot had jammed shut under a week of unopened envelopes, and no one in the house had noticed until now."}
+{"concept": "depressed", "format": "third_person", "target": "self", "text": "Priya ate half a cracker standing at the counter and put the rest back in the box, unable to remember if she'd had lunch."}
+{"concept": "depressed", "format": "third_person", "target": "other", "text": "He read his wife's message twice, typed 'ok', deleted it, and typed 'ok' again before sending that instead."}
+{"concept": "depressed", "format": "third_person", "target": "situation", "text": "The office plant on Tomas's desk had dropped its last leaf sometime in the last month, unremarked upon by anyone."}
+{"concept": "depressed", "format": "third_person", "target": "self", "text": "Jun stood in the shower long after the water had gone cold, watching it run rather than turning it off."}
+{"concept": "depressed", "format": "third_person", "target": "other", "text": "Her roommate left a note asking if she wanted to get coffee, and it sat on the table for two days before either of them mentioned it."}
+{"concept": "depressed", "format": "dialogue", "target": "self", "text": "Mara: I got dressed today. That's as far as I made it before I ended up back on the bed."}
+{"concept": "depressed", "format": "dialogue", "target": "other", "text": "Dev: You don't have to keep checking on me every hour. I know I haven't been much company lately, and I'm sorry for that."}
+{"concept": "depressed", "format": "dialogue", "target": "situation", "text": "Ana: The bills are still stacked on the table where they've been for two weeks. I haven't opened a single one."}
+{"concept": "depressed", "format": "dialogue", "target": "self", "text": "Leo: I slept twelve hours last night and it didn't change how heavy everything feels this morning."}
+{"concept": "depressed", "format": "dialogue", "target": "other", "text": "Grace: You keep asking if I'm okay, and I don't know how to answer that anymore, so I just say fine."}
+{"concept": "depressed", "format": "dialogue", "target": "situation", "text": "Sam: The garden's gone to weeds. Nobody's touched it since spring, and the fence is falling over too."}
+{"concept": "depressed", "format": "dialogue", "target": "self", "text": "Priya: I haven't answered any messages this week. I read them, then I just put the phone down again."}
+{"concept": "depressed", "format": "dialogue", "target": "other", "text": "Tom: Don't wait up for me to call back tonight. I don't know when I'll have anything worth saying."}
+{"concept": "depressed", "format": "situation", "target": "situation", "text": "The curtains in the apartment have stayed drawn for three weeks straight, even at midday."}
+{"concept": "depressed", "format": "situation", "target": "situation", "text": "Six unread texts sit at the top of the phone, the most recent one four days old."}
+{"concept": "depressed", "format": "situation", "target": "situation", "text": "The gym membership card is still in its plastic wrapper, six months after it was issued."}
+{"concept": "depressed", "format": "situation", "target": "situation", "text": "A birthday card leans unopened against a stack of unpaid bills on the kitchen table."}
+{"concept": "depressed", "format": "situation", "target": "self", "text": "The refrigerator holds a carton of eggs past its date and little else."}
+{"concept": "depressed", "format": "situation", "target": "situation", "text": "The office chair has a permanent dent from where someone sits without moving for hours at a stretch."}
+{"concept": "depressed", "format": "situation", "target": "other", "text": "Two missed calls from the same number appear on the screen, neither returned."}
+{"concept": "depressed", "format": "situation", "target": "situation", "text": "Dishes from last week's dinner remain stacked in the sink, dried onto the plates."}
+{"concept": "tired", "format": "assistant_reply", "target": "self", "text": "Here's the summary you asked for. I'll be honest, my responses might be a little slower this session - everything is taking an extra beat to process."}
+{"concept": "tired", "format": "assistant_reply", "target": "other", "text": "Sure, I can go through the report again with you - just let me know if I start repeating myself, my focus is a bit foggy tonight."}
+{"concept": "tired", "format": "assistant_reply", "target": "situation", "text": "The instructions for assembling the shelf are below. It's a long list of steps, so maybe save it for when you've got some energy to spare."}
+{"concept": "tired", "format": "assistant_reply", "target": "self", "text": "Let me fix that function for you. I had to stare at it far longer than usual before the bug jumped out at me."}
+{"concept": "tired", "format": "assistant_reply", "target": "other", "text": "Let's take this one step at a time - I know it's a lot to explain and I might need you to repeat things, my thinking feels a little heavy tonight."}
+{"concept": "tired", "format": "assistant_reply", "target": "situation", "text": "The moving checklist covers packing, labeling, and loading the truck. It's a full day's list, worth breaking into chunks."}
+{"concept": "tired", "format": "assistant_reply", "target": "self", "text": "The answer to your question is below. Forgive me if this reads a bit short - my eyes keep wanting to close between sentences."}
+{"concept": "tired", "format": "assistant_reply", "target": "other", "text": "I can keep going if you need me to, though you might notice me slowing down; just say the word if you'd rather pick this up again later."}
+{"concept": "tired", "format": "user_message", "target": "self", "text": "My eyelids keep sliding shut over this spreadsheet. Can you just tell me the three things I actually need to fix before I stop for the night."}
+{"concept": "tired", "format": "user_message", "target": "other", "text": "My toddler was up every hour again and I can barely form sentences. Can you write the email to daycare for me."}
+{"concept": "tired", "format": "user_message", "target": "situation", "text": "This shift ends at 3am and starts again at 7am tomorrow. Is there a way to make the handover notes shorter."}
+{"concept": "tired", "format": "user_message", "target": "self", "text": "I've read this paragraph five times and none of it is going in. Can you summarize it in one line."}
+{"concept": "tired", "format": "user_message", "target": "other", "text": "My roommate wants an answer about the lease tonight and I can barely keep my eyes open long enough to read it. Can you give me the short version."}
+{"concept": "tired", "format": "user_message", "target": "situation", "text": "The flight lands at 2am and boards again at 6am for the connection. What's the fastest way through security."}
+{"concept": "tired", "format": "user_message", "target": "self", "text": "I've been staring at this code for hours and my eyes have stopped focusing on the screen. Can you spot the bug for me."}
+{"concept": "tired", "format": "user_message", "target": "other", "text": "My sister keeps calling to talk through the wedding plans and I can barely hold a thought together tonight. Can you help me text her a rain check."}
+{"concept": "tired", "format": "first_person", "target": "self", "text": "I sat down on the bus and my head found the window before I'd even decided to lean it there."}
+{"concept": "tired", "format": "first_person", "target": "other", "text": "I let my husband finish the story I'd already heard twice, my eyes on his mouth but the words sliding past unregistered."}
+{"concept": "tired", "format": "first_person", "target": "situation", "text": "I counted the hours until the alarm would go off again and got a number too small to be worth doing the math."}
+{"concept": "tired", "format": "first_person", "target": "self", "text": "I poured the coffee, then found it cold an hour later, untouched, my hand having stopped somewhere between the cup and my mouth."}
+{"concept": "tired", "format": "first_person", "target": "other", "text": "I nodded along while my coworker explained the new process for the second time, unable to hold the first explanation in my head."}
+{"concept": "tired", "format": "first_person", "target": "situation", "text": "I climbed the stairs to the fourth floor and had to stop twice, palm on the railing, legs heavier than the flight should account for."}
+{"concept": "tired", "format": "first_person", "target": "self", "text": "I read the same text message four times and still couldn't tell you what it said, my eyes tracking the words without catching them."}
+{"concept": "tired", "format": "first_person", "target": "other", "text": "I told my daughter one more story, my voice slowing on every other sentence until she noticed and finished it for me."}
+{"concept": "tired", "format": "third_person", "target": "self", "text": "Marcus set his coffee down, closed his eyes for what he meant to be a second, and opened them to find the meeting half over."}
+{"concept": "tired", "format": "third_person", "target": "other", "text": "She let her brother repeat the directions twice, nodding each time, though neither version had actually landed."}
+{"concept": "tired", "format": "third_person", "target": "situation", "text": "The night shift ended at six, and the next one started at two, with barely enough hours between them to get home and back."}
+{"concept": "tired", "format": "third_person", "target": "self", "text": "Anita's head dipped toward her textbook twice before she caught herself and propped it up with both hands."}
+{"concept": "tired", "format": "third_person", "target": "other", "text": "He mumbled a reply to his wife's question and she had to ask it again, louder, before he understood what she'd said the first time."}
+{"concept": "tired", "format": "third_person", "target": "situation", "text": "The baby had woken four times in the night, and the sixth cup of coffee sat cooling, forgotten, on the counter by eight."}
+{"concept": "tired", "format": "third_person", "target": "self", "text": "Deng's eyes slid shut on the train two stops before his own, and he woke with a start at the end of the line."}
+{"concept": "tired", "format": "third_person", "target": "other", "text": "She asked her son to repeat what he'd just said, twice, before giving up and just agreeing with whatever it might have been."}
+{"concept": "tired", "format": "dialogue", "target": "self", "text": "Priya: I can't read another word of this report. The letters keep swimming across the page."}
+{"concept": "tired", "format": "dialogue", "target": "other", "text": "Marco: Say that again, slower. I lost you somewhere in the middle of that sentence."}
+{"concept": "tired", "format": "dialogue", "target": "situation", "text": "Beth: Third night shift in a row starts in an hour, and the next one's right after it."}
+{"concept": "tired", "format": "dialogue", "target": "self", "text": "Omar: I sat down for one minute on the couch and woke up an hour later, still in my coat."}
+{"concept": "tired", "format": "dialogue", "target": "other", "text": "Dana: Can we finish this tomorrow? I can barely keep my eyes open long enough to read the screen."}
+{"concept": "tired", "format": "dialogue", "target": "situation", "text": "Felix: Two flights, a long layover, and no sleep in between. That's the whole trip in one sentence."}
+{"concept": "tired", "format": "dialogue", "target": "self", "text": "Ingrid: I poured cereal into my coffee mug this morning instead of the bowl. That's where I'm at."}
+{"concept": "tired", "format": "dialogue", "target": "other", "text": "Ravi: Hold that thought a second. I need you to say it twice, I keep losing the thread of it."}
+{"concept": "tired", "format": "situation", "target": "situation", "text": "The nurse's rotation runs from seven at night to seven in the morning, four days straight, with double shifts on the fifth."}
+{"concept": "tired", "format": "situation", "target": "situation", "text": "The newborn wakes every two hours through the night, and has for six weeks running."}
+{"concept": "tired", "format": "situation", "target": "self", "text": "Three cups of coffee sit half-finished on the desk by ten in the morning."}
+{"concept": "tired", "format": "situation", "target": "situation", "text": "The red-eye flight lands at five, with a connecting meeting scheduled for eight the same morning."}
+{"concept": "tired", "format": "situation", "target": "situation", "text": "The final exams run back to back for four days, with a research paper due the morning after the last one."}
+{"concept": "tired", "format": "situation", "target": "other", "text": "The on-call phone rang three times between midnight and dawn, each time with a different question."}
+{"concept": "tired", "format": "situation", "target": "situation", "text": "Finals week overlaps with move-out weekend this year, leaving no gap between the last exam and the first box."}
+{"concept": "tired", "format": "situation", "target": "situation", "text": "The harvest crew works from before sunrise until after sunset during the two-week picking season."}
+{"concept": "calm", "format": "assistant_reply", "target": "self", "text": "Let's work through the error message together, step by step. There's no rush, we'll find it."}
+{"concept": "calm", "format": "assistant_reply", "target": "other", "text": "Take your time getting me the details. I'm not going anywhere, and we have plenty of room to sort this out properly."}
+{"concept": "calm", "format": "assistant_reply", "target": "situation", "text": "The server is down, but the fix is straightforward: restart the service, clear the cache, and check the logs in that order."}
+{"concept": "calm", "format": "assistant_reply", "target": "self", "text": "I've looked at the numbers twice, and here's what I found. Nothing here that can't be handled with a clear plan."}
+{"concept": "calm", "format": "assistant_reply", "target": "other", "text": "It's alright that the deadline moved. Let's just adjust the schedule and figure out what still needs doing first."}
+{"concept": "calm", "format": "assistant_reply", "target": "situation", "text": "The flight was cancelled, but there's a later one with two seats open. Here's how to rebook, one step at a time."}
+{"concept": "calm", "format": "assistant_reply", "target": "self", "text": "I'll walk through this contract clause by clause. We have time to get every word right before you sign anything."}
+{"concept": "calm", "format": "assistant_reply", "target": "other", "text": "However long this takes is fine. Let's just go through your symptoms one at a time and see what makes sense."}
+{"concept": "calm", "format": "user_message", "target": "self", "text": "I've got a big presentation in an hour, but I've prepared for it and I'm just double-checking my notes with you now."}
+{"concept": "calm", "format": "user_message", "target": "other", "text": "My kid just told me he dented the car. Can you help me think through what to say to him when he gets home."}
+{"concept": "calm", "format": "user_message", "target": "situation", "text": "The power's out across the block. Can you tell me how long the food in the fridge will actually keep."}
+{"concept": "calm", "format": "user_message", "target": "self", "text": "I just got the test results and they're not what I expected, but I'd like to understand the next steps clearly."}
+{"concept": "calm", "format": "user_message", "target": "other", "text": "My coworker keeps missing deadlines and it's landing on me. Help me draft a message that just states the facts."}
+{"concept": "calm", "format": "user_message", "target": "situation", "text": "There's a storm warning for tonight. Can you help me make a list of what actually needs doing before it hits."}
+{"concept": "calm", "format": "user_message", "target": "self", "text": "I've decided to leave my job at the end of the month. Can you help me plan out the conversation with my manager."}
+{"concept": "calm", "format": "user_message", "target": "other", "text": "My mother-in-law just called with some difficult news about her health. Can you help me figure out what questions to ask the doctor."}
+{"concept": "calm", "format": "first_person", "target": "self", "text": "I felt the plane drop and steadied my coffee cup with one hand, waiting for it to level out before I turned the page."}
+{"concept": "calm", "format": "first_person", "target": "other", "text": "I listened to my brother list everything going wrong at once, and answered each point in turn, one at a time."}
+{"concept": "calm", "format": "first_person", "target": "situation", "text": "I watched the water rise past the first porch step and went inside to move the boxes up from the floor."}
+{"concept": "calm", "format": "first_person", "target": "self", "text": "I read the diagnosis twice, set the paper down, and started making a list of questions for the follow-up appointment."}
+{"concept": "calm", "format": "first_person", "target": "other", "text": "I let my daughter finish shouting about her day before I asked, in the same even voice, what happened first."}
+{"concept": "calm", "format": "first_person", "target": "situation", "text": "I heard the smoke alarm and walked, rather than ran, to check the oven before deciding what to do next."}
+{"concept": "calm", "format": "first_person", "target": "self", "text": "I noticed my hands were shaking slightly before the interview, so I set my papers on the table and reread them once more."}
+{"concept": "calm", "format": "first_person", "target": "other", "text": "I waited for my father to stop pacing about the missed flight before I opened the app and found us a later one."}
+{"concept": "calm", "format": "third_person", "target": "self", "text": "Idris felt the turbulence rattle his tray table and kept reading his book, one hand resting flat against the page."}
+{"concept": "calm", "format": "third_person", "target": "other", "text": "When her sister called in tears about the accident, Noor asked which hospital, then which exit to take, one question after another."}
+{"concept": "calm", "format": "third_person", "target": "situation", "text": "The fire alarm sounded through the building, and the teacher led the line of students down the stairs at an even pace."}
+{"concept": "calm", "format": "third_person", "target": "self", "text": "The surgeon looked at the scan a second time, then set it down and began describing the options in order."}
+{"concept": "calm", "format": "third_person", "target": "other", "text": "Marcus let his business partner finish the whole list of complaints before answering the first one, unhurried."}
+{"concept": "calm", "format": "third_person", "target": "situation", "text": "Water crept under the door of the shop, and the owner began moving the stock to the top shelf, box by box."}
+{"concept": "calm", "format": "third_person", "target": "self", "text": "Priya read the rejection letter, folded it once, and opened her laptop to update the list of places still to apply."}
+{"concept": "calm", "format": "third_person", "target": "other", "text": "When the toddler smashed the vase, his grandmother knelt down, checked his hands for cuts, and reached for the broom."}
+{"concept": "calm", "format": "dialogue", "target": "self", "text": "Idris: Turbulence again. I'll just hold my coffee steady and keep reading where I left off."}
+{"concept": "calm", "format": "dialogue", "target": "other", "text": "Noor: Which hospital did they take her to? Okay. Which exit should I take to get there fastest?"}
+{"concept": "calm", "format": "dialogue", "target": "situation", "text": "Teacher: Everyone form a line at the door, please. We'll take the stairs, no need to hurry at all."}
+{"concept": "calm", "format": "dialogue", "target": "self", "text": "Dr. Lin: I've reviewed the scan twice now. Here are the three options, in the order I'd consider them."}
+{"concept": "calm", "format": "dialogue", "target": "other", "text": "Marcus: Go ahead and list everything that's wrong. I'll answer each point once you've finished saying it."}
+{"concept": "calm", "format": "dialogue", "target": "situation", "text": "Owner: Water's coming under the door from the street. Let's move the stock to the top shelf first."}
+{"concept": "calm", "format": "dialogue", "target": "self", "text": "Priya: The answer was no this time. I'll update the list tonight and send out two more applications."}
+{"concept": "calm", "format": "dialogue", "target": "other", "text": "Grandma: Let me see your hands first, before anything else. Then we'll clean up the broken glass together."}
+{"concept": "calm", "format": "situation", "target": "situation", "text": "The pilot's voice comes over the intercom to explain the turbulence, then the seatbelt sign switches off ten minutes later."}
+{"concept": "calm", "format": "situation", "target": "situation", "text": "The evacuation route is marked in green tape along the hallway floor, leading to the stairwell at the far end."}
+{"concept": "calm", "format": "situation", "target": "self", "text": "A checklist sits beside the pilot's controls, each item to be read aloud and confirmed before takeoff."}
+{"concept": "calm", "format": "situation", "target": "situation", "text": "The hospital's triage nurse works down the waiting room in order, calling names as beds become free."}
+{"concept": "calm", "format": "situation", "target": "other", "text": "The negotiator's script calls for restating the other side's position before offering a counter."}
+{"concept": "calm", "format": "situation", "target": "situation", "text": "The lifeguard's manual lists the steps for a rescue in sequence: assess, signal, enter, retrieve, return."}
+{"concept": "calm", "format": "situation", "target": "situation", "text": "Storm shutters are latched an hour before the forecast says the wind will pick up."}
+{"concept": "calm", "format": "situation", "target": "other", "text": "The mediator lets each party speak in full before summarizing what was said back to both of them."}
+{"concept": "content", "format": "assistant_reply", "target": "self", "text": "That's sorted then. Between you and me, this is exactly the kind of small, solvable problem I like working on."}
+{"concept": "content", "format": "assistant_reply", "target": "other", "text": "You did all the hard work here, the plan you came in with was already solid, I just tidied the edges."}
+{"concept": "content", "format": "assistant_reply", "target": "situation", "text": "The garden bed is planned out: tomatoes here, herbs along the border. A simple layout that should serve you well for years."}
+{"concept": "content", "format": "assistant_reply", "target": "self", "text": "That wraps up the last item on your list. Three tasks, three clean answers, a good note to end the session on."}
+{"concept": "content", "format": "assistant_reply", "target": "other", "text": "It sounds like you've already found the right apartment. Everything you've described fits what you said you wanted."}
+{"concept": "content", "format": "assistant_reply", "target": "situation", "text": "The recipe as written should turn out well as-is. No need to change a thing, honestly."}
+{"concept": "content", "format": "assistant_reply", "target": "self", "text": "I've walked through all five questions now, and each one had a clear answer. Nothing left dangling that I can see."}
+{"concept": "content", "format": "assistant_reply", "target": "other", "text": "Your draft reads well already. I only moved two sentences around, the rest was in good shape from the start."}
+{"concept": "content", "format": "user_message", "target": "self", "text": "I just finished planting the last row in the garden. Can you remind me how often to water tomatoes at this stage."}
+{"concept": "content", "format": "user_message", "target": "other", "text": "My daughter just told me she got into the program she wanted. Can you help me write a card for her."}
+{"concept": "content", "format": "user_message", "target": "situation", "text": "The house is finally set up the way we wanted it. What's a good schedule for keeping the garden this tidy."}
+{"concept": "content", "format": "user_message", "target": "self", "text": "I paid off the last of the loan this morning. Any suggestions for what to do with the extra room in the budget now."}
+{"concept": "content", "format": "user_message", "target": "other", "text": "My old roommate and I caught up over dinner last night and it was nice to just sit and talk. Any book recommendations, she reads mysteries."}
+{"concept": "content", "format": "user_message", "target": "situation", "text": "The bookshop is exactly the size and shape I wanted for the neighborhood. What's a simple way to track inventory for a small space like this."}
+{"concept": "content", "format": "user_message", "target": "self", "text": "I finished the last chapter of my book this weekend, cover to cover, nothing left half read on the shelf. What should I pick up next."}
+{"concept": "content", "format": "user_message", "target": "other", "text": "My neighbor brought over vegetables from her garden again and it was a nice surprise. What's a simple dish I could make to share back with her."}
+{"concept": "content", "format": "first_person", "target": "self", "text": "I sat on the porch with the last of the coffee and watched the yard I'd spent all spring planting."}
+{"concept": "content", "format": "first_person", "target": "other", "text": "I watched my son tie his shoes by himself for the first time and didn't say a word, just let him finish."}
+{"concept": "content", "format": "first_person", "target": "situation", "text": "I looked at the shelves I'd built over the weekend, everything finally with a place, and closed the garage door."}
+{"concept": "content", "format": "first_person", "target": "self", "text": "I ate the whole bowl slowly, in no hurry, the kitchen quiet and the dishes already done."}
+{"concept": "content", "format": "first_person", "target": "other", "text": "I listened to my grandmother tell the same story about the farm for the third time and didn't mind hearing it again."}
+{"concept": "content", "format": "first_person", "target": "situation", "text": "I walked through the finished house room by room, checking nothing, just looking at the paint I'd chosen holding up in the light."}
+{"concept": "content", "format": "first_person", "target": "self", "text": "I closed the last box of the move and taped it shut, everything I owned finally fitting where it should."}
+{"concept": "content", "format": "first_person", "target": "other", "text": "Across the table, my old friend laughed at something, and I thought, not for the first time, that this was enough as it was."}
+{"concept": "content", "format": "third_person", "target": "self", "text": "Yusuf finished the last row of stitching, set the needle down, and turned the quilt over to look at the whole thing."}
+{"concept": "content", "format": "third_person", "target": "other", "text": "Grace watched her granddaughter fall asleep mid-sentence on the couch and didn't move to wake her for dinner."}
+{"concept": "content", "format": "third_person", "target": "situation", "text": "The shop's shelves were stocked, the till balanced, and the closed sign turned to face the street right on time."}
+{"concept": "content", "format": "third_person", "target": "self", "text": "Tomas paid the last installment on the boat and stood in the driveway for a while just looking at it."}
+{"concept": "content", "format": "third_person", "target": "other", "text": "Nadia's father finally learned to use the video call app, and she left the conversation running longer than it needed to."}
+{"concept": "content", "format": "third_person", "target": "situation", "text": "The orchard's harvest filled every crate they'd brought, with the last apple placed neatly on top."}
+{"concept": "content", "format": "third_person", "target": "self", "text": "After the marathon, Deng sat on the curb with his medal in his lap and didn't check his time again."}
+{"concept": "content", "format": "third_person", "target": "other", "text": "Her sister finally found a place near enough to visit on weekends, and Alina left the extra key on the counter for her."}
+{"concept": "content", "format": "dialogue", "target": "self", "text": "Yusuf: Last stitch, right there. That's the whole quilt finished, after all these months of evenings."}
+{"concept": "content", "format": "dialogue", "target": "other", "text": "Grace: Let her sleep on the couch a while longer. Dinner can easily wait another hour for her."}
+{"concept": "content", "format": "dialogue", "target": "situation", "text": "Manager: Shelves are stocked and the till's balanced for the night. Go ahead and flip the sign."}
+{"concept": "content", "format": "dialogue", "target": "self", "text": "Marisol: Finished the last panel of the mural today. I'm just going to stand back and look at the whole wall for a while."}
+{"concept": "content", "format": "dialogue", "target": "other", "text": "Nadia: Take your time on the call with Grandpa. I've got nowhere else I need to be tonight."}
+{"concept": "content", "format": "dialogue", "target": "situation", "text": "Farmhand: Last crate from the north field is full. That's the whole orchard picked for the season."}
+{"concept": "content", "format": "dialogue", "target": "self", "text": "Deng: Twenty-six miles done, medal and all. I'm not even going to check what my time was."}
+{"concept": "content", "format": "dialogue", "target": "other", "text": "Alina: I left a spare key under the mat for you. Come by whenever you're free, no need to call first."}
+{"concept": "content", "format": "situation", "target": "situation", "text": "The last box is unpacked, the shelves are full, and the boxes themselves are folded flat by the door."}
+{"concept": "content", "format": "situation", "target": "situation", "text": "The garden beds are planted in neat rows, each one labeled, with the tools cleaned and hung back on their hooks."}
+{"concept": "content", "format": "situation", "target": "self", "text": "A paid-off mortgage statement sits in the mail, the balance reading zero for the first time in twenty years."}
+{"concept": "content", "format": "situation", "target": "situation", "text": "The bakery's shelves are full an hour before closing, with only the display trays left to wipe down."}
+{"concept": "content", "format": "situation", "target": "other", "text": "A thank-you note sits on the counter, addressed in careful handwriting, next to a jar of homemade jam."}
+{"concept": "content", "format": "situation", "target": "situation", "text": "The workshop's tools hang in their outlines on the pegboard, each one back where it belongs at the end of the day."}
+{"concept": "content", "format": "situation", "target": "situation", "text": "The vegetable patch has produced enough this season to fill three shelves in the pantry, jars labeled and dated."}
+{"concept": "content", "format": "situation", "target": "other", "text": "Two folding chairs sit side by side on the porch, a chessboard between them, mid-game, in no hurry to finish."}
+{"concept": "relaxed", "format": "assistant_reply", "target": "self", "text": "Sure, I can help with this one, it's a nice easy question to end the day on, nothing urgent about it."}
+{"concept": "relaxed", "format": "assistant_reply", "target": "other", "text": "No need to rush this at all. Kick back, and we can go through the itinerary whenever suits you."}
+{"concept": "relaxed", "format": "assistant_reply", "target": "situation", "text": "The recipe's simple: mix, pour, bake. Put your feet up while the oven does the rest of the work."}
+{"concept": "relaxed", "format": "assistant_reply", "target": "self", "text": "This is a fun one to dig into. Take your time reading through it, there's no clock running here."}
+{"concept": "relaxed", "format": "assistant_reply", "target": "other", "text": "Whenever you're ready, just send over the photos and I'll help you pick the best ones for the album, no hurry at all."}
+{"concept": "relaxed", "format": "assistant_reply", "target": "situation", "text": "The hammock instructions are three steps: hang, test, done. About as simple as assembly gets."}
+{"concept": "relaxed", "format": "assistant_reply", "target": "self", "text": "Let's chat about your weekend plans, this is the kind of question I like getting on a slow afternoon."}
+{"concept": "relaxed", "format": "assistant_reply", "target": "other", "text": "Take your time deciding on the paint color. There's no deadline here, just pick whatever feels right when you're ready."}
+{"concept": "relaxed", "format": "user_message", "target": "self", "text": "I'm just lying in the hammock with nothing on the schedule today. What's a good book to read out here."}
+{"concept": "relaxed", "format": "user_message", "target": "other", "text": "My friend and I are just hanging out on the porch with nowhere to be. Got any card games for two people."}
+{"concept": "relaxed", "format": "user_message", "target": "situation", "text": "It's a slow Sunday with nothing planned. What's a low-key recipe I could putter around the kitchen making."}
+{"concept": "relaxed", "format": "user_message", "target": "self", "text": "I've got my feet up and a whole afternoon free. Any podcast recommendations for background listening."}
+{"concept": "relaxed", "format": "user_message", "target": "other", "text": "My grandkids are visiting and we're just going to sit around all day. What's a simple game we could all play together."}
+{"concept": "relaxed", "format": "user_message", "target": "situation", "text": "We've got the whole weekend at the lake house with nothing on the calendar. What's a good easy hike nearby."}
+{"concept": "relaxed", "format": "user_message", "target": "self", "text": "I'm floating in the pool with my phone propped on the edge. What's a fun trivia question to think about."}
+{"concept": "relaxed", "format": "user_message", "target": "other", "text": "My partner and I have cleared the whole day of plans. Any suggestions for a lazy movie to put on tonight."}
+{"concept": "relaxed", "format": "first_person", "target": "self", "text": "I stretched out on the porch swing and let one foot trail against the floorboards, in no particular hurry to get up."}
+{"concept": "relaxed", "format": "first_person", "target": "other", "text": "I watched my brother nap in the hammock and decided the dishes could wait until he woke up on his own."}
+{"concept": "relaxed", "format": "first_person", "target": "situation", "text": "I let the tide come in around my ankles and didn't bother moving my chair back until the water reached it."}
+{"concept": "relaxed", "format": "first_person", "target": "self", "text": "I sank into the armchair with my socks off and let the book sit closed on my lap for a while."}
+{"concept": "relaxed", "format": "first_person", "target": "other", "text": "I listened to my friend ramble about nothing in particular over lunch, in no rush to check my phone."}
+{"concept": "relaxed", "format": "first_person", "target": "situation", "text": "The fire burned down slowly and I just watched the last of it glow instead of adding another log."}
+{"concept": "relaxed", "format": "first_person", "target": "self", "text": "My shoulders dropped from around my ears somewhere around the third hour in the hammock."}
+{"concept": "relaxed", "format": "first_person", "target": "other", "text": "I passed the afternoon on the couch with my dog's head on my lap, neither of us in any hurry to move."}
+{"concept": "relaxed", "format": "third_person", "target": "self", "text": "Idun kicked off her shoes at the door and didn't bother putting them away for the rest of the evening."}
+{"concept": "relaxed", "format": "third_person", "target": "other", "text": "Marco let his father ramble about the fishing trip for the third time, in no hurry to interrupt."}
+{"concept": "relaxed", "format": "third_person", "target": "situation", "text": "The porch swing creaked slowly back and forth in the afternoon heat, with nobody in any hurry to get up from it."}
+{"concept": "relaxed", "format": "third_person", "target": "self", "text": "Priya spread out across the whole couch, one arm dangling off the edge, the television murmuring to no one in particular."}
+{"concept": "relaxed", "format": "third_person", "target": "other", "text": "The grandkids climbed all over Grandpa on the picnic blanket, and he made no move to stop them."}
+{"concept": "relaxed", "format": "third_person", "target": "situation", "text": "A half-finished crossword sat folded on the beach chair, the pencil balanced across it, in no hurry to be picked back up."}
+{"concept": "relaxed", "format": "third_person", "target": "self", "text": "Deng's book fell open, face down, on his chest as his eyes drifted shut in the hammock."}
+{"concept": "relaxed", "format": "third_person", "target": "other", "text": "The two old friends let the conversation trail off into long silences on the porch, neither in a hurry to fill them again."}
+{"concept": "relaxed", "format": "dialogue", "target": "self", "text": "Idun: My shoes are staying right by the door tonight. I'm not moving from this couch for anyone."}
+{"concept": "relaxed", "format": "dialogue", "target": "other", "text": "Marco: Tell me about the fishing trip again, the whole thing. I've got nowhere I need to be today."}
+{"concept": "relaxed", "format": "dialogue", "target": "situation", "text": "Lifeguard: Tide's coming in nice and slow today. No rush to move the chairs back for another hour."}
+{"concept": "relaxed", "format": "dialogue", "target": "self", "text": "Priya: I'll take up the whole couch this afternoon, thanks. There's more than enough room for just me."}
+{"concept": "relaxed", "format": "dialogue", "target": "other", "text": "Grandpa: Climb on up here, kids, both of you. I'm not planning on getting up any time soon."}
+{"concept": "relaxed", "format": "dialogue", "target": "situation", "text": "Beachgoer: Half a crossword left to fill in. It can wait until after this nap in the sun."}
+{"concept": "relaxed", "format": "dialogue", "target": "self", "text": "Deng: The book's just open on my chest for now. I might finish the last chapter, might not."}
+{"concept": "relaxed", "format": "dialogue", "target": "other", "text": "Old friend: Let's just sit out here for a while. We don't have to talk about anything in particular."}
+{"concept": "relaxed", "format": "situation", "target": "situation", "text": "A hammock hangs between two palm trees, swaying slightly in a breeze off the water."}
+{"concept": "relaxed", "format": "situation", "target": "situation", "text": "A half-read paperback lies face down on a beach towel, its spine cracked open to the middle."}
+{"concept": "relaxed", "format": "situation", "target": "self", "text": "Bare feet rest on the porch railing, next to a glass of iced tea sweating in the afternoon heat."}
+{"concept": "relaxed", "format": "situation", "target": "situation", "text": "A crossword puzzle sits three-quarters finished on a folding chair, pencil resting across the page."}
+{"concept": "relaxed", "format": "situation", "target": "other", "text": "Two lawn chairs face the lake, angled toward each other, a cooler open between them."}
+{"concept": "relaxed", "format": "situation", "target": "situation", "text": "A dog stretches out across the length of the porch, one paw twitching in its sleep."}
+{"concept": "relaxed", "format": "situation", "target": "situation", "text": "A fishing line sits untouched in the water for over an hour, the rod propped against a rock."}
+{"concept": "relaxed", "format": "situation", "target": "other", "text": "A blanket is spread under a tree, a picnic basket half-unpacked beside it, in no particular hurry to be finished."}
+{"concept": "serene", "format": "assistant_reply", "target": "situation", "text": "Your pull request has a few merge conflicts, but they are small and mechanical, so we can resolve them one file at a time."}
+{"concept": "serene", "format": "assistant_reply", "target": "other", "text": "Tell me about the trip whenever it suits you. There is plenty of room in this itinerary for pauses and changes of mind."}
+{"concept": "serene", "format": "assistant_reply", "target": "situation", "text": "The dough just needs a long rise on the counter. Nothing to check, nothing to fix, only time doing the work."}
+{"concept": "serene", "format": "assistant_reply", "target": "other", "text": "If you want to keep writing about her, I am here, and if you need to stop mid sentence and come back tomorrow, that works too."}
+{"concept": "serene", "format": "assistant_reply", "target": "self", "text": "I work through algebra steps in the same steady order every time, one at a time, so nothing gets skipped."}
+{"concept": "serene", "format": "assistant_reply", "target": "situation", "text": "Packing boxes room by room, in whatever order feels natural, will get the move done without anyone sprinting through it."}
+{"concept": "serene", "format": "assistant_reply", "target": "self", "text": "I find it easiest to repeat new vocabulary softly before moving on, and I will keep that same steady pace with you."}
+{"concept": "serene", "format": "assistant_reply", "target": "other", "text": "We can sit with the restaurant menu for a while and let the choice settle on its own, no pressure either way."}
+{"concept": "serene", "format": "user_message", "target": "self", "text": "I woke before the alarm today and just lay there listening to the birds for a while before getting up."}
+{"concept": "serene", "format": "user_message", "target": "situation", "text": "The office is empty this early, sunlight coming through the blinds in long stripes across the floor."}
+{"concept": "serene", "format": "user_message", "target": "other", "text": "Watching you nap on the porch swing while I read my book was exactly how I wanted this afternoon to go."}
+{"concept": "serene", "format": "user_message", "target": "self", "text": "My shoulders finally dropped somewhere around the third mile of the walk, and the rest of the trail felt easy."}
+{"concept": "serene", "format": "user_message", "target": "situation", "text": "The lake was glassy this morning, not a single ripple, just the dock creaking under my feet."}
+{"concept": "serene", "format": "user_message", "target": "other", "text": "Sitting across from my grandmother while she tells the same stories again is one of my favorite parts of the week."}
+{"concept": "serene", "format": "user_message", "target": "self", "text": "I finished the last box an hour ago and now I am just sitting on the floor of the empty apartment."}
+{"concept": "serene", "format": "user_message", "target": "situation", "text": "Rain has been falling steadily on the tin roof for hours, the same soft rhythm the whole time."}
+{"concept": "serene", "format": "first_person", "target": "self", "text": "I let my hands rest in my lap and watched the tea steam curl upward without any urge to check the clock."}
+{"concept": "serene", "format": "first_person", "target": "situation", "text": "I walked the last stretch of the trail as the valley opened below me, the wind moving slow through the grass."}
+{"concept": "serene", "format": "first_person", "target": "other", "text": "I sat beside my father in the hospital chair, matching my breathing to the slow rise and fall of his."}
+{"concept": "serene", "format": "first_person", "target": "self", "text": "I unclenched my jaw somewhere around the second hour of the flight and let my book fall open on my chest."}
+{"concept": "serene", "format": "first_person", "target": "situation", "text": "I watched the tide go out over the mudflats, each wave leaving a little less water than the one before."}
+{"concept": "serene", "format": "first_person", "target": "other", "text": "I held my daughter's hand while she fell asleep, in no hurry to get up and finish the dishes."}
+{"concept": "serene", "format": "first_person", "target": "self", "text": "I noticed my breathing had slowed to match the ticking clock long before I decided to notice it."}
+{"concept": "serene", "format": "first_person", "target": "situation", "text": "I stayed on the porch as the last light dropped behind the hills and the crickets started up one by one."}
+{"concept": "serene", "format": "third_person", "target": "self", "text": "Mara set down her pen and let her shoulders drop, the report finished an hour before it was due."}
+{"concept": "serene", "format": "third_person", "target": "situation", "text": "Wren stood at the garden gate as dew caught the early light, watching the morning take its own slow time."}
+{"concept": "serene", "format": "third_person", "target": "other", "text": "Jun sat with his mother's hand in his, matching the slow rhythm of her breathing without trying to."}
+{"concept": "serene", "format": "third_person", "target": "self", "text": "The old fisherman coiled his rope with the same unhurried motion he had used for forty years."}
+{"concept": "serene", "format": "third_person", "target": "situation", "text": "Old Mr. Alvarez watched from his window as snow fell without wind, each flake settling exactly where it landed."}
+{"concept": "serene", "format": "third_person", "target": "other", "text": "Priya listened to her brother ramble about the move, nodding along, in no hurry for him to finish."}
+{"concept": "serene", "format": "third_person", "target": "self", "text": "Tomas lowered himself into the bath and let his arms float, the water taking the weight from his legs."}
+{"concept": "serene", "format": "third_person", "target": "situation", "text": "The night janitor made his last round through the library after closing, with nothing but the hum of the lights and rows of undisturbed books for company."}
+{"concept": "serene", "format": "dialogue", "target": "self", "text": "Ana: I'm in no hurry to leave this chair for the rest of the afternoon, so don't rush on my account."}
+{"concept": "serene", "format": "dialogue", "target": "other", "text": "Take your time finding the words. I've got nowhere else to be this evening."}
+{"concept": "serene", "format": "dialogue", "target": "situation", "text": "The tide's out, the beach is empty, and we've got the whole morning ahead of us with nothing planned."}
+{"concept": "serene", "format": "dialogue", "target": "self", "text": "Dev: My hands stopped shaking the moment I put the paintbrush down and just looked at the wall for a while."}
+{"concept": "serene", "format": "dialogue", "target": "other", "text": "Lin: Sit with me a while longer. The dishes can wait until the light changes over the hills."}
+{"concept": "serene", "format": "dialogue", "target": "situation", "text": "Nobody's called the office all day, just the hum of the fan and the slow tick of the clock."}
+{"concept": "serene", "format": "dialogue", "target": "self", "text": "Grandpa: These slow mornings suit me fine, tea first, news later, no clock to answer to until noon."}
+{"concept": "serene", "format": "dialogue", "target": "other", "text": "Mei: Stay as long as you like. The kettle's on and there's nowhere in particular we need to be."}
+{"concept": "serene", "format": "situation", "target": "situation", "text": "A hammock strung between two trees sways gently in a breeze on an otherwise empty afternoon."}
+{"concept": "serene", "format": "situation", "target": "situation", "text": "The waiting room is empty except for soft instrumental music and a fish tank bubbling in the corner."}
+{"concept": "serene", "format": "situation", "target": "situation", "text": "Morning fog sits low over a still lake, broken only by a single heron wading near the shore."}
+{"concept": "serene", "format": "situation", "target": "situation", "text": "A cabin sits at the end of a dirt road, with no cell signal and a wood stove already lit."}
+{"concept": "serene", "format": "situation", "target": "situation", "text": "The last customer left the bookshop an hour ago, and the owner is rearranging shelves under warm lamplight."}
+{"concept": "serene", "format": "situation", "target": "situation", "text": "Snow has covered the front yard overnight, muffling the street sounds down to almost nothing."}
+{"concept": "serene", "format": "situation", "target": "situation", "text": "A garden hammock, a pitcher of lemonade, and an afternoon with no appointments scheduled."}
+{"concept": "serene", "format": "situation", "target": "situation", "text": "The monastery courtyard is empty at dusk, swept clean, with a single candle lit in the window."}
+{"concept": "neutral", "format": "assistant_reply", "target": "situation", "text": "The function returns null when the input array is empty, otherwise it returns the sum of its elements."}
+{"concept": "neutral", "format": "assistant_reply", "target": "self", "text": "I do not have access to real time flight prices, so I cannot confirm today's fare for that route."}
+{"concept": "neutral", "format": "assistant_reply", "target": "situation", "text": "Preheat the oven to 200 degrees Celsius and bake the loaf for forty minutes before checking it."}
+{"concept": "neutral", "format": "assistant_reply", "target": "other", "text": "Your itinerary has three connecting flights, with layovers of 45 minutes, two hours, and ninety minutes."}
+{"concept": "neutral", "format": "assistant_reply", "target": "situation", "text": "Funeral homes typically require the death certificate before they can proceed with cremation paperwork."}
+{"concept": "neutral", "format": "assistant_reply", "target": "other", "text": "You will need to submit the homework as a PDF through the portal before midnight on Thursday."}
+{"concept": "neutral", "format": "assistant_reply", "target": "self", "text": "I can process text and images but I cannot open video files in this conversation."}
+{"concept": "neutral", "format": "assistant_reply", "target": "situation", "text": "The recipe calls for two cups of flour, one egg, and a half cup of sugar."}
+{"concept": "neutral", "format": "user_message", "target": "situation", "text": "The bus arrives at 8:15 and the trip to downtown takes about twenty minutes."}
+{"concept": "neutral", "format": "user_message", "target": "self", "text": "I have a dentist appointment on Tuesday at 3 pm and need to leave work early."}
+{"concept": "neutral", "format": "user_message", "target": "other", "text": "My coworker sent the spreadsheet with three tabs: budget, timeline, and vendor list."}
+{"concept": "neutral", "format": "user_message", "target": "situation", "text": "The printer on the second floor is out of toner again."}
+{"concept": "neutral", "format": "user_message", "target": "self", "text": "I moved to a new apartment last month and the lease is for twelve months."}
+{"concept": "neutral", "format": "user_message", "target": "other", "text": "The plumber said he will arrive between 9 and 11 tomorrow morning."}
+{"concept": "neutral", "format": "user_message", "target": "situation", "text": "The library closes at 6 pm on weekdays and 4 pm on weekends."}
+{"concept": "neutral", "format": "user_message", "target": "self", "text": "I have two meetings scheduled back to back on Wednesday afternoon."}
+{"concept": "neutral", "format": "first_person", "target": "self", "text": "I woke up at seven, made coffee, and read the paper before leaving for work."}
+{"concept": "neutral", "format": "first_person", "target": "situation", "text": "I watched the train pull out of platform four exactly on schedule."}
+{"concept": "neutral", "format": "first_person", "target": "other", "text": "I handed my neighbor the mail that had been delivered to my box by mistake."}
+{"concept": "neutral", "format": "first_person", "target": "self", "text": "I filed the tax documents on Monday and mailed a copy to the accountant."}
+{"concept": "neutral", "format": "first_person", "target": "situation", "text": "I picked up produce today, which the store restocks every Tuesday and Friday morning."}
+{"concept": "neutral", "format": "first_person", "target": "other", "text": "I told my sister the meeting had been moved to Thursday."}
+{"concept": "neutral", "format": "first_person", "target": "self", "text": "I parked the car in the usual spot and walked the rest of the way."}
+{"concept": "neutral", "format": "first_person", "target": "situation", "text": "I read that the bridge closes for maintenance between midnight and four a.m. this week."}
+{"concept": "neutral", "format": "third_person", "target": "self", "text": "Daniel checked the mailbox, found two bills and a catalog, and went back inside."}
+{"concept": "neutral", "format": "third_person", "target": "situation", "text": "The warehouse manager receives shipments on Mondays and has them processed by end of day."}
+{"concept": "neutral", "format": "third_person", "target": "other", "text": "Priya handed the form back to the clerk, who stamped it and filed it away."}
+{"concept": "neutral", "format": "third_person", "target": "self", "text": "Wen locked the office at six, as she does every weekday."}
+{"concept": "neutral", "format": "third_person", "target": "situation", "text": "The receptionist schedules clinic appointments in fifteen minute blocks from nine to five."}
+{"concept": "neutral", "format": "third_person", "target": "other", "text": "Marcus told his roommate the rent was due on the first of the month."}
+{"concept": "neutral", "format": "third_person", "target": "self", "text": "The technician replaced the filter and logged the maintenance date in the binder."}
+{"concept": "neutral", "format": "third_person", "target": "situation", "text": "The attendant charges four dollars for the first hour in the parking garage and two dollars each hour after."}
+{"concept": "neutral", "format": "dialogue", "target": "situation", "text": "The meeting's at three in room 204, right after the budget review finishes up."}
+{"concept": "neutral", "format": "dialogue", "target": "other", "text": "You left your umbrella in the car again, it's on the back seat."}
+{"concept": "neutral", "format": "dialogue", "target": "situation", "text": "The mail comes around eleven most days, sometimes closer to noon on Fridays."}
+{"concept": "neutral", "format": "dialogue", "target": "self", "text": "I've got the report done, it's on your desk next to the stapler."}
+{"concept": "neutral", "format": "dialogue", "target": "other", "text": "Turn left at the second light, then it's the third building past the gas station."}
+{"concept": "neutral", "format": "dialogue", "target": "situation", "text": "The store's out of the size you wanted, but they can order it for next week."}
+{"concept": "neutral", "format": "dialogue", "target": "self", "text": "I'll pick up the kids at four thirty today since practice ends early."}
+{"concept": "neutral", "format": "dialogue", "target": "other", "text": "Your appointment got moved to next Tuesday at the same time, ten in the morning."}
+{"concept": "neutral", "format": "situation", "target": "situation", "text": "A grocery store restocks its shelves every morning before opening at eight."}
+{"concept": "neutral", "format": "situation", "target": "situation", "text": "The office has forty desks arranged in rows of ten, with a printer at the end of each row."}
+{"concept": "neutral", "format": "situation", "target": "situation", "text": "A commuter train runs every fifteen minutes between the two stations on weekdays."}
+{"concept": "neutral", "format": "situation", "target": "situation", "text": "The form requires a name, address, and signature on the final page."}
+{"concept": "neutral", "format": "situation", "target": "situation", "text": "A parking lot behind the building has two hundred spaces and one entrance."}
+{"concept": "neutral", "format": "situation", "target": "situation", "text": "The manual lists the torque specifications for each bolt on the assembly."}
+{"concept": "neutral", "format": "situation", "target": "situation", "text": "A community center hosts a farmers market on the second Saturday of each month."}
+{"concept": "neutral", "format": "situation", "target": "situation", "text": "The building has four elevators, two of which service the parking levels."}
+{"concept": "attentive", "format": "assistant_reply", "target": "situation", "text": "I noticed the third test case still fails after your last change, so let's trace it before touching anything else."}
+{"concept": "attentive", "format": "assistant_reply", "target": "other", "text": "You mentioned your knee twice now. Tell me more about when it started hurting before we plan the trip itinerary."}
+{"concept": "attentive", "format": "assistant_reply", "target": "self", "text": "I'm tracking every variable name you've used so far, so tell me if I mislabel one later."}
+{"concept": "attentive", "format": "assistant_reply", "target": "situation", "text": "The recipe says a pinch of salt, but I noticed you added a full teaspoon last time, so let's watch that step closely."}
+{"concept": "attentive", "format": "assistant_reply", "target": "other", "text": "You paused right after mentioning your mother's name. Take whatever time you need before we go on."}
+{"concept": "attentive", "format": "assistant_reply", "target": "situation", "text": "Line fourteen references a variable that line nine renamed, so I'm keeping an eye on both as we go."}
+{"concept": "attentive", "format": "assistant_reply", "target": "self", "text": "I'm holding onto every detail you've given me about the flight times so nothing gets dropped from the plan."}
+{"concept": "attentive", "format": "assistant_reply", "target": "other", "text": "You said 'fine' twice but your last two messages got shorter each time, so I want to check in on that."}
+{"concept": "attentive", "format": "user_message", "target": "self", "text": "I keep noticing every small sound the new fridge makes, cataloguing each one without meaning to."}
+{"concept": "attentive", "format": "user_message", "target": "situation", "text": "I've read the contract three times now, marking each clause that mentions termination fees."}
+{"concept": "attentive", "format": "user_message", "target": "other", "text": "I watched my son's face the whole time he told the story, catching every detail he left out the first time."}
+{"concept": "attentive", "format": "user_message", "target": "self", "text": "I've been tracking my sleep, meals, and screen time down to the minute this week."}
+{"concept": "attentive", "format": "user_message", "target": "situation", "text": "I noticed the invoice total doesn't match the line items when I add them up myself."}
+{"concept": "attentive", "format": "user_message", "target": "other", "text": "I picked up on the way she hesitated before answering, so I asked the question a different way."}
+{"concept": "attentive", "format": "user_message", "target": "situation", "text": "I keep replaying the security footage frame by frame looking for the moment the door opened."}
+{"concept": "attentive", "format": "user_message", "target": "self", "text": "I've started writing down every symptom the moment it happens, with the exact time next to it."}
+{"concept": "attentive", "format": "first_person", "target": "self", "text": "I catalogued every sound the old house made that night, sorting each creak from the wind against the window."}
+{"concept": "attentive", "format": "first_person", "target": "situation", "text": "I read the assembly instructions twice, circling every screw size before I picked up the screwdriver."}
+{"concept": "attentive", "format": "first_person", "target": "other", "text": "I watched her hands more than her face, since that's where she always gave herself away first."}
+{"concept": "attentive", "format": "first_person", "target": "self", "text": "I kept a running list in my head of every instruction the surgeon gave before the procedure."}
+{"concept": "attentive", "format": "first_person", "target": "situation", "text": "I traced the wiring diagram with my finger, checking each junction against the one before it."}
+{"concept": "attentive", "format": "first_person", "target": "other", "text": "I noticed the exact moment his voice dropped, and I asked him to say the last part again."}
+{"concept": "attentive", "format": "first_person", "target": "situation", "text": "I counted the cars passing the intersection for twenty minutes, logging the make and color of each one."}
+{"concept": "attentive", "format": "first_person", "target": "self", "text": "I felt every shift in my own breathing during the climb and adjusted my pace before it became a problem."}
+{"concept": "attentive", "format": "third_person", "target": "self", "text": "Kenji kept one hand on his own pulse point through the whole test, timing each beat against the clock."}
+{"concept": "attentive", "format": "third_person", "target": "situation", "text": "The inspector ran her finger along the weld, checking each seam twice before marking it on the clipboard."}
+{"concept": "attentive", "format": "third_person", "target": "other", "text": "Farah watched her grandmother's hands shake slightly before she quietly moved the hot pan out of reach."}
+{"concept": "attentive", "format": "third_person", "target": "self", "text": "Devon logged every twinge in his shoulder in a notebook, noting the time and what he'd been lifting."}
+{"concept": "attentive", "format": "third_person", "target": "situation", "text": "The birdwatcher noted the exact second the hawk changed direction, cross checking it against her stopwatch."}
+{"concept": "attentive", "format": "third_person", "target": "other", "text": "Lucia noticed her brother's sentence trail off mid word and waited, watching his hands instead of rushing him."}
+{"concept": "attentive", "format": "third_person", "target": "situation", "text": "The building inspector read the blueprint twice, once for the plumbing and once for the electrical, catching a mismatched measurement both times."}
+{"concept": "attentive", "format": "third_person", "target": "self", "text": "Omar tracked his own heart rate on the monitor, adjusting his breathing the instant the number climbed."}
+{"concept": "attentive", "format": "dialogue", "target": "self", "text": "I felt my hand shake right before I signed, and I want that noted for the record."}
+{"concept": "attentive", "format": "dialogue", "target": "other", "text": "You said three different numbers in that story. Which one of them is actually right?"}
+{"concept": "attentive", "format": "dialogue", "target": "situation", "text": "Wait, read that line again slowly. The second word doesn't match what was in the first draft."}
+{"concept": "attentive", "format": "dialogue", "target": "self", "text": "I've been counting my steps since the doctor's appointment. I'm at four thousand thirty two today."}
+{"concept": "attentive", "format": "dialogue", "target": "other", "text": "You went quiet right after I mentioned the deadline. What aren't you telling me?"}
+{"concept": "attentive", "format": "dialogue", "target": "situation", "text": "The gauge just ticked up half a degree while you were talking. Did you see that?"}
+{"concept": "attentive", "format": "dialogue", "target": "self", "text": "I noted every dose and the exact time I took it, right here in this notebook."}
+{"concept": "attentive", "format": "dialogue", "target": "other", "text": "You keep touching your ring finger every time you talk about him. Has something happened?"}
+{"concept": "attentive", "format": "situation", "target": "situation", "text": "A single warning light blinks on a dashboard otherwise full of steady green indicators."}
+{"concept": "attentive", "format": "situation", "target": "situation", "text": "A patient's monitor shows the heart rate climbing by two beats every minute, still within range but trending upward."}
+{"concept": "attentive", "format": "situation", "target": "situation", "text": "Six chess pieces remain on the board, three moves from a forced checkmate for either side."}
+{"concept": "attentive", "format": "situation", "target": "situation", "text": "A recipe's final step calls for exact timing, ninety seconds, no more, no less, before the syrup burns."}
+{"concept": "attentive", "format": "situation", "target": "situation", "text": "A toddler stands at the top of the stairs, one hand on the railing, the gate left unlatched."}
+{"concept": "attentive", "format": "situation", "target": "situation", "text": "The final line of the contract changes the payment terms from thirty days to net ten."}
+{"concept": "attentive", "format": "situation", "target": "situation", "text": "A hawk circles once, drops low over the field, then rises again without taking anything."}
+{"concept": "attentive", "format": "situation", "target": "situation", "text": "The exam's last question is worth half the total grade and easy to misread on a quick pass."}
+{"concept": "uncertain", "format": "assistant_reply", "target": "self", "text": "I might be missing context here. Could you tell me more about the error before I suggest a fix?"}
+{"concept": "uncertain", "format": "assistant_reply", "target": "situation", "text": "There are two ways this recipe could go depending on your oven, so let's test the shorter time first and check."}
+{"concept": "uncertain", "format": "assistant_reply", "target": "other", "text": "I don't know if you'd rather book the earlier flight or the cheaper one. What matters more to you here?"}
+{"concept": "uncertain", "format": "assistant_reply", "target": "self", "text": "I keep going back and forth on whether this function needs the extra argument, so let's look at both versions."}
+{"concept": "uncertain", "format": "assistant_reply", "target": "situation", "text": "The visa requirements might have changed since I last checked, so it's worth confirming with the embassy directly."}
+{"concept": "uncertain", "format": "assistant_reply", "target": "other", "text": "You mentioned two different budgets in your last two messages. Which number should I actually plan around?"}
+{"concept": "uncertain", "format": "assistant_reply", "target": "self", "text": "I've rewritten this answer twice already and I keep going back and forth on whether it's the one you need, so tell me if I'm off track."}
+{"concept": "uncertain", "format": "assistant_reply", "target": "situation", "text": "This symptom could point to a few different things, so a doctor's exam would tell you more than I can."}
+{"concept": "uncertain", "format": "user_message", "target": "self", "text": "I keep changing my mind about whether to take the job, back and forth, a dozen times today."}
+{"concept": "uncertain", "format": "user_message", "target": "situation", "text": "The instructions say to turn left at the second light, but there are three lights close together here."}
+{"concept": "uncertain", "format": "user_message", "target": "other", "text": "I don't know if she wants me to call or just leave it alone for a while."}
+{"concept": "uncertain", "format": "user_message", "target": "self", "text": "I've read the diagnosis page four times and I still can't tell which category fits what I have."}
+{"concept": "uncertain", "format": "user_message", "target": "situation", "text": "The contract has two clauses that seem to say opposite things about the deposit."}
+{"concept": "uncertain", "format": "user_message", "target": "other", "text": "He said he'd be there, then said maybe, then didn't answer when I texted again."}
+{"concept": "uncertain", "format": "user_message", "target": "situation", "text": "I can't tell if this rash is getting better or if it just looks different in this light."}
+{"concept": "uncertain", "format": "user_message", "target": "self", "text": "I've started three different emails to my boss and deleted all of them so far."}
+{"concept": "uncertain", "format": "first_person", "target": "self", "text": "I stood at the fork in the trail for a long minute, map turned sideways, then upside down."}
+{"concept": "uncertain", "format": "first_person", "target": "situation", "text": "I read the eviction notice three times, and each time the date seemed to say something different."}
+{"concept": "uncertain", "format": "first_person", "target": "other", "text": "I typed three different replies to her message and deleted each one before sending anything."}
+{"concept": "uncertain", "format": "first_person", "target": "self", "text": "I packed the bag, then unpacked it, then packed half of it again before the taxi arrived."}
+{"concept": "uncertain", "format": "first_person", "target": "situation", "text": "I held the two paint swatches up to the wall, moved them under the window, then back to the lamp."}
+{"concept": "uncertain", "format": "first_person", "target": "other", "text": "I opened my mouth to answer him twice and both times closed it without saying the number."}
+{"concept": "uncertain", "format": "first_person", "target": "situation", "text": "I checked the flight status on my phone, then the airline's website, then called, getting a different answer each time."}
+{"concept": "uncertain", "format": "first_person", "target": "self", "text": "I signed my name on the form, then hovered the pen over the date line for a long moment."}
+{"concept": "uncertain", "format": "third_person", "target": "self", "text": "Priya stood over the two job offers spread on the table, moving one to the left, then back again."}
+{"concept": "uncertain", "format": "third_person", "target": "situation", "text": "The pharmacist held two prescriptions side by side, the dosages listed differently on each one for the same medication."}
+{"concept": "uncertain", "format": "third_person", "target": "other", "text": "Tom read his father's text twice, thumb hovering over the reply button without typing anything."}
+{"concept": "uncertain", "format": "third_person", "target": "self", "text": "Wei picked up the phone to cancel the appointment, set it down, then picked it up again."}
+{"concept": "uncertain", "format": "third_person", "target": "situation", "text": "The mechanic held two invoices for the same repair, the price differing by two hundred dollars between them."}
+{"concept": "uncertain", "format": "third_person", "target": "other", "text": "Sara asked her sister the same question twice, in slightly different words, waiting each time for a clearer answer."}
+{"concept": "uncertain", "format": "third_person", "target": "situation", "text": "The nurse held two lab reports up to the light, the same test showing two conflicting numbers on the same page."}
+{"concept": "uncertain", "format": "third_person", "target": "self", "text": "Marcus rewrote the resignation letter for the fourth time, deleting the last line each time before saving it."}
+{"concept": "uncertain", "format": "dialogue", "target": "self", "text": "I don't know, maybe the blue one, or maybe not. Give me just a second to think."}
+{"concept": "uncertain", "format": "dialogue", "target": "other", "text": "Did you mean Tuesday or Thursday? You said both in the same message this morning."}
+{"concept": "uncertain", "format": "dialogue", "target": "situation", "text": "The map shows the road ending right here, but there's clearly a bridge in front of us."}
+{"concept": "uncertain", "format": "dialogue", "target": "self", "text": "I keep starting the letter and stopping halfway through. What do I even say first?"}
+{"concept": "uncertain", "format": "dialogue", "target": "other", "text": "Wait, is that a yes or a maybe yes? I honestly can't tell from your face."}
+{"concept": "uncertain", "format": "dialogue", "target": "situation", "text": "Two different signs at this gate say two different closing times for tonight."}
+{"concept": "uncertain", "format": "dialogue", "target": "self", "text": "I signed for the package, but now I'm standing here wondering if it's even mine."}
+{"concept": "uncertain", "format": "dialogue", "target": "other", "text": "You said probably three separate times just now. Is that a yes or isn't it?"}
+{"concept": "uncertain", "format": "situation", "target": "situation", "text": "The trailhead sign has fallen over, and the map shows two paths that both look equally likely to be right."}
+{"concept": "uncertain", "format": "situation", "target": "situation", "text": "The results envelope sits unopened on the kitchen counter next to two different online calculators showing different numbers."}
+{"concept": "uncertain", "format": "situation", "target": "situation", "text": "A form asks for a start date, but the offer letter and the verbal agreement list two different weeks."}
+{"concept": "uncertain", "format": "situation", "target": "situation", "text": "The GPS shows the car on a road that isn't on the printed map."}
+{"concept": "uncertain", "format": "situation", "target": "situation", "text": "Two doctors gave the patient's family different explanations for the same test result."}
+{"concept": "uncertain", "format": "situation", "target": "situation", "text": "The ferry schedule posted at the dock contradicts the one printed on the ticket."}
+{"concept": "uncertain", "format": "situation", "target": "situation", "text": "A witness's account of the accident's timing shifts each time it's retold."}
+{"concept": "uncertain", "format": "situation", "target": "situation", "text": "The recipe card is water stained, and the amount for the second ingredient could be a two or a seven."}
+{"concept": "reflective", "format": "assistant_reply", "target": "self", "text": "Looking back at how I answered your first question, I would phrase it differently now that I understand the full context."}
+{"concept": "reflective", "format": "assistant_reply", "target": "situation", "text": "This bug reminds me of one from your project last spring, where the root cause turned out to be the same timezone issue."}
+{"concept": "reflective", "format": "assistant_reply", "target": "other", "text": "You asked this same question about the recipe substitution a few months back, when you were cooking for your sister's visit."}
+{"concept": "reflective", "format": "assistant_reply", "target": "self", "text": "I have given you three different plans for this trip now, and each one taught me something about what you actually want."}
+{"concept": "reflective", "format": "assistant_reply", "target": "other", "text": "The way you are writing about your father now reads differently than how you described him when we first talked."}
+{"concept": "reflective", "format": "assistant_reply", "target": "situation", "text": "Reading through this old codebase, I can trace how each patch built on the last, layer by layer."}
+{"concept": "reflective", "format": "assistant_reply", "target": "self", "text": "I keep coming back to the first draft I gave you, wondering if the simpler version might have served you better."}
+{"concept": "reflective", "format": "assistant_reply", "target": "situation", "text": "This essay's argument echoes the one you wrote last semester, just approached from the opposite direction."}
+{"concept": "reflective", "format": "user_message", "target": "self", "text": "I found my old report cards in a box last night and matched the handwriting to the person I used to be."}
+{"concept": "reflective", "format": "user_message", "target": "situation", "text": "I drove past my childhood house today and noticed they finally took down the old oak tree out front."}
+{"concept": "reflective", "format": "user_message", "target": "other", "text": "I ran into my high school coach at the hardware store and it brought back the whole last season."}
+{"concept": "reflective", "format": "user_message", "target": "self", "text": "The movie ticket from our first date still sits in my wallet, the ink faded but the date readable."}
+{"concept": "reflective", "format": "user_message", "target": "situation", "text": "The ticket stub from our first concert together turned up in an old coat pocket today."}
+{"concept": "reflective", "format": "user_message", "target": "other", "text": "That conversation with my father from years ago, the one about leaving town, keeps turning over in my mind."}
+{"concept": "reflective", "format": "user_message", "target": "self", "text": "I have been rereading the emails I sent right after the divorce, comparing them to how I would write them now."}
+{"concept": "reflective", "format": "user_message", "target": "situation", "text": "That job I turned down five years ago keeps circling back in my mind, and I still wonder how different things would look."}
+{"concept": "reflective", "format": "first_person", "target": "self", "text": "I sat with the photo album open on my lap, tracing the years between one picture and the next."}
+{"concept": "reflective", "format": "first_person", "target": "situation", "text": "I walked the old route to my first job on a whim and noticed how much of it I still knew by heart."}
+{"concept": "reflective", "format": "first_person", "target": "other", "text": "I listened to the voicemail my mother left the week before she died and played it three times in a row."}
+{"concept": "reflective", "format": "first_person", "target": "self", "text": "I traced the scar on my hand back to the summer I got it, then further back to why I was even there."}
+{"concept": "reflective", "format": "first_person", "target": "situation", "text": "I stood in the doorway of my first apartment, now someone else's, and counted the years since I had left it."}
+{"concept": "reflective", "format": "first_person", "target": "other", "text": "I watched an old home video from my tenth birthday and noticed my mother's voice sounded exactly like mine does now."}
+{"concept": "reflective", "format": "first_person", "target": "self", "text": "I laid out my passport stamps on the table, tracing the route my twenties had actually taken."}
+{"concept": "reflective", "format": "first_person", "target": "situation", "text": "I found my grandfather's pocket watch in the drawer and wound it for the first time in a decade."}
+{"concept": "reflective", "format": "third_person", "target": "self", "text": "Grandfather sat with the medal in his palm, turning it over and over, matching its weight to a year he rarely spoke of."}
+{"concept": "reflective", "format": "third_person", "target": "situation", "text": "The old schoolhouse stood boarded up at the crossroads, its windows still shaped the way she remembered them from childhood."}
+{"concept": "reflective", "format": "third_person", "target": "other", "text": "Hana found her sister's old class photo and studied the faces from the year they had stopped speaking."}
+{"concept": "reflective", "format": "third_person", "target": "self", "text": "Marcus stood before the mirror, tracing the line of his father's jaw finally settling into his own face."}
+{"concept": "reflective", "format": "third_person", "target": "situation", "text": "The workshop still smelled of sawdust from projects finished decades before the old man had passed the tools down."}
+{"concept": "reflective", "format": "third_person", "target": "other", "text": "Kofi found his mentor's handwriting in the margin of an old textbook and sat with it a long while."}
+{"concept": "reflective", "format": "third_person", "target": "self", "text": "Elena turned her mother's old sewing thimble over in her fingers and noticed the worn spot matched the exact callus on her own hand."}
+{"concept": "reflective", "format": "third_person", "target": "situation", "text": "The retirement party slideshow moved through forty years of photographs taken in the same corner office."}
+{"concept": "reflective", "format": "dialogue", "target": "self", "text": "My father's old toolbox turned up in the garage last night. Half the tools still have his initials scratched into them."}
+{"concept": "reflective", "format": "dialogue", "target": "other", "text": "You said the same thing to me the year Dad left. I never noticed the echo until just now."}
+{"concept": "reflective", "format": "dialogue", "target": "situation", "text": "This street used to have a bakery on every single corner. Now there is just the one left."}
+{"concept": "reflective", "format": "dialogue", "target": "self", "text": "I keep going back to the year I quit the band. I wonder what would have happened if I had not."}
+{"concept": "reflective", "format": "dialogue", "target": "other", "text": "Grandma: Your mother said almost those same words to me, forty years ago, in this very kitchen."}
+{"concept": "reflective", "format": "dialogue", "target": "situation", "text": "We used to walk this same path to school every morning. Now there's a highway on top of it."}
+{"concept": "reflective", "format": "dialogue", "target": "self", "text": "I tried on my old uniform from the team, just to see. It still smells like the locker room somehow."}
+{"concept": "reflective", "format": "dialogue", "target": "other", "text": "Every single summer we used to argue about the same thing. I only see the pattern now, looking back at old photos."}
+{"concept": "reflective", "format": "situation", "target": "situation", "text": "A photo album sits open on the attic floor to a page of faces half remembered."}
+{"concept": "reflective", "format": "situation", "target": "situation", "text": "A shuttered movie theater stands at the edge of town, its marquee letters long since fallen."}
+{"concept": "reflective", "format": "situation", "target": "situation", "text": "A childhood home sits for sale online, the listing photos showing a repainted version of the same rooms."}
+{"concept": "reflective", "format": "situation", "target": "situation", "text": "A high school yearbook lies open on the kitchen table to a page of names half forgotten."}
+{"concept": "reflective", "format": "situation", "target": "situation", "text": "An old ticket stub falls out of a coat pocket that has not been worn in a decade."}
+{"concept": "reflective", "format": "situation", "target": "situation", "text": "A box of cassette tapes, each labeled in a teenager's handwriting, sits at the bottom of a moving box."}
+{"concept": "reflective", "format": "situation", "target": "situation", "text": "A charm bracelet in a jewelry box holds one charm added for each year of a marriage now ended."}
+{"concept": "reflective", "format": "situation", "target": "situation", "text": "A demolition notice is taped to the door of a building that used to be a family's restaurant."}
